@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "Shuaicong Hu (胡帅聪)"
+  avatar           : "images/shuaiconghu_512x512.png"
+  bio              : "Fudan University"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN"
+  email            : "schu22@m.fudan.edu.cn"
+  researchgate     :  # e.g., "https://www.researchgate.net/profile/Shuaicong-Hu?ev=hdr_xprf"
   uri              :
   bitbucket        :
   codepen          :
