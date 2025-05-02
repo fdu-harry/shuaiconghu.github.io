@@ -8,9 +8,9 @@
           "type": "image/jpg"
        },
        {
-        "src": "/android-chrome-512x512.png",
+        "src": "/shuaiconghu2.jpg",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/jpg"
         }
     ],
     "theme_color": "#FFFFFF",
