@@ -127,10 +127,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <h1>📝 Publications</h1>
 
 <ul style="list-style-type: none; padding-left: 0;">
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Nature Communications 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Nature Communications 2025</span>
       </div>
       <div>
         <a href="https://www.nature.com/ncomms/">Transparent artificial intelligence-enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios</a>, 
@@ -139,10 +139,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Information Fusion 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Information Fusion 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/journal/information-fusion">XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis</a>, 
@@ -151,10 +151,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Neural Networks 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Neural Networks 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844">IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis</a>, 
@@ -163,10 +163,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IEEE JBHI 2023</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IEEE JBHI 2023</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/document/10204654">Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram</a>, 
@@ -175,10 +175,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IEEE TIM 2023</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IEEE TIM 2023</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/abstract/document/10243153">Personalized transfer learning for single-lead ecg-based sleep apnea detection: exploring the label mapping length and transfer strategy using hybrid transformer model</a>, 
@@ -187,10 +187,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IEEE TNSRE 2023</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IEEE TNSRE 2023</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/document/10085324">Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model</a>, 
@@ -199,10 +199,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Expert Systems 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Expert Systems 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424005177">LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion</a>, 
@@ -211,10 +211,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IEEE TIM 2022</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IEEE TIM 2022</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/document/9847051">A hybrid transformer model for obstructive sleep apnea detection based on self-attention mechanism using single-lead ECG</a>, 
@@ -223,10 +223,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">BSPC 2022</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">BSPC 2022</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S174680942200350X">An automatic residual-constrained and clustering-boosting architecture for differentiated heartbeat classification</a>, 
@@ -235,10 +235,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Physiol. Meas. 2021</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Physiol. Meas. 2021</span>
       </div>
       <div>
         <a href="https://iopscience.iop.org/article/10.1088/1361-6579/ac3e88">Robust wave-feature adaptive heartbeat classification based on self-attention mechanism using a transformer model</a>, 
@@ -247,10 +247,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Pattern Recognition 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Pattern Recognition 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/journal/pattern-recognition">Morphology Entropy: An efficient and parameter-free measure for revealing the morphological dynamic complexity of time series</a>, 
@@ -259,10 +259,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Applied Soft Computing 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Applied Soft Computing 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/journal/applied-soft-computing">Entropy-based amplitude-phase pattern fusion and its application in efficient unsupervised ECG analysis</a>, 
@@ -271,10 +271,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Expert Systems 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Expert Systems 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424012332">PULSE: A personalized physiological signal analysis framework via unsupervised domain adaptation and self-adaptive learning</a>, 
@@ -283,10 +283,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">CMPB 2024</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">CMPB 2024</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169260724002943">ECG classification based on guided attention mechanism</a>, 
@@ -295,10 +295,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">CBM 2024</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">CBM 2024</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482524002701">A multi-module algorithm for heartbeat classification based on unsupervised learning and adaptive feature transfer</a>, 
@@ -307,10 +307,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Information Fusion 2025</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Information Fusion 2025</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/journal/information-fusion">Bridging the gap between computer vision and bioelectrical signal analysis</a>, 
@@ -319,10 +319,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">BSPC 2023</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">BSPC 2023</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809423009795">A novel interpretable feature set optimization method in blood pressure estimation using photoplethysmography signals</a>, 
@@ -331,10 +331,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IoT Journal 2024</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IoT Journal 2024</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=dual-focus%20cloud-edge%20Jian%20Liu">A dual-focus cloud--edge collaborative framework in multi-task hemodynamic parameter cross-scale analysis</a>, 
@@ -343,10 +343,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">Applied Soft Computing 2024</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">Applied Soft Computing 2024</span>
       </div>
       <div>
         <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494624005805">Personalized blood pressure estimation using multisource fusion information of wearable physiological signals and transfer learning</a>, 
@@ -355,10 +355,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IEEE JBHI 2023</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IEEE JBHI 2023</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/document/10265099">A lightweight hybrid model using multiscale markov transition field for real-time quality assessment of photoplethysmography signals</a>, 
@@ -367,10 +367,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </div>
   </li>
   
-  <li style="margin-bottom: 15px;">
+  <li style="margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column;">
-      <div style="margin-bottom: 3px;">
-        <span class="badge" style="display: inline-block; margin-bottom: 4px;">IoT Journal 2024</span>
+      <div style="margin-bottom: 15px;">
+        <span class="badge" style="display: inline-block;">IoT Journal 2024</span>
       </div>
       <div>
         <a href="https://ieeexplore.ieee.org/document/10459326">An IoMT-driven framework for precision cardiovascular assessment incorporating multiscale perspectives and microfiber bragg grating</a>, 
