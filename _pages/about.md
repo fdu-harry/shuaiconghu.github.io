@@ -427,7 +427,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">ICSAI 2021</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/abstract/document/9664075">Analysis of ECG De-Noising Using Non-Local Means with Approximate Coefficients and Particle Swarm Optimization</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/9664075">Analysis of ECG de-noising using non-local means with approximate coefficients and particle swarm optimization</a>, 
       Jianjian Cao, Wenjie Cai, <strong>Shuaicong Hu</strong>, Jingying Yang, Yufeng Ji, Jadera Acen
     </td>
   </tr>
@@ -439,7 +439,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">CISP-BMEI 2023</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/abstract/document/9664075">DeT-Net: A Two-stage Method for Accurate Automatic Heart Segmentation</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/9664075">DeT-Net: a two-stage method for accurate automatic heart segmentation</a>, 
       Yuhang Deng, <strong>Shuaicong Hu</strong>, Yuexiao Feng, Wei Jian, Cuiwei Yang
     </td>
   </tr>
@@ -451,7 +451,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">ICCPR 2023</span>
     </td>
     <td class="pub-title">
-      <a href="https://dl.acm.org/doi/abs/10.1145/3633637.3633692">CardiacSegFormer: Transformer for Semantic Segmentation of Cardiac Images</a>, 
+      <a href="https://dl.acm.org/doi/abs/10.1145/3633637.3633692">CardiacSegFormer: transformer for semantic segmentation of cardiac images</a>, 
       Yuexiao Feng, <strong>Shuaicong Hu</strong>, Yuhang Deng, Cuiwei Yang
     </td>
   </tr>
