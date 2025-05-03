@@ -173,7 +173,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">Neural Networks 2025</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844">IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0893608024007603">IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis</a>, 
       <strong>Shuaicong Hu</strong>, Yanan Wang, Jian Liu, Zhaoqiang Cui, Cuiwei Yang, Zhifeng Yao, Junbo Ge.
     </td>
   </tr>
@@ -185,7 +185,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">IEEE JBHI 2023</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/document/10204654">Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/10214652">Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram</a>, 
       <strong>Shuaicong Hu</strong>, Ya'nan Wang, Jian Liu, Aiguo Wang, Kunzheng Li, Wenxin Liu, Cuiwei Yang.
     </td>
   </tr>
@@ -209,7 +209,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">IEEE TNSRE 2023</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/document/10085324">Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/10046136/">Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model</a>, 
       <strong>Shuaicong Hu</strong>, Jian Liu, Rui Yang, Yanan Wang, Aiguo Wang, Kuanzheng Li, Wenxin Liu, Cuiwei Yang.
     </td>
   </tr>
@@ -218,10 +218,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <table class="pub-table">
   <tr>
     <td class="pub-journal">
-      <span class="badge">Expert Systems 2025</span>
+      <span class="badge">ESWA 2025</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424005177">LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0957417425006177">LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion</a>, 
       Jian Liu†, <strong>Shuaicong Hu</strong>†, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Cuiwei Yang. († 共同第一作者)
     </td>
   </tr>
@@ -233,7 +233,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">IEEE TIM 2022</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/document/9847051">A hybrid transformer model for obstructive sleep apnea detection based on self-attention mechanism using single-lead ECG</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/9837102">A hybrid transformer model for obstructive sleep apnea detection based on self-attention mechanism using single-lead ECG</a>, 
       <strong>Shuaicong Hu</strong>, Wenjie Cai, Tijie Gao, Mingjie Wang.
     </td>
   </tr>
@@ -245,7 +245,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">BSPC 2022</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S174680942200350X">An automatic residual-constrained and clustering-boosting architecture for differentiated heartbeat classification</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S1746809422002129">An automatic residual-constrained and clustering-boosting architecture for differentiated heartbeat classification</a>, 
       <strong>Shuaicong Hu</strong>, Wenjie Cai, Tijie Gao, Mingjie Wang.
     </td>
   </tr>
@@ -290,10 +290,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <table class="pub-table">
   <tr>
     <td class="pub-journal">
-      <span class="badge">Expert Systems 2025</span>
+      <span class="badge">ESWA 2025</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424012332">PULSE: A personalized physiological signal analysis framework via unsupervised domain adaptation and self-adaptive learning</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S095741742500939X">PULSE: A personalized physiological signal analysis framework via unsupervised domain adaptation and self-adaptive learning</a>, 
       Yanan Wang, <strong>Shuaicong Hu</strong>, Jian Liu, Aiguo Wang, Guohui Zhou, Cuiwei Yang.
     </td>
   </tr>
@@ -305,7 +305,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">CMPB 2024</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169260724002943">ECG classification based on guided attention mechanism</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0169260724004474">ECG classification based on guided attention mechanism</a>, 
       Yangcheng Huang, Wenjing Liu, Ziyi Yin, <strong>Shuaicong Hu</strong>, Mingjie Wang, Wenjie Cai.
     </td>
   </tr>
@@ -314,10 +314,10 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <table class="pub-table">
   <tr>
     <td class="pub-journal">
-      <span class="badge">CBM 2024</span>
+      <span class="badge">CIBM 2024</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010482524002701">A multi-module algorithm for heartbeat classification based on unsupervised learning and adaptive feature transfer</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0010482524001562">A multi-module algorithm for heartbeat classification based on unsupervised learning and adaptive feature transfer</a>, 
       Yanan Wang, <strong>Shuaicong Hu</strong>, Jian Liu, Gaoyan Zhong, Cuiwei Yang.
     </td>
   </tr>
@@ -341,7 +341,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">BSPC 2023</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1746809423009795">A novel interpretable feature set optimization method in blood pressure estimation using photoplethysmography signals</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S1746809423006171">A novel interpretable feature set optimization method in blood pressure estimation using photoplethysmography signals</a>, 
       Jian Liu, <strong>Shuaicong Hu</strong>, Zhijun Xiao, Qihan Hu, Daomiao Wang, Cuiwei Yang.
     </td>
   </tr>
@@ -350,7 +350,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <table class="pub-table">
   <tr>
     <td class="pub-journal">
-      <span class="badge">IoT Journal 2024</span>
+      <span class="badge">IEEE IoT Journal 2024</span>
     </td>
     <td class="pub-title">
       <a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=dual-focus%20cloud-edge%20Jian%20Liu">A dual-focus cloud--edge collaborative framework in multi-task hemodynamic parameter cross-scale analysis</a>, 
@@ -365,7 +365,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">Applied Soft Computing 2024</span>
     </td>
     <td class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494624005805">Personalized blood pressure estimation using multisource fusion information of wearable physiological signals and transfer learning</a>, 
+      <a href="https://www.sciencedirect.com/science/article/pii/S1568494624011645">Personalized blood pressure estimation using multisource fusion information of wearable physiological signals and transfer learning</a>, 
       Jian Liu, <strong>Shuaicong Hu</strong>, Yanan Wang, Wei Xiang, Qihan Hu, Cuiwei Yang.
     </td>
   </tr>
@@ -377,7 +377,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">IEEE JBHI 2023</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/document/10265099">A lightweight hybrid model using multiscale markov transition field for real-time quality assessment of photoplethysmography signals</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/10314751">A lightweight hybrid model using multiscale markov transition field for real-time quality assessment of photoplethysmography signals</a>, 
       Jian Liu, <strong>Shuaicong Hu</strong>, Yanan Wang, Qihan Hu, Daomiao Wang, Cuiwei Yang.
     </td>
   </tr>
@@ -389,7 +389,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
       <span class="badge">IoT Journal 2024</span>
     </td>
     <td class="pub-title">
-      <a href="https://ieeexplore.ieee.org/document/10459326">An IoMT-driven framework for precision cardiovascular assessment incorporating multiscale perspectives and microfiber bragg grating</a>, 
+      <a href="https://ieeexplore.ieee.org/abstract/document/10722856/">An IoMT-driven framework for precision cardiovascular assessment incorporating multiscale perspectives and microfiber bragg grating</a>, 
       Jian Liu, Heiquan Zhu, Wei Xiang, <strong>Shuaicong Hu</strong>, Qihan Hu, Daomiao Wang, Huan Yang, Zhengyi Mao, Fei Xu, Cuiwei Yang.
     </td>
   </tr>
