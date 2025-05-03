@@ -84,7 +84,10 @@
   width: 75px;
   // set width only, for non-square avatars
   // height: 36px;
-
+  border-radius: 50%;
+  overflow: hidden;
+  background: transparent !important;
+   
   @include breakpoint($large) {
     display: block;
     width: auto;
@@ -94,7 +97,9 @@
   img {
     max-width: 175px;
     min-width: 75px;
+    object-fit: cover;
     border-radius: 50%;
+    background: transparent !important;
 
     @include breakpoint($large) {
       padding: 5px;
