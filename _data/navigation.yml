@@ -1,22 +1,16 @@
 # main links links
 main:
   - title: "About Me"
-    url: "/#-about-me"
-
+    url: "/" # 主页
   - title: "News"
-    url: "/#-news"
-
+    url: "/#news"
   - title: "Publications"
-    url: "/#-publications"
-
+    url: "/#publications"
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
+    url: "/#honors-and-awards"
   - title: "Educations"
-    url: "/#-educations"
-
+    url: "/#educations"
   - title: "Academic Experience"
-    url: "/#-academic-experience"
-
+    url: "/#academic-experience"
   - title: "Academic Service"
-    url: "/#-academic-service"
+    url: "/#academic-service"
