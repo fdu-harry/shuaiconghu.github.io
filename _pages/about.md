@@ -16,7 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
 我是复旦大学电子信息博士（破格提前毕业），主要研究医学人工智能和时序数据分析。我的研究方向包括睡眠AI、医学AI、时序数据分析、个性化医疗和无监督对比学习。目前已发表SCI论文21篇（其中唯一一作/共同一作/学生一作论文10篇），包括Information Fusion (IF=14.8)、Neural Networks (IF=6.0)、Expert Systems With Applications (IF=7.5)、IEEE JBHI (IF=7.7，封面亮点文章)和IEEE TNSRE (IF=4.9)等高影响因子期刊论文。另有一篇第一作者Nature Communications (IF=14.7)论文处于大修状态。谷歌学术总引用203次，H因子8。
 
 I am a Ph.D. in Electronic Information at Fudan University (with early graduation honors). My research focuses on medical artificial intelligence and time series analysis, with specializations in sleep AI, medical AI, time series analysis, personalized medicine, and unsupervised contrastive learning. I have published 21 SCI papers (including 10 as first/co-first author), in high-impact journals such as Information Fusion (IF=14.8), Neural Networks (IF=6.0), Expert Systems With Applications (IF=7.5), IEEE JBHI (IF=7.7, featured as cover highlight), and IEEE TNSRE (IF=4.9). Additionally, I have a first-author paper in Nature Communications (IF=14.7) under major revision. My research has been cited 203 times with an H-index of 8.
@@ -24,9 +23,9 @@ I am a Ph.D. in Electronic Information at Fudan University (with early graduatio
 My research achievements include: (1) developing lightweight hybrid deep learning models for sleep apnea detection using single-lead ECG; (2) proposing novel semi-supervised personalized paradigms for cost-effective sleep apnea diagnosis; (3) creating information bottleneck-driven multimodal fusion frameworks for enhanced physiological signal representation; and (4) pioneering transparent explainable AI systems for human-AI collaborative sleep disorder diagnosis. I serve as a reviewer for multiple prestigious journals, including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement.
 
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>Google Scholar Profile <strong><span id='total_cit'>203+</span></strong> citations</a> 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-203+-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
 
-
+<span class='anchor' id='news'></span>
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 我们的论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！这是睡眠呼吸暂停领域仅有的第2篇Nature Communications论文。
 - *2025.03*: &nbsp;🎉🎉 我们的论文 "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" 被医学AI领域顶刊 **Information Fusion** (IF=14.8, 爱思唯尔该领域IF最高期刊) 录用！
@@ -34,6 +33,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 - *2024.12*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格，将于2025年底获得博士学位！
 - *2023.11*: &nbsp;💡 我们的睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
 
+<span class='anchor' id='publications'></span>
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
@@ -106,6 +106,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 </div>
 </div>
 
+<span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
 - *2025.04* 复旦大学优秀毕业生
@@ -119,6 +120,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 - *2021.10* "华为杯"第十八届中国研究生数模竞赛三等奖
 - *2021.05* 第七届中国国际"互联网+"大赛银奖
 
+<span class='anchor' id='educations'></span>
 # 📖 Educations
 
 - *2022.09 - 2025.12*, 复旦大学，电子信息，工学博士（破格提前毕业）
@@ -135,6 +137,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
   - 绩点排名专业top5%
   - 研究项目：期前收缩心电图智能识别
 
+<span class='anchor' id='academic-experience'></span>
 # 💬 学术与项目经历
 
 - *2024.11 - 至今*, 国家重点研发计划《心律失常立体定向放射定量治疗系统技术研发及样机研制》子课题组负责人
@@ -149,6 +152,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
   - 负责联合实验室项目申请，成果申报以及完成各项指标
   - 已依托该项目发表中科院二区论文2篇
 
+<span class='anchor' id='academic-service'></span>
 # 💻 学术兼职
 
 - 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等多个国际期刊审稿人
