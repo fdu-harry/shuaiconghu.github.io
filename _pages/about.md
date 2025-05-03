@@ -386,7 +386,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <table class="pub-table">
   <tr>
     <td class="pub-journal">
-      <span class="badge">IoT Journal 2024</span>
+      <span class="badge">IEEE IoT Journal 2024</span>
     </td>
     <td class="pub-title">
       <a href="https://ieeexplore.ieee.org/abstract/document/10722856/">An IoMT-driven framework for precision cardiovascular assessment incorporating multiscale perspectives and microfiber bragg grating</a>, 
