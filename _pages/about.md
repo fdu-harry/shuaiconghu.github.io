@@ -445,5 +445,5 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <span class='anchor' id='academic-service'></span>
 # 💻 学术兼职
 
-- 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等多个国际期刊审稿人
+- 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等20余个国际期刊审稿人
 - 中国生物医学工程学会会员
