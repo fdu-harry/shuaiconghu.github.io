@@ -34,7 +34,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 - *2023.11*: &nbsp;💡 我们的睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications
+# 📝 Representative Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
