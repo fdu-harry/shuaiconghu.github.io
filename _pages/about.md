@@ -395,6 +395,54 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   </tr>
 </table>
 
+<table class="pub-table">
+  <tr>
+    <td class="pub-journal">
+      <span class="badge">Physiol. Meas. 2021</span>
+    </td>
+    <td class="pub-title">
+      <a href="https://iopscience.iop.org/article/10.1088/1361-6579/ac7939/meta">Classification of multi-lead ECG with deep residual convolutional neural networks</a>, 
+      Wenjie Cai, Fanli Liu, Bolin Xu, Xuan Wang, <strong>Shuaicong Hu</strong>, Mingjie Wang
+    </td>
+  </tr>
+</table>
+
+<table class="pub-table">
+  <tr>
+    <td class="pub-journal">
+      <span class="badge">ICSAI 2021</span>
+    </td>
+    <td class="pub-title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9664075">Analysis of ECG De-Noising Using Non-Local Means with Approximate Coefficients and Particle Swarm Optimization</a>, 
+      Jianjian Cao, Wenjie Cai, <strong>Shuaicong Hu</strong>, Jingying Yang, Yufeng Ji, Jadera Acen
+    </td>
+  </tr>
+</table>
+
+<table class="pub-table">
+  <tr>
+    <td class="pub-journal">
+      <span class="badge">CISP-BMEI 2023</span>
+    </td>
+    <td class="pub-title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9664075">DeT-Net: A Two-stage Method for Accurate Automatic Heart Segmentation</a>, 
+      Yuhang Deng, <strong>Shuaicong Hu</strong>, Yuexiao Feng, Wei Jian, Cuiwei Yang
+    </td>
+  </tr>
+</table>
+
+<table class="pub-table">
+  <tr>
+    <td class="pub-journal">
+      <span class="badge">ICCPR 2023</span>
+    </td>
+    <td class="pub-title">
+      <a href="https://dl.acm.org/doi/abs/10.1145/3633637.3633692">CardiacSegFormer: Transformer for Semantic Segmentation of Cardiac Images</a>, 
+      Yuexiao Feng, <strong>Shuaicong Hu</strong>, Yuhang Deng, Cuiwei Yang
+    </td>
+  </tr>
+</table>
+
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
