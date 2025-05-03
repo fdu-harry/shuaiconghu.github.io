@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Shuaicong Hu - Academic Homepage"
 excerpt: ""
 author_profile: true
 redirect_from: 
