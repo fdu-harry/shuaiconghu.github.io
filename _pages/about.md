@@ -107,47 +107,11 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 </div>
 
 
-• <span class="badge">Nature Communications 2025</span> [Transparent artificial intelligence-enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/ncomms/), **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang.
+• <div style="display: inline-block;"><span class="badge" style="display: inline-block; margin-right: 5px;">Nature Communications 2025</span> <span style="display: inline-block;">[Transparent artificial intelligence-enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/ncomms/), **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang.</span></div>
 
-• <span class="badge">Information Fusion 2025</span> [XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/journal/information-fusion), **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang.
+• <div style="display: inline-block;"><span class="badge" style="display: inline-block; margin-right: 5px;">Information Fusion 2025</span> <span style="display: inline-block;">[XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/journal/information-fusion), **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang.</span></div>
 
-• <span class="badge">Neural Networks 2025</span> [IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844), **Shuaicong Hu**, Yanan Wang, Jian Liu, Zhaoqiang Cui, Cuiwei Yang, Zhifeng Yao, Junbo Ge.
-
-• <span class="badge">IEEE JBHI 2023</span> [Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/document/10204654), **Shuaicong Hu**, Ya'nan Wang, Jian Liu, Aiguo Wang, Kunzheng Li, Wenxin Liu, Cuiwei Yang.
-
-• <span class="badge">IEEE TIM 2023</span> [Personalized transfer learning for single-lead ecg-based sleep apnea detection: exploring the label mapping length and transfer strategy using hybrid transformer model](https://ieeexplore.ieee.org/abstract/document/10243153), **Shuaicong Hu**, Ya'nan Wang, Jian Liu, Cuiwei Yang.
-
-• <span class="badge">IEEE TNSRE 2023</span> [Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model](https://ieeexplore.ieee.org/document/10085324), **Shuaicong Hu**, Jian Liu, Rui Yang, Yanan Wang, Aiguo Wang, Kuanzheng Li, Wenxin Liu, Cuiwei Yang.
-
-• <span class="badge">Expert Systems 2025</span> [LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion](https://www.sciencedirect.com/science/article/abs/pii/S0957417424005177), Jian Liu†, **Shuaicong Hu**†, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Cuiwei Yang. († 共同第一作者)
-
-• <span class="badge">IEEE TIM 2022</span> [A hybrid transformer model for obstructive sleep apnea detection based on self-attention mechanism using single-lead ECG](https://ieeexplore.ieee.org/document/9847051), **Shuaicong Hu**, Wenjie Cai, Tijie Gao, Mingjie Wang.
-
-• <span class="badge">BSPC 2022</span> [An automatic residual-constrained and clustering-boosting architecture for differentiated heartbeat classification](https://www.sciencedirect.com/science/article/abs/pii/S174680942200350X), **Shuaicong Hu**, Wenjie Cai, Tijie Gao, Mingjie Wang.
-
-• <span class="badge">Physiol. Meas. 2021</span> [Robust wave-feature adaptive heartbeat classification based on self-attention mechanism using a transformer model](https://iopscience.iop.org/article/10.1088/1361-6579/ac3e88), **Shuaicong Hu**, Wenjie Cai, Tijie Gao, Jiajun Zhou, Mingjie Wang.
-
-• <span class="badge">Pattern Recognition 2025</span> [Morphology Entropy: An efficient and parameter-free measure for revealing the morphological dynamic complexity of time series](https://www.sciencedirect.com/journal/pattern-recognition), **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang.
-
-• <span class="badge">Applied Soft Computing 2025</span> [Entropy-based amplitude-phase pattern fusion and its application in efficient unsupervised ECG analysis](https://www.sciencedirect.com/journal/applied-soft-computing), **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang.
-
-• <span class="badge">Expert Systems 2025</span> [PULSE: A personalized physiological signal analysis framework via unsupervised domain adaptation and self-adaptive learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417424012332), Yanan Wang, **Shuaicong Hu**, Jian Liu, Aiguo Wang, Guohui Zhou, Cuiwei Yang.
-
-• <span class="badge">CMPB 2024</span> [ECG classification based on guided attention mechanism](https://www.sciencedirect.com/science/article/abs/pii/S0169260724002943), Yangcheng Huang, Wenjing Liu, Ziyi Yin, **Shuaicong Hu**, Mingjie Wang, Wenjie Cai.
-
-• <span class="badge">CBM 2024</span> [A multi-module algorithm for heartbeat classification based on unsupervised learning and adaptive feature transfer](https://www.sciencedirect.com/science/article/abs/pii/S0010482524002701), Yanan Wang, **Shuaicong Hu**, Jian Liu, Gaoyan Zhong, Cuiwei Yang.
-
-• <span class="badge">Information Fusion 2025</span> [Bridging the gap between computer vision and bioelectrical signal analysis](https://www.sciencedirect.com/journal/information-fusion), Yanan Wang, **Shuaicong Hu**, Jian Liu, Aiguo Wang, Guohui Zhou, Cuiwei Yang.
-
-• <span class="badge">BSPC 2023</span> [A novel interpretable feature set optimization method in blood pressure estimation using photoplethysmography signals](https://www.sciencedirect.com/science/article/abs/pii/S1746809423009795), Jian Liu, **Shuaicong Hu**, Zhijun Xiao, Qihan Hu, Daomiao Wang, Cuiwei Yang.
-
-• <span class="badge">IoT Journal 2024</span> [A dual-focus cloud–edge collaborative framework in multi-task hemodynamic parameter cross-scale analysis](https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=dual-focus%20cloud-edge%20Jian%20Liu), Jian Liu, **Shuaicong Hu**, Yanan Wang, Wei Xiang, Cuiwei Yang.
-
-• <span class="badge">Applied Soft Computing 2024</span> [Personalized blood pressure estimation using multisource fusion information of wearable physiological signals and transfer learning](https://www.sciencedirect.com/science/article/abs/pii/S1568494624005805), Jian Liu, **Shuaicong Hu**, Yanan Wang, Wei Xiang, Qihan Hu, Cuiwei Yang.
-
-• <span class="badge">IEEE JBHI 2023</span> [A lightweight hybrid model using multiscale markov transition field for real-time quality assessment of photoplethysmography signals](https://ieeexplore.ieee.org/document/10265099), Jian Liu, **Shuaicong Hu**, Yanan Wang, Qihan Hu, Daomiao Wang, Cuiwei Yang.
-
-• <span class="badge">IoT Journal 2024</span> [An IoMT-driven framework for precision cardiovascular assessment incorporating multiscale perspectives and microfiber bragg grating](https://ieeexplore.ieee.org/document/10459326), Jian Liu, Heiquan Zhu, Wei Xiang, **Shuaicong Hu**, Qihan Hu, Daomiao Wang, Huan Yang, Zhengyi Mao, Fei Xu, Cuiwei Yang.
+• <div style="display: inline-block;"><span class="badge" style="display: inline-block; margin-right: 5px;">Neural Networks 2025</span> <span style="display: inline-block;">[IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844), **Shuaicong Hu**, Yanan Wang, Jian Liu, Zhaoqiang Cui, Cuiwei Yang, Zhifeng Yao, Junbo Ge.</span></div>
 
 
 <span class='anchor' id='honors-and-awards'></span>
