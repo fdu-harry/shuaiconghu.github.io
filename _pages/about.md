@@ -28,97 +28,128 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: &nbsp;🎉🎉 我们的论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！这是睡眠呼吸暂停领域仅有的第2篇Nature Communications论文。
+- *2025.03*: &nbsp;🎉🎉 我们的论文 "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" 被医学AI领域顶刊 **Information Fusion** (IF=14.8, 爱思唯尔该领域IF最高期刊) 录用！
+- *2025.02*: &nbsp;🔍 我们关于透明AI的研究 "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" 在人工智能领域重要期刊 **Neural Networks** (IF=6.0) 发表！
+- *2024.12*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格，将于2025年底获得博士学位！
+- *2023.11*: &nbsp;💡 我们的睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TNSRE 2023</div><img src='images/TNSRE_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10046136)
+[Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/ncomms/)
 
-**Shuaicong Hu**, Liu Jian, Rui Yang, Ya’Nan Wang, Aiguo Wang, Kuanzheng Li, Wenxin Liu, Cuiwei Yang
+**Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
+- 首创透明可解释人机协作的睡眠呼吸暂停诊断AI系统（该领域第2篇Nature Communications论文）
+- 提出透明尺度扩散机制和风险评估指标，增强AI解释性
+- 基于大规模多中心多种族临床数据验证部署后的系统在专业诊断和家庭筛查场景下的泛化性能
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/INFFUS_500x300.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/journal/information-fusion)
+
+**Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
+- 爱思唯尔医学AI领域影响因子最高期刊（IF=14.8）
+- 提出双阶段信息瓶颈融合框架，实现多模态睡眠分析的精准解释
+- 创新性应用信息瓶颈理论于多模态生理信号融合，提高诊断准确性和可解释性
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src='images/NN_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10046136)
+[IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844)
 
 **Shuaicong Hu**, Yanan Wang, Jian Liu, Zhaoqiang Cui, Cuiwei Yang, Zhifeng Yao, Junbo Ge
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:dhFuZR0502QC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:dhFuZR0502QC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- 人工智能领域顶级期刊Neural Networks（IF=6.0，CCF-B类）
+- 首次开展信息瓶颈理论驱动的多模态融合表征增强框架
+- 通过并行信息压缩剔除目标模式相关冗余，优化多源睡眠生理信号互补整合
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src='images/JBHI_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10046136)
+[Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/document/10204654)
 
-**Shuaicong Hu**, Ya'nan Wang, Jian Liu, Cuiwei Yang, Aiguo Wang, Kuanzheng Li, Wenxin Liu
+**Shuaicong Hu**, Ya'nan Wang, Jian Liu, Aiguo Wang, Kunzheng Li, Wenxin Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- IEEE JBHI封面亮点文章（IF=7.7）
+- 国际首次提出无监督数据驱动学习的睡眠呼吸暂停半监督个性化范式
+- 探索了最优迁移学习策略，促进了低成本个性化睡眠呼吸暂停诊断实施
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIM 2023</div><img src='images/TIM_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Personalized transfer learning for single-lead ecg-based sleep apnea detection: exploring the label mapping length and transfer strategy using hybrid transformer model](https://ieeexplore.ieee.org/abstract/document/10243153)
 
-**Shuaicong Hu**, Ya’nan Wang, Jian Liu, Cuiwei Yang
+**Shuaicong Hu**, Ya'nan Wang, Jian Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:IWHjjKOFINEC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:IWHjjKOFINEC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- IEEE Transactions on Instrumentation and Measurement（IF=5.6）
+- 创新性设计个性化迁移学习策略，解决单导联心电信号睡眠呼吸暂停检测问题
+- 系统性探索了标签映射长度与迁移策略对检测性能的影响，提高了模型适应性
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/INFFUS_500x300.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[XsleepFusion: a dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10046136)
-
-**Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+- *2025.04* 复旦大学优秀毕业生
+- *2024.10* 复旦大学优秀学生干部
+- *2024.08* 中国研究生人工智能创新大赛三等奖
+- *2024.07* 全国生物医学工程创新设计竞赛二等奖
+- *2023.10* 复旦大学优秀学生、复旦大学博士年度华泰证券科技冠名奖学金
+- *2023.07* 全国生物医学工程创新设计竞赛二等奖
+- *2022.04* 上海市优秀硕士毕业生、上海理工大学优秀硕士毕业生
+- *2021.12* PhysioNet国际生理信号挑战赛全球第5名/中国区第1名、CPSC中国生理信号挑战赛全国第1名
+- *2021.10* "华为杯"第十八届中国研究生数模竞赛三等奖
+- *2021.05* 第七届中国国际"互联网+"大赛银奖
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2022.09 - 2025.12*, 复旦大学，电子信息，工学博士（破格提前毕业）
+  - 研究领域：医学人工智能、睡眠AI、时序数据分析、个性化医疗、无监督对比学习
+  - 指导教师：杨翠微教授
+  - 博士期间共发表SCI论文15篇，影响因子总计148.4，另有一篇唯一一作《Nature Communications》顶级期刊大修
+  
+- *2019.09 - 2022.06*, 上海理工大学，电子信息，工学硕士
+  - 研究领域：基于深度学习的心电图心拍自动分类
+  - 指导教师：蔡文杰教授
+  - 硕士期间以唯一第一作者身份发表IEEE TIM等SCI论文3篇
+  
+- *2015.09 - 2019.06*, 上海理工大学，生物医学工程，工学学士
+  - 绩点排名专业top5%
+  - 研究项目：期前收缩心电图智能识别
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💬 学术与项目经历
+
+- *2024.11 - 至今*, 国家重点研发计划《心律失常立体定向放射定量治疗系统技术研发及样机研制》子课题组负责人
+  - 负责"体表无创电解剖标测算法体系构建"子课题，主要承担异常心拍检测与病理特征挖掘研究
+  - 参与整体项目申请答辩(三位答辩人之一，负责AI算法部分)，并负责第一年度的验收报告
+
+- *2023.04 - 至今*, 国家自然科学基金面上项目《PPG与ECG信息融合新方法及其在房颤进程评估中的应用研究》核心成员
+  - 负责申报书的撰写；主要承担课题中多模态同步采集设备的研制以及生理信号的实时质量评估算法
+  - 已依托该项目发表中科院一区论文1篇，中科院二区论文1篇
+
+- *2022.02 - 至今*, 智慧电生理诊疗联合实验室项目主要参与者
+  - 负责联合实验室项目申请，成果申报以及完成各项指标
+  - 已依托该项目发表中科院二区论文2篇
+
+# 💻 学术兼职
+
+- 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等多个国际期刊审稿人
+- 中国生物医学工程学会会员
