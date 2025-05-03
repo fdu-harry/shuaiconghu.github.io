@@ -107,7 +107,7 @@ My research achievements include: (1) developing lightweight hybrid deep learnin
 </div>
 
 
-• <span class="badge">Nature Communications 2025</span> [Transparent artificial intelligence--enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/ncomms/), **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang.
+• <span class="badge">Nature Communications 2025</span> [Transparent artificial intelligence-enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/ncomms/), **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang.
 
 • <span class="badge">Information Fusion 2025</span> [XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/journal/information-fusion), **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang.
 
