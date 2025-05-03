@@ -94,6 +94,20 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TNSRE 2023</div><img src='images/TNSRE_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model](https://ieeexplore.ieee.org/abstract/document/10046136)
+
+**Shuaicong Hu**, Jian Liu, Rui Yang, Ya’Nan Wang, Aiguo Wang, Kuanzheng Li, Wenxin Liu, Cuiwei Yang
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
+- 首次将混合Transformer架构引入癫痫预测领域，提高了特征提取效率
+- 系统探索迁移学习和特征工程在多目标域癫痫预测中的适用性
+- IEEE Transactions on Neural Systems and Rehabilitation Engineering（IF=4.8）
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src='images/JBHI_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
