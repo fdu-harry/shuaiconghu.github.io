@@ -30,7 +30,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/TNSRE_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TNSRE 2023</div><img src='images/TNSRE_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Exploring the applicability of transfer learning and feature engineering in epilepsy prediction using hybrid transformer model]([https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10046136])
