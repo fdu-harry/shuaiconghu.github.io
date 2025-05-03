@@ -37,7 +37,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 **Shuaicong Hu**, Liu Jian, Rui Yang, Ya’Nan Wang, Aiguo Wang, Kuanzheng Li, Wenxin Liu, Cuiwei Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
