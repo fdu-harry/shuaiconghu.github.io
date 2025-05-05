@@ -38,7 +38,7 @@ His key scientific contributions include: (1) pioneering lightweight hybrid deep
 - *2023.11*: &nbsp;💡 睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
 
 <span class='anchor' id='publications'></span>
-# 📝 Representative Publications（代表性工作）
+# ⭐ Representative Publications（代表性工作）
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -142,7 +142,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 
 
 <span class='anchor' id='publications'></span>
-<h1>📝 Full Publication List（全部出版物）</h1>
+<h1>📝📚 Full Publication List（全部出版物）</h1>
 
 <style>
 .pub-table {
