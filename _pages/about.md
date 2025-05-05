@@ -28,12 +28,12 @@ His key scientific contributions include: (1) pioneering lightweight hybrid deep
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-203-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
 
 <span class='anchor' id='news'></span>
-# 🔥 News（新闻）
-- *2025.04*: &nbsp;🎉🎉 论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！该论文为睡眠呼吸暂停+AI领域仅有的第2篇Nature Communications论文。
-- *2025.03*: &nbsp;🎉🎉 论文 "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" 被医学AI领域顶刊 **Information Fusion** (IF=14.8, 爱思唯尔该领域IF最高期刊) 录用！
-- *2025.02*: &nbsp;🔍 关于透明AI的研究 "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" 在人工智能领域顶级期刊 **Neural Networks** (IF=6.0) 发表！
-- *2024.12*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格（本届119名博士仅3位），将于2025年底获得博士学位！
-- *2023.11*: &nbsp;💡 睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
+# 🔥 News（新消息）
+- *2025.05*: &nbsp;🎉🎉 论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！该论文为睡眠呼吸暂停+AI领域仅有的第2篇Nature Communications论文。
+- *2025.04*: &nbsp;🎉🎉 论文 "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" 被医学AI领域顶刊 **Information Fusion** (IF=14.8, 爱思唯尔该领域IF最高期刊) 录用！
+- *2025.03*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格（本届119名博士仅3位），将于2025年底获得博士学位！
+- *2024.10*: &nbsp;🔍 关于透明AI的研究 "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" 在人工智能领域顶级期刊 **Neural Networks** (IF=6.0) 发表！
+- *2023.10*: &nbsp;💡 睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
 
 <span class='anchor' id='publications'></span>
 # ⭐ Representative Publications（代表性工作）
