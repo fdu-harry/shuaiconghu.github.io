@@ -16,12 +16,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-<中文版>
 胡帅聪，复旦大学电子信息博士（破格提前毕业），主要从事人工智能与健康医学交叉领域研究。核心研究方向包括睡眠人工智能、医学AI、时序数据分析、个性化医疗与无监督对比学习。迄今已发表SCI论文21篇，其中唯一一作/共同一作/学生一作论文10篇，涵盖Information Fusion (IF=14.8，爱思唯尔该领域IF最高期刊)、Neural Networks (IF=6.0，CCF-B)、Expert Systems With Applications (IF=7.5，CCF-C)、IEEE JBHI (IF=7.7，封面亮点文章)、IEEE TNSRE (IF=4.9，近2年高被引)等高影响因子期刊。另有一篇唯一第一作者Nature Communications (IF=14.7)论文处于大修后评审阶段（本领域第2篇）。谷歌学术总引用203次，H因子8。
 
 主要科研成果包括：(1)首创轻量化混合架构深度学习模型(Hybrid-Net)用于单导联心电信号的睡眠呼吸暂停精准分级筛查与边缘部署；(2)国际首次提出无监督数据驱动的睡眠呼吸暂停半监督个性化范式，探索最优迁移学习策略；(3)开创信息瓶颈理论驱动的多模态融合表征增强框架(IPCT-Net)，优化多源睡眠生理信号互补整合；(4)国际首次构建透明可解释人机协作睡眠呼吸暂停诊断AI系统(Apnea Interact Xplainer)，提出透明尺度扩散机制和风险评估指标，已通过大规模多中心多种族临床数据验证。现担任Applied Soft Computing、Expert Systems With Applications、IEEE Transactions on Instrumentation & Measurement等多个高水平期刊审稿人，参与国家重点研发计划及多项国家自然科学基金项目研究。
 
-<英文版>
 Shuaicong Hu is a Ph.D. in Electronic Information at Fudan University (with early exceptional graduation honors). His research focuses on the intersection of artificial intelligence and health medicine, specializing in sleep AI, medical AI, time series analysis, personalized medicine, and unsupervised contrastive learning. He has published 21 SCI papers, including 10 as sole first/co-first/student first author, in prestigious journals such as Information Fusion (IF=14.8, Elsevier's highest IF journal in the field), Neural Networks (IF=6.0, CCF-B), Expert Systems With Applications (IF=7.5, CCF-C), IEEE JBHI (IF=7.7, featured as cover highlight article), and IEEE TNSRE (IF=4.9, highly cited in recent 2 years). Additionally, he has a sole first-author paper in Nature Communications (IF=14.7) in the final stages of major revision (only the second paper in this field). His research has accumulated 203 citations with an H-index of 8.
 
 His key scientific contributions include: (1) pioneering lightweight hybrid deep learning architectures (Hybrid-Net) for precise sleep apnea grading and edge deployment using single-lead ECG; (2) internationally first proposing unsupervised data-driven semi-supervised personalization paradigms for sleep apnea with optimal transfer learning strategies; (3) developing information bottleneck theory-driven multimodal fusion enhancement frameworks (IPCT-Net) for optimizing complementary integration of multi-source sleep physiological signals; and (4) creating the first transparent explainable human-AI collaborative sleep apnea diagnosis system (Apnea Interact Xplainer) with transparent scaling diffusion mechanisms and risk assessment metrics, validated on large-scale multi-center multi-ethnic clinical datasets. He serves as a reviewer for multiple high-impact journals, including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement, and participates in National Key R&D Programs and multiple National Natural Science Foundation of China projects.
@@ -142,7 +140,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 
 
 <span class='anchor' id='publications'></span>
-<h1>📝📚 Full Publication List（全部出版物）</h1>
+<h1>📝 Full Publication List（全部出版物）</h1>
 
 <style>
 .pub-table {
