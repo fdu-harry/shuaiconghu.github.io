@@ -492,7 +492,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   - 研究项目：期前收缩心电图智能识别
 
 <span class='anchor' id='academic-experience'></span>
-# 💬 Academic-Experience（学术与项目经历）
+# 💬 Academic-Experience（学术项目经历）
 
 - *2024.11 - 至今*, 国家重点研发计划《心律失常立体定向放射定量治疗系统技术研发及样机研制》子课题组负责人
   - 负责"体表无创电解剖标测算法体系构建"子课题，主要承担异常心拍检测与病理特征挖掘研究
