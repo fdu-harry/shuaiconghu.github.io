@@ -16,25 +16,29 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-胡帅聪，复旦大学电子信息博士（破格提前毕业），主要研究医学人工智能和时序数据分析。研究方向包括睡眠AI、医学AI、时序数据分析、个性化医疗和无监督对比学习。目前已发表SCI论文21篇（其中唯一一作/共同一作/学生一作论文10篇），包括Information Fusion (IF=14.8)、Neural Networks (IF=6.0，CCF-B类)、Expert Systems With Applications (IF=7.5，CCF-C类)、IEEE JBHI (IF=7.7，封面亮点文章)和IEEE TNSRE (IF=4.9)等高影响因子期刊论文。另有一篇第一作者Nature Communications (IF=14.7)论文处于大修状态。谷歌学术总引用203次，H因子8。
+<中文版>
+胡帅聪，复旦大学电子信息博士（破格提前毕业），主要从事人工智能与健康医学交叉领域研究。核心研究方向包括睡眠人工智能、医学AI、时序数据分析、个性化医疗与无监督对比学习。迄今已发表SCI论文21篇，其中唯一一作/共同一作/学生一作论文10篇，涵盖Information Fusion (IF=14.8，爱思唯尔该领域IF最高期刊)、Neural Networks (IF=6.0，CCF-B)、Expert Systems With Applications (IF=7.5，CCF-C)、IEEE JBHI (IF=7.7，封面亮点文章)、IEEE TNSRE (IF=4.9，近2年高被引)等高影响因子期刊。另有一篇唯一第一作者Nature Communications (IF=14.7)论文处于大修后评审阶段（本领域第2篇）。谷歌学术总引用203次，H因子8。
 
-I am a Ph.D. in Electronic Information at Fudan University (with early graduation honors). My research focuses on medical artificial intelligence and time series analysis, with specializations in sleep AI, medical AI, time series analysis, personalized medicine, and unsupervised contrastive learning. I have published 21 SCI papers (including 10 as first/co-first author), in high-impact journals such as Information Fusion (IF=14.8), Neural Networks (IF=6.0，CCF-B), Expert Systems With Applications (IF=7.5，CCF-C), IEEE JBHI (IF=7.7, featured as cover highlight), and IEEE TNSRE (IF=4.9). Additionally, I have a first-author paper in Nature Communications (IF=14.7) under major revision. My research has been cited 203 times with an H-index of 8.
+主要科研成果包括：(1)首创轻量化混合架构深度学习模型(Hybrid-Net)用于单导联心电信号的睡眠呼吸暂停精准分级筛查与边缘部署；(2)国际首次提出无监督数据驱动的睡眠呼吸暂停半监督个性化范式，探索最优迁移学习策略；(3)开创信息瓶颈理论驱动的多模态融合表征增强框架(IPCT-Net)，优化多源睡眠生理信号互补整合；(4)国际首次构建透明可解释人机协作睡眠呼吸暂停诊断AI系统(Apnea Interact Xplainer)，提出透明尺度扩散机制和风险评估指标，已通过大规模多中心多种族临床数据验证。现担任Applied Soft Computing、Expert Systems With Applications、IEEE Transactions on Instrumentation & Measurement等多个高水平期刊审稿人，参与国家重点研发计划及多项国家自然科学基金项目研究。
 
-My research achievements include: (1) developing lightweight hybrid deep learning models for sleep apnea detection using single-lead ECG; (2) proposing novel semi-supervised personalized paradigms for cost-effective sleep apnea diagnosis; (3) creating information bottleneck-driven multimodal fusion frameworks for enhanced physiological signal representation; and (4) pioneering transparent explainable AI systems for human-AI collaborative sleep disorder diagnosis. I serve as a reviewer for multiple prestigious journals, including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement.
+<英文版>
+Shuaicong Hu is a Ph.D. in Electronic Information at Fudan University (with early exceptional graduation honors). His research focuses on the intersection of artificial intelligence and health medicine, specializing in sleep AI, medical AI, time series analysis, personalized medicine, and unsupervised contrastive learning. He has published 21 SCI papers, including 10 as sole first/co-first/student first author, in prestigious journals such as Information Fusion (IF=14.8, Elsevier's highest IF journal in the field), Neural Networks (IF=6.0, CCF-B), Expert Systems With Applications (IF=7.5, CCF-C), IEEE JBHI (IF=7.7, featured as cover highlight article), and IEEE TNSRE (IF=4.9, highly cited in recent 2 years). Additionally, he has a sole first-author paper in Nature Communications (IF=14.7) in the final stages of major revision (only the second paper in this field). His research has accumulated 203 citations with an H-index of 8.
 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>Google Scholar Profile <strong><span id='total_cit'>203+</span></strong> citations</a> 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-203+-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
+His key scientific contributions include: (1) pioneering lightweight hybrid deep learning architectures (Hybrid-Net) for precise sleep apnea grading and edge deployment using single-lead ECG; (2) internationally first proposing unsupervised data-driven semi-supervised personalization paradigms for sleep apnea with optimal transfer learning strategies; (3) developing information bottleneck theory-driven multimodal fusion enhancement frameworks (IPCT-Net) for optimizing complementary integration of multi-source sleep physiological signals; and (4) creating the first transparent explainable human-AI collaborative sleep apnea diagnosis system (Apnea Interact Xplainer) with transparent scaling diffusion mechanisms and risk assessment metrics, validated on large-scale multi-center multi-ethnic clinical datasets. He serves as a reviewer for multiple high-impact journals, including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement, and participates in National Key R&D Programs and multiple National Natural Science Foundation of China projects.
+
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>Google Scholar Profile <strong><span id='total_cit'>203</span></strong> citations</a> 
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-203-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
 
 <span class='anchor' id='news'></span>
-# 🔥 News
-- *2025.04*: &nbsp;🎉🎉 论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！这是睡眠呼吸暂停领域仅有的第2篇Nature Communications论文。
+# 🔥 News（新闻）
+- *2025.04*: &nbsp;🎉🎉 论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！该论文为睡眠呼吸暂停+AI领域仅有的第2篇Nature Communications论文。
 - *2025.03*: &nbsp;🎉🎉 论文 "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" 被医学AI领域顶刊 **Information Fusion** (IF=14.8, 爱思唯尔该领域IF最高期刊) 录用！
 - *2025.02*: &nbsp;🔍 关于透明AI的研究 "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" 在人工智能领域顶级期刊 **Neural Networks** (IF=6.0) 发表！
-- *2024.12*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格，将于2025年底获得博士学位！
+- *2024.12*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格（本届119名博士仅3位），将于2025年底获得博士学位！
 - *2023.11*: &nbsp;💡 睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
 
 <span class='anchor' id='publications'></span>
-# 📝 Representative Publications
+# 📝 Representative Publications（代表性工作）
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -138,7 +142,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 
 
 <span class='anchor' id='publications'></span>
-<h1>📝 Publications</h1>
+<h1>📝 Full Publication List（全部出版物）</h1>
 
 <style>
 .pub-table {
@@ -458,7 +462,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </table>
 
 <span class='anchor' id='honors-and-awards'></span>
-# 🎖 Honors and Awards
+# 🎖 Honors and Awards（荣誉及奖项）
 
 - *2025.04* 复旦大学优秀毕业生
 - *2024.10* 复旦大学优秀学生干部
@@ -475,7 +479,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2021.05* 第七届中国国际"互联网+"大赛银奖
 
 <span class='anchor' id='educations'></span>
-# 📖 Educations
+# 📖 Educations（教育背景）
 
 - *2022.09 - 2025.12*, 复旦大学，电子信息，工学博士（破格提前毕业）
   - 研究领域：医学人工智能、睡眠AI、时序数据分析、个性化医疗、无监督对比学习
@@ -490,7 +494,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   - 研究项目：期前收缩心电图智能识别
 
 <span class='anchor' id='academic-experience'></span>
-# 💬 学术与项目经历
+# 💬 Academic-Experience（学术与项目经历）
 
 - *2024.11 - 至今*, 国家重点研发计划《心律失常立体定向放射定量治疗系统技术研发及样机研制》子课题组负责人
   - 负责"体表无创电解剖标测算法体系构建"子课题，主要承担异常心拍检测与病理特征挖掘研究
@@ -505,7 +509,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   - 已依托该项目发表中科院二区论文2篇
 
 <span class='anchor' id='academic-service'></span>
-# 💻 学术兼职
+# 💻 Academic-Service（学术兼职）
 
 - 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等20余个国际期刊审稿人
 - 中国生物医学工程学会会员
