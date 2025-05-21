@@ -9,7 +9,7 @@
 title                    : "Shuaicong Hu's Academic Homepage"
 description              : "Shuaicong Hu's research focuses on artificial intelligence (AI), sleep AI, sleep apnea, biomedical signal processing, entropy."
 repository               : "fdu-harry.github.io/shuaiconghu.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
