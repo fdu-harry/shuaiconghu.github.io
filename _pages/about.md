@@ -234,7 +234,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
     </td>
     <td class="pub-title">
       <a href="https://www.sciencedirect.com/science/article/pii/S0957417425006177">LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion</a>, 
-      Jian Liu†, <strong>Shuaicong Hu</strong>†, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Cuiwei Yang. († 共同第一作者)
+      Jian Liu†, <strong>Shuaicong Hu</strong>†, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Cuiwei Yang. († co-first author)
     </td>
   </tr>
 </table>
