@@ -21,18 +21,18 @@ Hu Shuaicong holds a Ph.D. in Electronic Information from Fudan University (grad
 His major research achievements include: (1) pioneering a lightweight hybrid architecture deep learning model (Hybrid-Net) for precise grading and screening of sleep apnea using single-lead ECG signals with edge deployment capabilities; (2) internationally first proposing an unsupervised data-driven semi-supervised personalized paradigm for sleep apnea, exploring optimal transfer learning strategies; (3) developing an information bottleneck theory-driven multimodal fusion representation enhancement framework (IPCT-Net) to optimize complementary integration of multi-source sleep physiological signals; (4) internationally first constructing a transparent and interpretable human-AI collaborative sleep apnea diagnosis system (Apnea Interact Xplainer), proposing transparent scale diffusion mechanisms and risk assessment indicators, validated through large-scale multi-center multi-ethnic clinical data. He currently serves as a reviewer for multiple high-level journals including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement, and participates as a core technical contributor in National Key Research and Development Programs and multiple National Natural Science Foundation projects.
 
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>Google Scholar Profile <strong><span id='total_cit'>225</span></strong> citations</a>
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-225(176 as first author)-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-225 (176 as first author)-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
 
 <span class='anchor' id='news'></span>
-# 🔥 News（新消息）
-- *2025.05*: &nbsp;🎉🎉 论文 "Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" 在顶级期刊 **Nature Communications** (IF=14.7) 大修后获得2位审稿专家接受，即将发表！该论文为睡眠呼吸暂停+AI领域仅有的第2篇Nature Communications论文。
-- *2025.04*: &nbsp;🎉🎉 论文 "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" 被医学AI领域顶刊 **Information Fusion** (IF=14.8, 爱思唯尔该领域IF最高期刊) 录用！
-- *2025.03*: &nbsp;🎓 荣获复旦大学"破格提前毕业"资格（本届119名博士仅3位），将于2025年底获得博士学位！
-- *2024.10*: &nbsp;🔍 关于透明AI的研究 "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" 在人工智能领域顶级期刊 **Neural Networks** (IF=6.0) 发表！
-- *2023.10*: &nbsp;💡 睡眠呼吸暂停个性化诊断研究被选为 **IEEE Journal of Biomedical and Health Informatics** (IF=7.7) 封面亮点论文！
+# 🔥 News
+- *2025.05*: &nbsp;🎉🎉 The paper "Transparent artificial intelligence--enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" has received recommendation for publication from one reviewer at the top-tier journal Nature Communications (IF=14.7) after minor revision, with the reviewer evaluating it as high-impact work, while another reviewer has 3 remaining minor comments. Publication is imminent! This paper represents only the second Nature Communications publication in the field of sleep apnea + AI.
+- *2025.04*: &nbsp;🎉🎉 The paper "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" has been accepted by Information Fusion (IF=14.8, the highest IF journal in this field by Elsevier), a top-tier journal in medical AI!
+- *2025.03*: &nbsp;🎓 Awarded the qualification for "exceptional early graduation" at Fudan University (only 3 out of 119 doctoral students in this cohort), scheduled to receive doctoral degree by the end of 2025!
+- *2024.10*: &nbsp;🔍 Research on transparent AI "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" published in the top-tier artificial intelligence journal Neural Networks (IF=6.0)!
+- *2023.10*: &nbsp;💡 Personalized sleep apnea diagnosis research selected as cover highlight article in IEEE Journal of Biomedical and Health Informatics (IF=7.7)!
 
 <span class='anchor' id='publications'></span>
-# ⭐ Representative Publications（代表性工作）
+# ⭐ Representative Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
