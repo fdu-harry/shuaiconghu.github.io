@@ -458,52 +458,52 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
-- *2025.04* 复旦大学优秀毕业生
-- *2024.10* 复旦大学优秀学生干部
-- *2024.08* 中国研究生人工智能创新大赛三等奖
-- *2024.07* 全国生物医学工程创新设计竞赛二等奖
-- *2023.10* 复旦大学优秀学生
-- *2023.10* 复旦大学博士年度华泰证券科技冠名奖学金
-- *2023.07* 全国生物医学工程创新设计竞赛二等奖
-- *2022.04* 上海市优秀硕士毕业生
-- *2022.04* 上海理工大学优秀硕士毕业生
-- *2021.12* PhysioNet国际生理信号挑战赛全球第5名/中国区第1名
-- *2021.12* CPSC中国生理信号挑战赛全国第1名
-- *2021.10* "华为杯"第十八届中国研究生数模竞赛三等奖
-- *2021.05* 第七届中国国际"互联网+"大赛银奖
+- *2025.04* Outstanding Graduate of Fudan University
+- *2024.10* Outstanding Student Cadre of Fudan University
+- *2024.08* Third Prize in China Graduate Student Artificial Intelligence Innovation Competition
+- *2024.07* Second Prize in National Biomedical Engineering Innovation Design Competition
+- *2023.10* Outstanding Student of Fudan University
+- *2023.10* Huatai Securities Technology Named Scholarship for Doctoral Students at Fudan University
+- *2023.07* Second Prize in National Biomedical Engineering Innovation Design Competition
+- *2022.04* Outstanding Master's Graduate of Shanghai
+- *2022.04* Outstanding Master's Graduate of University of Shanghai for Science and Technology
+- *2021.12* 5th Place Globally/1st Place in China in PhysioNet International Physiological Signal Challenge
+- *2021.12* 1st Place Nationally in CPSC China Physiological Signal Challenge
+- *2021.10* Third Prize in the 18th China Graduate Student Mathematical Contest in Modeling "Huawei Cup"
+- *2021.05* Silver Award in the 7th China International "Internet+" Innovation and Entrepreneurship Competition
 
 <span class='anchor' id='educations'></span>
 # 📖 Educations
 
-- *2022.09 - 2025.12*, 复旦大学，电子信息，工学博士（破格提前毕业）
-  - 研究领域：医学人工智能、睡眠AI、时序数据分析、个性化医疗、无监督对比学习
-  - 博士期间共发表SCI论文15篇，影响因子总计148.4，另有一篇唯一一作《Nature Communications》顶级期刊大修
+- *2022.09 - 2025.12*, Fudan University, Electronic Information, Doctor of Engineering (exceptional early graduation)
+  - Research fields: Medical artificial intelligence, sleep AI, time series data analysis, personalized medicine, unsupervised contrastive learning
+  - Published 15 SCI papers during doctoral studies with a total impact factor of 148.4, plus one additional sole first-author paper under major revision at top-tier journal Nature Communications
   
-- *2019.09 - 2022.06*, 上海理工大学，电子信息，工学硕士
-  - 研究领域：基于深度学习的心电图心拍自动分类
-  - 硕士期间以唯一第一作者身份发表IEEE TIM等SCI论文3篇
+- *2019.09 - 2022.06*, University of Shanghai for Science and Technology, Electronic Information, Master of Engineering
+  - Research field: Automatic ECG heartbeat classification based on deep learning
+  - Published 3 SCI papers including IEEE TIM as sole first author during master's studies
   
-- *2015.09 - 2019.06*, 上海理工大学，生物医学工程，工学学士
-  - 绩点排名专业top5%
-  - 研究项目：期前收缩心电图智能识别
+- *2015.09 - 2019.06*, University of Shanghai for Science and Technology, Biomedical Engineering, Bachelor of Engineering
+  - GPA ranking in top 5% of major
+  - Research project: Intelligent recognition of premature ventricular contraction ECG
 
 <span class='anchor' id='academic-experience'></span>
 # 💬 Academic-Experience
 
-- *2024.11 - 至今*, 国家重点研发计划《心律失常立体定向放射定量治疗系统技术研发及样机研制》子课题组负责人
-  - 负责"体表无创电解剖标测算法体系构建"子课题，主要承担异常心拍检测与病理特征挖掘研究
-  - 参与整体项目申请答辩(三位答辩人之一，负责AI算法部分)，并负责第一年度的验收报告
+- *2024.11 - Present*, Sub-project Leader of National Key Research and Development Program "Technical Development and Prototype Development of Stereotactic Radiotherapy Quantitative Treatment System for Arrhythmia"
+  - Responsible for the sub-project "Construction of Non-invasive Body Surface Electroanatomical Mapping Algorithm System," primarily undertaking research on abnormal heartbeat detection and pathological feature mining
+  - Participated in overall project application defense (one of three presenters, responsible for AI algorithm section) and led the first-year acceptance report
 
-- *2023.04 - 至今*, 国家自然科学基金面上项目《PPG与ECG信息融合新方法及其在房颤进程评估中的应用研究》核心成员
-  - 负责申报书的撰写；主要承担课题中多模态同步采集设备的研制以及生理信号的实时质量评估算法
-  - 已依托该项目发表中科院一区论文1篇，中科院二区论文1篇
+- *2023.04 - Present*, Core member of National Natural Science Foundation General Program "Novel Methods for PPG and ECG Information Fusion and Their Application in Atrial Fibrillation Progression Assessment"
+  - Responsible for proposal writing; primarily undertaking research and development of multimodal synchronous acquisition equipment and real-time quality assessment algorithms for physiological signals
+  - Published 1 CAS Q1 paper and 1 CAS Q2 paper based on this project
 
-- *2022.02 - 至今*, 智慧电生理诊疗联合实验室项目主要参与者
-  - 负责联合实验室项目申请，成果申报以及完成各项指标
-  - 已依托该项目发表中科院二区论文2篇
+- *2022.02 - Present*, Principal participant in Smart Electrophysiology Diagnosis and Treatment Joint Laboratory Project
+  - Responsible for joint laboratory project application, achievement reporting, and completion of various indicators
+  - Published 2 CAS Q2 papers based on this project
 
 <span class='anchor' id='academic-service'></span>
 # 💻 Academic-Service
 
-- 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等20余个国际期刊审稿人
-- 中国生物医学工程学会会员
+- Serves as reviewer for over 20 international journals including Applied Soft Computing (CAS Q1 TOP, IF=7.2), Expert Systems With Applications (CAS Q1 TOP, IF=7.5), Computers in Biology and Medicine (IF=7.0), IEEE Transactions on Instrumentation & Measurement (IF=5.6)
+- Member of Chinese Society of Biomedical Engineering
