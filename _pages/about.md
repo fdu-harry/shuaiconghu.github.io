@@ -42,9 +42,9 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
-- 首创透明可解释人机协作的睡眠呼吸暂停诊断AI系统（该领域第2篇Nature Communications论文）
-- 提出透明尺度扩散机制和风险评估指标，增强AI解释性
-- 基于大规模多中心多种族临床数据验证部署后的系统在专业诊断和家庭筛查场景下的泛化性能
+- Pioneered a transparent and interpretable human-AI collaborative sleep apnea diagnosis system (the second Nature Communications paper in this field)
+- Proposed transparent scale diffusion mechanisms and risk assessment indicators to enhance AI interpretability
+- Validated the generalization performance of the deployed system in both professional diagnosis and home screening scenarios based on large-scale multi-center multi-ethnic clinical data
 </div>
 </div>
 
@@ -56,9 +56,9 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:e5wmG9Sq2KIC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
-- 爱思唯尔医学AI领域影响因子最高期刊（IF=14.8）
-- 提出双阶段信息瓶颈融合框架，实现多模态睡眠分析的精准解释
-- 创新性应用信息瓶颈理论于多模态生理信号融合，提高诊断准确性和可解释性
+- Elsevier's highest impact factor journal in AI field (IF=14.8)
+- Proposed a dual-stage information bottleneck fusion framework for precise interpretation of multimodal sleep analysis
+- Innovatively applied information bottleneck theory to multimodal physiological signal fusion, improving diagnostic accuracy and interpretability
 </div>
 </div>
 
@@ -71,9 +71,9 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Xujian Feng, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:0EnyYjriUFMC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:0EnyYjriUFMC'></span></strong>
-- Expert Systems With Applications（IF=7.5，CCF-C类，中科院一区TOP）
-- 提出LEAF-Net轻量化进化注意力融合网络，实现生理信号实时精细化质量评估
-- 创新性设计多尺度特征提取和注意力融合机制，提高了信号质量评估的精度
+- Expert Systems With Applications (IF=7.5, CCF-C, CAS Q1 TOP)
+- Proposed LEAF-Net lightweight evolutionary attention fusion network for real-time fine-grained quality assessment of physiological signals
+- Innovatively designed multi-scale feature extraction and attention fusion mechanisms, improving the precision of signal quality assessment
 </div>
 </div>
 
@@ -86,9 +86,9 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 **Shuaicong Hu**, Yanan Wang, Jian Liu, Zhaoqiang Cui, Cuiwei Yang, Zhifeng Yao, Junbo Ge
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:dhFuZR0502QC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:dhFuZR0502QC'></span></strong>
-- 人工智能领域顶级期刊Neural Networks（IF=6.0，CCF-B类）
-- 首次开展信息瓶颈理论驱动的多模态融合表征增强框架
-- 通过并行信息压缩剔除目标模式相关冗余，优化多源睡眠生理信号互补整合
+- Top-tier artificial intelligence journal Neural Networks (IF=6.0, CCF-B)
+- First to develop an information bottleneck theory-driven multimodal fusion representation enhancement framework
+- Optimized complementary integration of multi-source sleep physiological signals through parallel information compression to eliminate target pattern-related redundancy
 </div>
 </div>
 
@@ -100,9 +100,9 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 **Shuaicong Hu**, Jian Liu, Rui Yang, Ya’Nan Wang, Aiguo Wang, Kuanzheng Li, Wenxin Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
-- 首次将混合Transformer架构引入癫痫预测领域，提高了特征提取效率
-- 系统探索迁移学习和特征工程在多目标域癫痫预测中的适用性
-- IEEE Transactions on Neural Systems and Rehabilitation Engineering（IF=4.8）
+- First to introduce hybrid Transformer architecture into the epilepsy prediction field, improving feature extraction efficiency
+- Systematically explored the applicability of transfer learning and feature engineering in multi-target domain epilepsy prediction
+- IEEE Transactions on Neural Systems and Rehabilitation Engineering (IF=4.8)
 </div>
 </div>
 
@@ -114,9 +114,9 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 **Shuaicong Hu**, Ya'nan Wang, Jian Liu, Aiguo Wang, Kunzheng Li, Wenxin Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:ZeXyd9-uunAC'></span></strong>
-- IEEE JBHI封面亮点文章（IF=7.7）
-- 国际首次提出无监督数据驱动学习的睡眠呼吸暂停半监督个性化范式
-- 探索了最优迁移学习策略，促进了低成本个性化睡眠呼吸暂停诊断实施
+- IEEE JBHI cover highlight article (IF=7.7)
+- Internationally first to propose an unsupervised data-driven learning semi-supervised personalized paradigm for sleep apnea
+- Explored optimal transfer learning strategies, facilitating the implementation of low-cost personalized sleep apnea diagnosis
 </div>
 </div>
 
@@ -128,9 +128,9 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 **Shuaicong Hu**, Ya'nan Wang, Jian Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:IWHjjKOFINEC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ:IWHjjKOFINEC'></span></strong>
-- IEEE Transactions on Instrumentation and Measurement（IF=5.6）
-- 创新性设计个性化迁移学习策略，解决单导联心电信号睡眠呼吸暂停检测问题
-- 系统性探索了标签映射长度与迁移策略对检测性能的影响，提高了模型适应性
+- IEEE Transactions on Instrumentation and Measurement (IF=5.6)
+- Innovatively designed personalized transfer learning strategies to address single-lead ECG signal sleep apnea detection problems
+- Systematically explored the impact of label mapping length and transfer strategies on detection performance, improving model adaptability
 </div>
 </div>
 
