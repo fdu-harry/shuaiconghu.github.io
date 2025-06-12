@@ -20,8 +20,8 @@ Hu Shuaicong holds a Ph.D. in Electronic Information from Fudan University (grad
 
 His major research achievements include: (1) pioneering a lightweight hybrid architecture deep learning model (Hybrid-Net) for precise grading and screening of sleep apnea using single-lead ECG signals with edge deployment capabilities; (2) internationally first proposing an unsupervised data-driven semi-supervised personalized paradigm for sleep apnea, exploring optimal transfer learning strategies; (3) developing an information bottleneck theory-driven multimodal fusion representation enhancement framework (IPCT-Net) to optimize complementary integration of multi-source sleep physiological signals; (4) internationally first constructing a transparent and interpretable human-AI collaborative sleep apnea diagnosis system (Apnea Interact Xplainer), proposing transparent scale diffusion mechanisms and risk assessment indicators, validated through large-scale multi-center multi-ethnic clinical data. He currently serves as a reviewer for multiple high-level journals including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement, and participates as a core technical contributor in National Key Research and Development Programs and multiple National Natural Science Foundation projects.
 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>Google Scholar Profile <strong><span id='total_cit'>225</span></strong> citations</a> (176 as first author)
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-225-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>Google Scholar Profile <strong><span id='total_cit'>225</span></strong> citations</a>
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'><img src="https://img.shields.io/badge/Citations-225(176 as first author)-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat"></a>
 
 <span class='anchor' id='news'></span>
 # 🔥 News（新消息）
