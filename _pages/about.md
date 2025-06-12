@@ -55,7 +55,7 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 
 **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang
 
-[**Project**]([https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:e5wmG9Sq2KIC)) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:e5wmG9Sq2KIC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
 - 爱思唯尔医学AI领域影响因子最高期刊（IF=14.8）
 - 提出双阶段信息瓶颈融合框架，实现多模态睡眠分析的精准解释
 - 创新性应用信息瓶颈理论于多模态生理信号融合，提高诊断准确性和可解释性
