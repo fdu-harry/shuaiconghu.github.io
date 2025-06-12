@@ -136,7 +136,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 
 
 <span class='anchor' id='publications'></span>
-<h1>📝 Full Publication List（全部出版物）</h1>
+<h1>📝 Full Publication List</h1>
 
 <style>
 .pub-table {
@@ -456,7 +456,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </table>
 
 <span class='anchor' id='honors-and-awards'></span>
-# 🎖 Honors and Awards（荣誉及奖项）
+# 🎖 Honors and Awards
 
 - *2025.04* 复旦大学优秀毕业生
 - *2024.10* 复旦大学优秀学生干部
@@ -473,7 +473,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2021.05* 第七届中国国际"互联网+"大赛银奖
 
 <span class='anchor' id='educations'></span>
-# 📖 Educations（教育背景）
+# 📖 Educations
 
 - *2022.09 - 2025.12*, 复旦大学，电子信息，工学博士（破格提前毕业）
   - 研究领域：医学人工智能、睡眠AI、时序数据分析、个性化医疗、无监督对比学习
@@ -488,7 +488,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   - 研究项目：期前收缩心电图智能识别
 
 <span class='anchor' id='academic-experience'></span>
-# 💬 Academic-Experience（学术项目经历）
+# 💬 Academic-Experience
 
 - *2024.11 - 至今*, 国家重点研发计划《心律失常立体定向放射定量治疗系统技术研发及样机研制》子课题组负责人
   - 负责"体表无创电解剖标测算法体系构建"子课题，主要承担异常心拍检测与病理特征挖掘研究
@@ -503,7 +503,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   - 已依托该项目发表中科院二区论文2篇
 
 <span class='anchor' id='academic-service'></span>
-# 💻 Academic-Service（学术兼职）
+# 💻 Academic-Service
 
 - 担任Applied Soft Computing（中科院一区TOP，IF=7.2）、Expert Systems With Applications（中科院一区TOP，IF=7.5）、Computers in Biology and Medicine（IF=7.0）、IEEE Transactions on Instrumentation & Measurement（IF=5.6）等20余个国际期刊审稿人
 - 中国生物医学工程学会会员
