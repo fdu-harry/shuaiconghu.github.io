@@ -22,16 +22,13 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
   Google Scholar Profile 
-  <strong>
-    <span id='total_cit'>233</span>
-  </strong> 
-  citations, h-index: <strong>9</strong>
+  <strong><span id='total_cit'>233</span></strong> citations, h-index: <strong>9</strong>
 </a>
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-  <img src="https://img.shields.io/static/v1?label=h-index&message=9&color=orange&style=flat&logo=google-scholar">
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN' style="text-decoration: none; margin-left: 10px;">
+  <img src="https://img.shields.io/static/v1?label=h-index&message=9&color=orange&style=flat&logo=open-book&logoColor=white&labelColor=white">
 </a>
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-  <img src="https://img.shields.io/static/v1?label=Citations&message=233%20(181%20as%20first%20author)&color=green&style=flat&logo=google-scholar">
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN' style="text-decoration: none; margin-left: 5px;">
+  <img src="https://img.shields.io/static/v1?label=Citations&message=233%20(181%20as%20first%20author)&color=green&style=flat&logo=open-book&logoColor=white&labelColor=white">
 </a>
 
 <span class='anchor' id='news'></span>
