@@ -25,14 +25,13 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
   <strong>
     <span id='total_cit'>233</span>
   </strong> 
-  citations  
+  citations, h-index: <strong>9</strong>
 </a>
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-  <img src="https://img.shields.io/badge/h--index-9-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat">
+  <img src="https://img.shields.io/static/v1?label=h-index&message=9&color=orange&style=flat&logo=google-scholar">
 </a>
-
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-  <img src="https://img.shields.io/badge/Citations-233%20(181%20as%20first%20author)-blue?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat">
+  <img src="https://img.shields.io/static/v1?label=Citations&message=233%20(181%20as%20first%20author)&color=green&style=flat&logo=google-scholar">
 </a>
 
 <span class='anchor' id='news'></span>
