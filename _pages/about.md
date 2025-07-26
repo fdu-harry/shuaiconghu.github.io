@@ -23,7 +23,7 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
 Google Scholar Profile
 <strong>
-<span id='total_cit'>235</span>
+<span id='total_cit'>256</span>
 </strong>
 citations
 </a>
@@ -31,12 +31,12 @@ citations
 <img src="https://img.shields.io/badge/h--index-9-orange?logo=Google%20Scholar&labelColor=f6f6f6&color=orange&style=flat">
 </a>
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/badge/Citations-235%20(182%20as%20first%20author)-green?logo=Google%20Scholar&labelColor=f6f6f6&color=green&style=flat">
+<img src="https://img.shields.io/badge/Citations-256%20(197%20as%20first%20author)-green?logo=Google%20Scholar&labelColor=f6f6f6&color=green&style=flat">
 </a>
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 The paper "Transparent artificial intelligence--enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" has received recommendation for publication from one reviewer at the top-tier journal Nature Communications (IF=14.7) after minor revision, with the reviewer evaluating it as high-impact work, while another reviewer has 3 remaining minor comments. Publication is imminent! This paper represents only the second Nature Communications publication in the field of sleep apnea + AI.
+- *2025.05*: &nbsp;🎉🎉 The paper "Transparent artificial intelligence--enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios" has received recommendation for publication from one reviewer at the top-tier journal Nature Communications (IF=15.7) after minor revision, with the reviewer evaluating it as high-impact work, while another reviewer has 3 remaining minor comments. Publication is imminent! This paper represents only the second Nature Communications publication in the field of sleep apnea + AI.
 - *2025.04*: &nbsp;🎉🎉 The paper "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" has been accepted by Information Fusion (IF=14.8, the highest IF journal in this field by Elsevier), a top-tier journal in medical AI!
 - *2025.03*: &nbsp;🎓 Awarded the qualification for "exceptional early graduation" at Fudan University (only 3 out of 119 doctoral students in this cohort), scheduled to receive doctoral degree by the end of 2025!
 - *2024.10*: &nbsp;🔍 Research on transparent AI "IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis" published in the top-tier artificial intelligence journal Neural Networks (IF=6.0)!
