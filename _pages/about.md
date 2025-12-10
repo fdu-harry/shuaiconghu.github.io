@@ -23,7 +23,7 @@ His major research achievements include: (1) pioneering a lightweight hybrid arc
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
 Google Scholar Profile
 <strong>
-<span id='total_cit'>256</span>
+<span id='total_cit'>340</span>
 </strong>
 citations
 </a>
