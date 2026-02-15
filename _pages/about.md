@@ -516,5 +516,5 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <span class='anchor' id='academic-service'></span>
 # 💻 Academic-Service
 
-- Serves as reviewer for over 20 international journals including Applied Soft Computing (CAS Q1 TOP, IF=7.2), Expert Systems With Applications (CAS Q1 TOP, IF=7.5), Computers in Biology and Medicine (IF=7.0), IEEE Transactions on Instrumentation & Measurement (IF=5.6)
+- Serves as reviewer for over 30 international journals including The Lancet (JCR Q1, IF=88.5), Information Fusion (JCR Q1, IF=15.5), npj Digital Medicine (JCR Q1, IF=15.1), Artifical Intelligence Review (JCR Q1, IF=13.9), IEEE Transactions on Neural Networks and Learning Systems (JCR Q1, IF=10.2), Information Processing and Management (JCR Q1, IF=6.9), Expert Systems With Applications (JCR Q1, IF=7.5), IEEE Journal of Biomedical and Health Informatics (JCR Q1, IF=7.7), Applied Soft Computing (CAS Q1 TOP, IF=7.2), Expert Systems With Applications (CAS Q1 TOP, IF=7.5), Computers in Biology and Medicine (IF=7.0), IEEE Transactions on Instrumentation & Measurement (IF=5.6)
 - Member of Chinese Society of Biomedical Engineering
