@@ -28,7 +28,7 @@ Google Scholar Profile
 citations
 </a>
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/badge/h--index-11-orange?logo=Google%20Scholar&labelColor=f6f6f6&color=orange&style=flat">
+<img src="https://img.shields.io/badge/h--index-12-orange?logo=Google%20Scholar&labelColor=f6f6f6&color=orange&style=flat">
 </a>
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
 <img src="https://img.shields.io/badge/Citations-404%20(281%20as%20first%20author)-green?logo=Google%20Scholar&labelColor=f6f6f6&color=green&style=flat">
