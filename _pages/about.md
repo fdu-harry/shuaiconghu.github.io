@@ -469,6 +469,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖 Honors and Awards
 
+- *2025.10* National Scholarship for Doctoral Students, Fudan University (Featured as a Representative Case by Fudan University Official Media)
 - *2025.04* Outstanding Graduate of Fudan University
 - *2024.10* Outstanding Student Cadre of Fudan University
 - *2024.08* Third Prize in China Graduate Student Artificial Intelligence Innovation Competition
