@@ -45,10 +45,10 @@ citations
 <span class='anchor' id='publications'></span>
 # ⭐ Representative Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_fig.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/ncomms/)
+[Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/articles/s41467-025-62864-x)
 
 **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang
 
@@ -62,7 +62,7 @@ citations
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/INFFUS_500x300.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/journal/information-fusion)
+[XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/science/article/abs/pii/S1566253525003483)
 
 **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang
 
