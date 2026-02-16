@@ -16,14 +16,14 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Shuaicong Hu holds a Ph.D. in Electronic Information from Fudan University (复旦大学, 提前毕业), where he was granted exceptional early graduation due to outstanding academic achievements. His research focuses on the interdisciplinary field of artificial intelligence and health medicine. His research focuses on the interdisciplinary field of artificial intelligence and health medicine. His core research areas include sleep artificial intelligence, medical AI, time series data analysis, personalized medicine, and unsupervised contrastive learning. To date, he has published 26 SCI papers, including 10 papers as sole first author (8), co-first author (1), and student first author (1), covering high-impact journals such as Information Fusion (IF=15.5, the highest IF journal in this field by Elsevier), Neural Networks (IF=6.3, CCF-B), Expert Systems With Applications (IF=7.5), IEEE JBHI (IF=7.7, featured as cover highlight article), and IEEE TNSRE (IF=5.2, highly cited in recent 2 years). Additionally, one Nature Communications paper (IF=15.7) as sole first author is currently accepted (first in the field, accepted, first reviewer rated as high-quality research, second reviewer predicted it will become high-impact work in the field). His Google Scholar citations total 404 (281 as first author) with an H-index of 12.
+Shuaicong Hu holds a Ph.D. in Electronic Information from Fudan University (复旦大学, 提前毕业), where he was granted exceptional early graduation due to outstanding academic achievements. His research focuses on the interdisciplinary field of artificial intelligence and health medicine. His research focuses on the interdisciplinary field of artificial intelligence and health medicine. His core research areas include sleep artificial intelligence, medical AI, time series data analysis, personalized medicine, and unsupervised contrastive learning. To date, he has published 27 SCI papers, including 10 papers as sole first author (8), co-first author (1), and student first author (1), covering high-impact journals such as Information Fusion (IF=15.5, the highest IF journal in this field by Elsevier), Neural Networks (IF=6.3, CCF-B), Expert Systems With Applications (IF=7.5), IEEE JBHI (IF=7.7, featured as cover highlight article), and IEEE TNSRE (IF=5.2, highly cited in recent 2 years). Additionally, one Nature Communications paper (IF=15.7) as sole first author is currently accepted (first in the field, accepted, first reviewer rated as high-quality research, second reviewer predicted it will become high-impact work in the field). His Google Scholar citations total 404 (281 as first author) with an H-index of 12.
 
 His major research achievements include: (1) pioneering a lightweight hybrid architecture deep learning model (Hybrid-Net) for precise grading and screening of sleep apnea using single-lead ECG signals with edge deployment capabilities; (2) internationally first proposing an unsupervised data-driven semi-supervised personalized paradigm for sleep apnea, exploring optimal transfer learning strategies; (3) developing an information bottleneck theory-driven multimodal fusion representation enhancement framework (IPCT-Net) to optimize complementary integration of multi-source sleep physiological signals; (4) internationally first constructing a transparent and interpretable human-AI collaborative sleep apnea diagnosis system (Apnea Interact Xplainer), proposing transparent scale diffusion mechanisms and risk assessment indicators, validated through large-scale multi-center multi-ethnic clinical data. He currently serves as a reviewer for multiple high-level journals including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement, and participates as a core technical contributor in National Key Research and Development Programs and multiple National Natural Science Foundation projects.
 
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
 Google Scholar Profile
 <strong>
-<span id='total_cit'>404</span>
+<span id='total_cit'>410</span>
 </strong>
 citations
 </a>
@@ -31,7 +31,7 @@ citations
 <img src="https://img.shields.io/badge/h--index-12-orange?logo=Google%20Scholar&labelColor=f6f6f6&color=orange&style=flat">
 </a>
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/badge/Citations-404%20(281%20as%20first%20author)-green?logo=Google%20Scholar&labelColor=f6f6f6&color=green&style=flat">
+<img src="https://img.shields.io/badge/Citations-410%20(284%20as%20first%20author)-green?logo=Google%20Scholar&labelColor=f6f6f6&color=green&style=flat">
 </a>
 
 <span class='anchor' id='news'></span>
