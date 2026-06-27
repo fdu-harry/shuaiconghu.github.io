@@ -1,8 +1,11 @@
-from scholarly import scholarly
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
+
+import requests
+from bs4 import BeautifulSoup
 
 
 SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID", "worq2P0AAAAJ")
@@ -23,47 +26,72 @@ def make_shieldsio_json(label: str, message: str, color: str):
     }
 
 
+def fetch_google_scholar_stats(scholar_id: str):
+    url = f"https://scholar.google.com/citations?user={scholar_id}&hl=en"
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+
+    response = requests.get(url, headers=headers, timeout=30)
+    response.raise_for_status()
+
+    html = response.text
+
+    if "recaptcha" in html.lower() or "unusual traffic" in html.lower():
+        raise RuntimeError("Google Scholar returned a captcha / unusual traffic page.")
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    name_tag = soup.select_one("#gsc_prf_in")
+    name = name_tag.get_text(strip=True) if name_tag else ""
+
+    # Google Scholar metrics table:
+    # rows are usually: Citations, h-index, i10-index
+    rows = soup.select("table#gsc_rsb_st tbody tr")
+
+    stats = {}
+    for row in rows:
+        cells = row.select("td")
+        if len(cells) >= 2:
+            key = cells[0].get_text(strip=True).lower()
+            value_text = cells[1].get_text(strip=True)
+            value = int(re.sub(r"[^\d]", "", value_text) or 0)
+
+            if "citation" in key:
+                stats["citedby"] = value
+            elif "h-index" in key:
+                stats["hindex"] = value
+            elif "i10-index" in key:
+                stats["i10index"] = value
+
+    return {
+        "name": name,
+        "scholar_id": scholar_id,
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "citedby": stats.get("citedby", 0),
+        "hindex": stats.get("hindex", 0),
+        "i10index": stats.get("i10index", 0)
+    }
+
+
 def main():
     output_dir = Path("results")
     output_dir.mkdir(exist_ok=True)
 
-    print(f"Fetching Google Scholar data for: {SCHOLAR_ID}")
+    print(f"Fetching Google Scholar stats for: {SCHOLAR_ID}")
 
-    author = scholarly.search_author_id(SCHOLAR_ID)
-    author = scholarly.fill(
-        author,
-        sections=["basics", "indices", "counts", "publications"]
-    )
-
-    publications = []
-    for pub in author.get("publications", []):
-        bib = pub.get("bib", {})
-        publications.append({
-            "title": bib.get("title", ""),
-            "year": bib.get("pub_year", ""),
-            "venue": bib.get("venue", ""),
-            "num_citations": pub.get("num_citations", 0),
-            "author_pub_id": pub.get("author_pub_id", "")
-        })
-
-    data = {
-        "name": author.get("name", ""),
-        "scholar_id": SCHOLAR_ID,
-        "updated": datetime.now(timezone.utc).isoformat(),
-        "citedby": author.get("citedby", 0),
-        "hindex": author.get("hindex", 0),
-        "i10index": author.get("i10index", 0),
-        "citedby5y": author.get("citedby5y", 0),
-        "hindex5y": author.get("hindex5y", 0),
-        "i10index5y": author.get("i10index5y", 0),
-        "publications": publications
-    }
+    data = fetch_google_scholar_stats(SCHOLAR_ID)
 
     write_json(output_dir / "gs_data.json", data)
 
     write_json(
         output_dir / "gs_data_shieldsio.json",
-        make_shieldsio_json("citations", data["citedby"], "green")
+        make_shieldsio_json("Citations", data["citedby"], "green")
     )
 
     write_json(
