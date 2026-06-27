@@ -38,25 +38,29 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 <style>
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
+/* Reserve space for the fixed top navigation bar */
+#main,
+.initial-content,
+.page,
+.page__content {
+  padding-top: 70px;
+}
+
+/* Invisible anchors for navigation */
 .page-anchor {
   display: block;
   position: relative;
-  top: -80px;
+  top: -90px;
   visibility: hidden;
   height: 0;
 }
 
+/* Prevent section titles from being hidden behind the fixed navigation bar */
 h1[id] {
-  scroll-margin-top: 80px;
-}
-
-.scholar-badges {
-  margin-top: 6px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  scroll-margin-top: 90px;
 }
 
 .scholar-badges {
