@@ -20,19 +20,55 @@ Shuaicong Hu holds a Ph.D. in Electronic Information from Fudan University (复�
 
 His major research achievements include: (1) pioneering a lightweight hybrid architecture deep learning model (Hybrid-Net) for precise grading and screening of sleep apnea using single-lead ECG signals with edge deployment capabilities; (2) internationally first proposing an unsupervised data-driven semi-supervised personalized paradigm for sleep apnea, exploring optimal transfer learning strategies; (3) developing an information bottleneck theory-driven multimodal fusion representation enhancement framework (IPCT-Net) to optimize complementary integration of multi-source sleep physiological signals; (4) internationally first constructing a transparent and interpretable human-AI collaborative sleep apnea diagnosis system (Apnea Interact Xplainer), proposing transparent scale diffusion mechanisms and risk assessment indicators, validated through large-scale multi-center multi-ethnic clinical data. He currently serves as a reviewer for multiple high-level journals including Applied Soft Computing, Expert Systems With Applications, and IEEE Transactions on Instrumentation & Measurement, and participates as a core technical contributor in National Key Research and Development Programs and multiple National Natural Science Foundation projects.
 
+
+
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
 Google Scholar Profile
 <strong>
-<span id='total_cit'>513</span>
+<span id='total_cit'>Loading</span>
 </strong>
 citations
 </a>
+
+&nbsp;
+<strong>h-index:</strong> <span id='h_index'>Loading</span>
+&nbsp;
+<strong>i10-index:</strong> <span id='i10_index'>Loading</span>
+
+<br>
+
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/badge/h--index-14-orange?logo=Google%20Scholar&labelColor=f6f6f6&color=orange&style=flat">
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&style=flat">
 </a>
+
 <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/badge/Citations-513%20(348%20as%20first%20author)-green?logo=Google%20Scholar&labelColor=f6f6f6&color=green&style=flat">
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_hindex_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&style=flat">
 </a>
+
+<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_i10index_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&style=flat">
+</a>
+
+<script>
+(function() {
+  const statsUrl = "https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_data.json?v=" + new Date().getTime();
+
+  fetch(statsUrl)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("total_cit").textContent = data.citedby ?? "N/A";
+      document.getElementById("h_index").textContent = data.hindex ?? "N/A";
+      document.getElementById("i10_index").textContent = data.i10index ?? "N/A";
+    })
+    .catch(error => {
+      console.error("Failed to load Google Scholar stats:", error);
+      document.getElementById("total_cit").textContent = "N/A";
+      document.getElementById("h_index").textContent = "N/A";
+      document.getElementById("i10_index").textContent = "N/A";
+    });
+})();
+</script>
+
 
 <span class='anchor' id='news'></span>
 # 🔥 News
