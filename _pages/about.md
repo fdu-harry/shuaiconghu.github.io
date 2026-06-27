@@ -130,6 +130,161 @@ h1[id] {
   position: relative;
   top: 1px;
 }
+
+
+/* ================= Mobile responsive fixes ================= */
+/* Only applies to phones / narrow screens; desktop layout is unchanged */
+@media (max-width: 768px) {
+
+  html {
+    scroll-padding-top: 70px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Reduce excessive top padding on mobile */
+  #main,
+  .initial-content,
+  .page,
+  .page__content {
+    padding-top: 20px !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
+  }
+
+  /* Main content full width */
+  .archive,
+  .page,
+  .page__content,
+  .wrapper,
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Sidebar / author profile should stack naturally */
+  .sidebar,
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    max-width: 100% !important;
+  }
+
+  .author__avatar img {
+    max-width: 150px !important;
+    width: 150px !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Prevent long words, links, titles from breaking layout */
+  p,
+  li,
+  td,
+  .pub-title,
+  .paper-box-text {
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
+
+  /* Top navigation: allow horizontal scrolling instead of squeezing */
+  .masthead__menu,
+  .greedy-nav,
+  .visible-links {
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+  }
+
+  .visible-links li {
+    display: inline-block !important;
+  }
+
+  /* Representative publication cards: image on top, text below */
+  .paper-box {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 18px !important;
+    overflow: hidden !important;
+  }
+
+  .paper-box-image {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+
+  .paper-box-image img,
+  .paper-box img,
+  img {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .paper-box-text {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Scholar badges wrap neatly */
+  .scholar-badges {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 5px !important;
+  }
+
+  .scholar-badge {
+    font-size: 12px !important;
+    padding: 3px 7px !important;
+  }
+
+  /* Full publication list: journal badge above title on mobile */
+  .pub-table,
+  .pub-table tbody,
+  .pub-table tr,
+  .pub-table td {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .pub-table {
+    margin-bottom: 8px !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+
+  .pub-journal {
+    padding-right: 0 !important;
+    padding-bottom: 4px !important;
+    white-space: normal !important;
+  }
+
+  .pub-title {
+    padding-left: 0 !important;
+    line-height: 1.45 !important;
+  }
+
+  .pub-journal .badge {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    margin-bottom: 3px !important;
+    top: 0 !important;
+  }
+
+  /* Section titles slightly smaller on mobile */
+  h1 {
+    font-size: 1.35em !important;
+    line-height: 1.3 !important;
+  }
+}
 </style>
 
 <script>
