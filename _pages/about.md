@@ -69,7 +69,6 @@ citations
 Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:7Hz3ACDFbsoC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
-- Accepted by ICML 2026
 - Proposed a heterogeneous multi-agent paradigm for medical artificial intelligence
 - Demonstrated why specialist models remain essential in high-stakes clinical scenarios and can complement general-purpose foundation models
 - Explored specialist-model orchestration for clinically grounded reasoning, risk assessment, and deployable medical AI systems
