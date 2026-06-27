@@ -16,29 +16,26 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 
 <div class="scholar-panel">
   <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-    Google Scholar Profile:
-    <strong><span id='total_cit'>Loading</span></strong> citations
-  </a>
+Google Scholar Profile:
+<strong>
+<span id='scholar_total_cit'>Loading</span>
+</strong>
+citations
+</a>
 
-  <div class="scholar-badges">
-    <span class="scholar-badge scholar-citations">
-      Citations: <span id="badge_citations">Loading</span>
-    </span>
-    <span class="scholar-badge scholar-hindex">
-      h-index: <span id="badge_hindex">Loading</span>
-    </span>
-    <span class="scholar-badge scholar-i10">
-      i10-index: <span id="badge_i10index">Loading</span>
-    </span>
-  </div>
+<div class="scholar-badges">
+  <span class="scholar-badge scholar-citations">
+    Citations: <span id="scholar_badge_citations">Loading</span>
+  </span>
+  <span class="scholar-badge scholar-hindex">
+    h-index: <span id="scholar_badge_hindex">Loading</span>
+  </span>
+  <span class="scholar-badge scholar-i10">
+    i10-index: <span id="scholar_badge_i10index">Loading</span>
+  </span>
 </div>
 
 <style>
-.scholar-panel {
-  margin-top: 10px;
-  margin-bottom: 12px;
-}
-
 .scholar-badges {
   margin-top: 6px;
   display: flex;
@@ -67,33 +64,33 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 .scholar-i10 {
   background-color: #1976d2;
 }
-
-.impact-list {
-  margin-top: 8px;
-}
-
-.pub-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 10px;
-  table-layout: fixed;
-}
-
-.pub-journal {
-  width: 210px;
-  vertical-align: top;
-  padding-right: 15px;
-}
-
-.pub-title {
-  vertical-align: top;
-}
-
-.note-muted {
-  color: #666;
-  font-size: 0.92em;
-}
 </style>
+
+<script>
+(function() {
+  const statsUrl = "{{ '/google-scholar-stats/gs_data.json' | relative_url }}?v=" + new Date().getTime();
+
+  fetch(statsUrl)
+    .then(response => response.json())
+    .then(data => {
+      const citedby = data.citedby ?? "N/A";
+      const hindex = data.hindex ?? "N/A";
+      const i10index = data.i10index ?? "N/A";
+
+      document.getElementById("scholar_total_cit").textContent = citedby;
+      document.getElementById("scholar_badge_citations").textContent = citedby;
+      document.getElementById("scholar_badge_hindex").textContent = hindex;
+      document.getElementById("scholar_badge_i10index").textContent = i10index;
+    })
+    .catch(error => {
+      console.error("Failed to load Google Scholar stats:", error);
+      document.getElementById("scholar_total_cit").textContent = "N/A";
+      document.getElementById("scholar_badge_citations").textContent = "N/A";
+      document.getElementById("scholar_badge_hindex").textContent = "N/A";
+      document.getElementById("scholar_badge_i10index").textContent = "N/A";
+    });
+})();
+</script>
 
 <script>
 (function() {
