@@ -137,8 +137,8 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ)
 - Built a transparent and interpretable human-AI collaborative sleep apnea assessment system
-- Proposed transparent scale diffusion mechanisms and risk assessment indicators, validated on multi-center, multi-ethnic overnight recordings involving **over 15,000 subjects**
-- Received positive transparent peer-review feedback, including a signed assessment from Prof. Thomas Penzel, who described the work as having potential for future high impact
+- Validated on multi-center, multi-ethnic overnight recordings involving **over 15,000 subjects**
+- Received signed transparent peer-review praise from Prof. Thomas Penzel, President of the World Sleep Society, highlighting its future high-impact potential
 </div>
 </div>
 
