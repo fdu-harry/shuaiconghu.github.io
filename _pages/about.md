@@ -36,6 +36,7 @@ citations
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2026.06*: &nbsp;🎉🎉 Our paper "Why specialist models still matter: a heterogeneous multi-agent paradigm for medical artificial intelligence" has been accepted by ICML 2026. This work explores specialist-model orchestration and heterogeneous multi-agent collaboration for high-stakes medical AI, bridging foundation models, clinical reasoning, and deployable healthcare intelligence.
 - *2025.07*: &nbsp;🚀🚀 Breaking News: We are thrilled to announce that our paper, "Transparent artificial intelligence--enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios," has been accepted by Nature Communications (IF=15.7)! This is a landmark achievement as it represents the world's first Nature Communications paper dedicated to a transparent AI system for sleep apnea, pioneering a new era of interpretability and interactivity in flexible health monitoring.
 - *2025.04*: &nbsp;🎉🎉 The paper "XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis" has been accepted by Information Fusion (IF=14.8, the highest IF journal in this field by Elsevier), a top-tier journal in medical AI!
 - *2025.03*: &nbsp;🎓 Awarded the qualification for "exceptional early graduation" at Fudan University (only 3 out of 119 doctoral students in this cohort), scheduled to receive doctoral degree by the end of 2025!
@@ -59,6 +60,23 @@ citations
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICML_500x276.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Why specialist models still matter: a heterogeneous multi-agent paradigm for medical artificial intelligence](https://arxiv.org/pdf/2605.29744)
+
+Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:7Hz3ACDFbsoC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
+- Accepted by ICML 2026
+- Proposed a heterogeneous multi-agent paradigm for medical artificial intelligence
+- Demonstrated why specialist models remain essential in high-stakes clinical scenarios and can complement general-purpose foundation models
+- Explored specialist-model orchestration for clinically grounded reasoning, risk assessment, and deployable medical AI systems
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/INFFUS_500x300.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -67,7 +85,7 @@ citations
 **Shuaicong Hu**, Yanan Wang, Jian Liu, Cuiwei Yang
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:e5wmG9Sq2KIC) <strong><span class='show_paper_citations' data='worq2P0AAAAJ'></span></strong>
-- Elsevier's highest impact factor journal in AI field (IF=14.8)
+- Elsevier's highest impact factor journal in AI field (IF=17.4)
 - Proposed a dual-stage information bottleneck fusion framework for precise interpretation of multimodal sleep analysis
 - Innovatively applied information bottleneck theory to multimodal physiological signal fusion, improving diagnostic accuracy and interpretability
 </div>
