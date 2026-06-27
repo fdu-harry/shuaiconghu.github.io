@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Shuaicong Hu's Academic Homepage"
-description              : "Shuaicong Hu's research focuses on artificial intelligence (AI), sleep AI, sleep apnea, biomedical signal processing, ECG."
+title                    : "Shuaicong Hu | Medical AI & Foundation Models"
+description              : "Shuaicong Hu is an applied AI researcher focused on medical foundation models, heterogeneous multi-agent systems, multimodal physiological intelligence, interpretable clinical AI, and deployable healthcare intelligence across sleep medicine, ECG, EEG, PPG, and clinical risk modeling."
 repository               : "fdu-harry.github.io/shuaiconghu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,13 +23,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Shuaicong Hu (胡帅聪)"
   avatar           : "images/shuaiconghu_paris_512x512.jpg"
-  bio              : "Fudan University"
-  location         : "Shanghai, China"
-  employer         :
+  bio              : "Postdoctoral Fellow at The University of Hong Kong | Medical Foundation Models, Multimodal Physiological AI, and LLM Agents"
+  location         : "Hong Kong, China"
+  employer         : "The University of Hong Kong"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN"
   email            : "shuaiconghu@gmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/Shuaicong-Hu?ev=hdr_xprf"
+  researchgate     : "https://www.researchgate.net/profile/Shuaicong-Hu"
   uri              :
   bitbucket        :
   codepen          :
