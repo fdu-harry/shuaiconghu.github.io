@@ -14,20 +14,18 @@ def write_json(path: Path, data: dict):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def make_shieldsio_json(label: str, message: str, color: str = "green"):
+def make_shieldsio_json(label: str, message: str, color: str):
     return {
         "schemaVersion": 1,
         "label": label,
-        "message": message,
+        "message": str(message),
         "color": color
     }
 
 
 def main():
-    # repo root: google_scholar_crawler/main.py 的上一级
-    repo_root = Path(__file__).resolve().parents[1]
-    output_dir = repo_root / "google-scholar-stats"
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir = Path("results")
+    output_dir.mkdir(exist_ok=True)
 
     print(f"Fetching Google Scholar data for: {SCHOLAR_ID}")
 
@@ -64,30 +62,18 @@ def main():
     write_json(output_dir / "gs_data.json", data)
 
     write_json(
-        output_dir / "gs_citations_shieldsio.json",
-        make_shieldsio_json(
-            label="Citations",
-            message=str(data["citedby"]),
-            color="green"
-        )
+        output_dir / "gs_data_shieldsio.json",
+        make_shieldsio_json("citations", data["citedby"], "green")
     )
 
     write_json(
         output_dir / "gs_hindex_shieldsio.json",
-        make_shieldsio_json(
-            label="h-index",
-            message=str(data["hindex"]),
-            color="orange"
-        )
+        make_shieldsio_json("h-index", data["hindex"], "orange")
     )
 
     write_json(
         output_dir / "gs_i10index_shieldsio.json",
-        make_shieldsio_json(
-            label="i10-index",
-            message=str(data["i10index"]),
-            color="blue"
-        )
+        make_shieldsio_json("i10-index", data["i10index"], "blue")
     )
 
     print("Google Scholar data updated successfully.")
