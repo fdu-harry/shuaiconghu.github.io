@@ -114,8 +114,7 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 
 </div>
 
-<span class='anchor' id='news'></span>
-# 🔥 News
+<h1 id="news">🔥 News</h1>
 
 - *2026.06*: &nbsp;🎉 Our paper **"Why specialist models still matter: a heterogeneous multi-agent paradigm for medical artificial intelligence"** has been accepted by **ICML 2026**. This work explores specialist-model orchestration and heterogeneous multi-agent collaboration for high-stakes medical AI, bridging foundation models, clinical reasoning, and deployable healthcare intelligence.
 - *2025.07*: &nbsp;🚀 Our paper **"Transparent artificial intelligence--enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios"** has been accepted by **Nature Communications**.
@@ -124,8 +123,7 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 - *2024.10*: &nbsp;🔍 Our work **"IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis"** was published in **Neural Networks**.
 - *2023.10*: &nbsp;💡 Our personalized sleep apnea diagnosis study was selected as a **cover highlight article** in **IEEE Journal of Biomedical and Health Informatics**.
 
-<span class='anchor' id='representative-publications'></span>
-# ⭐ Representative Publications
+<h1 id="representative-publications">⭐ Representative Publications</h1>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_fig.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -224,8 +222,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<span class='anchor' id='publications'></span>
-# 📝 Full Publication List
+<h1 id="publications">📝 Full Publication List</h1>
 
 <table class="pub-table">
   <tr>
@@ -547,13 +544,11 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
   </tr>
 </table>
 
-<span class='anchor' id='patents'></span>
-# 🧩 Patents
+<h1 id="patents">🧩 Patents</h1>
 
 - Cuiwei Yang, **Shuaicong Hu**, Jian Liu, Yanan Wang. Invention Patent: **"A Time Series Analysis Method, Computer Equipment and Storage Medium,"** China, 202411334528.2, 2024-09-24.
 
-<span class='anchor' id='honors-and-awards'></span>
-# 🎖 Honors and Awards
+<h1 id="honors-and-awards">🎖 Honors and Awards</h1>
 
 - *2025.10* National Scholarship for Doctoral Students, Fudan University; featured as a representative case by Fudan University official media
 - *2025.04* Outstanding Graduate of Fudan University
@@ -568,8 +563,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2021.10* Third Prize in the 18th China Graduate Student Mathematical Contest in Modeling "Huawei Cup"
 - *2021.05* Silver Award in the 7th China International "Internet+" Innovation and Entrepreneurship Competition
 
-<span class='anchor' id='educations'></span>
-# 📖 Education
+<h1 id="educations">📖 Education</h1>
 
 - *2026.03 - Present*, **The University of Hong Kong**, Department of Electrical and Computer Engineering, Postdoctoral Fellow  
   Research focus: medical foundation models, LLM-based clinical agents, multimodal physiological intelligence, and deployable healthcare AI.
@@ -580,8 +574,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2019.09 - 2022.06*, **University of Shanghai for Science and Technology**, Electronic Information, M.Eng.  
   Research focus: ECG AI, deep learning for physiological time-series analysis, heartbeat classification, and single-lead ECG-based sleep apnea detection.
 
-<span class='anchor' id='research-experience'></span>
-# 💬 Research and Project Experience
+<h1 id="research-experience">💬 Research and Project Experience</h1>
 
 - *2026*, **Heterogeneous Multi-agent Medical AI System**, Co-first Author, ICML 2026  
   Developed a heterogeneous multi-agent paradigm for medical AI, designed specialist-model orchestration mechanisms, and explored clinical reasoning and risk assessment in high-stakes medical scenarios.
@@ -601,14 +594,12 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2022.02 - Present*, **Smart Electrophysiology Diagnosis and Treatment Joint Laboratory**, Principal Participant  
   Contributed to smart electrophysiology diagnosis and treatment technologies, ECG/PPG signal fusion, AI-based cardiovascular assessment, polysomnography applications, and clinical-style deployment of physiological AI systems.
 
-<span class='anchor' id='academic-service'></span>
-# 💻 Academic Service
+<h1 id="academic-service">💻 Academic Service</h1>
 
 - Reviewer for over 30 journals and conferences in AI, medical AI, biomedical engineering, and digital health, including *The Lancet*, *Information Fusion*, *npj Digital Medicine*, *Artificial Intelligence Review*, *IEEE Transactions on Neural Networks and Learning Systems*, *Information Processing and Management*, *Expert Systems With Applications*, *IEEE Journal of Biomedical and Health Informatics*, *Applied Soft Computing*, *Computers in Biology and Medicine*, *Machine Learning: Science and Technology*, *IEEE Transactions on Instrumentation and Measurement*, and *Biomedical Signal Processing and Control*.
 - Society Membership: Chinese Society of Biomedical Engineering.
 
-<span class='anchor' id='technical-skills'></span>
-# 🛠 Technical Skills
+<h1 id="technical-skills">🛠 Technical Skills</h1>
 
 - **Medical Foundation Models and LLM Agents:** medical multi-agent systems, specialist-model orchestration, LLM-based clinical reasoning, risk-trajectory prediction, prompt/evaluation pipelines, and high-stakes medical AI system design.
 - **Multimodal Physiological AI:** ECG, EEG, PPG, PSG, and wearable physiological signal modeling; multimodal fusion; sleep analysis; cardiovascular assessment; signal quality evaluation; clinical-style risk modeling.
