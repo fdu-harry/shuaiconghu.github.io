@@ -1,16 +1,24 @@
-# main links links
 main:
+  - title: "Homepage"
+    url: /
+
   - title: "About Me"
-    url: "/" # 主页
+    url: /#about-me
+
+  - title: "Research Focus"
+    url: /#research-impact
+
   - title: "News"
-    url: "/#news"
+    url: /#news
+
   - title: "Publications"
-    url: "/#publications"
+    url: /#representative-publications
+
   - title: "Honors and Awards"
-    url: "/#honors-and-awards"
-  - title: "Educations"
-    url: "/#educations"
-  - title: "Academic Experience"
-    url: "/#academic-experience"
-  - title: "Academic Service"
-    url: "/#academic-service"
+    url: /#honors-and-awards
+
+  - title: "Education"
+    url: /#educations
+
+  - title: "Research Experience"
+    url: /#research-experience
