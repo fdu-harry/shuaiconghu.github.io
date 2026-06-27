@@ -64,6 +64,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - google-scholar-stats
 exclude:
   - docs
   - google_scholar_crawler
