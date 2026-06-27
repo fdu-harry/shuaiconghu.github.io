@@ -35,6 +35,7 @@ jobs:
           python main.py
         env:
           GOOGLE_SCHOLAR_ID: worq2P0AAAAJ
+          PYTHONUNBUFFERED: "1"
 
       - name: Push citation data to google-scholar-stats branch
         run: |
