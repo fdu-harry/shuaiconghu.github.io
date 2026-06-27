@@ -30,41 +30,67 @@ Google Scholar Profile
 citations
 </a>
 
-&nbsp;
-<strong>h-index:</strong> <span id='h_index'>Loading</span>
-&nbsp;
-<strong>i10-index:</strong> <span id='i10_index'>Loading</span>
+<div class="scholar-badges">
+  <span class="scholar-badge scholar-citations">
+    Citations: <span id="badge_citations">Loading</span>
+  </span>
+  <span class="scholar-badge scholar-hindex">
+    h-index: <span id="badge_hindex">Loading</span>
+  </span>
+  <span class="scholar-badge scholar-i10">
+    i10-index: <span id="badge_i10index">Loading</span>
+  </span>
+</div>
 
-<br>
+<style>
+.scholar-badges {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&style=flat">
-</a>
+.scholar-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.4;
+}
 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_hindex_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&style=flat">
-</a>
+.scholar-citations {
+  background-color: #2ea44f;
+}
 
-<a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_i10index_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&style=flat">
-</a>
+.scholar-hindex {
+  background-color: #f57c00;
+}
+
+.scholar-i10 {
+  background-color: #1976d2;
+}
+</style>
 
 <script>
 (function() {
-  const statsUrl = "https://raw.githubusercontent.com/fdu-harry/shuaiconghu.github.io/google-scholar-stats/gs_data.json?v=" + new Date().getTime();
+  const statsUrl = "{{ '/google-scholar-stats/gs_data.json' | relative_url }}?v=" + new Date().getTime();
 
   fetch(statsUrl)
     .then(response => response.json())
     .then(data => {
       document.getElementById("total_cit").textContent = data.citedby ?? "N/A";
-      document.getElementById("h_index").textContent = data.hindex ?? "N/A";
-      document.getElementById("i10_index").textContent = data.i10index ?? "N/A";
+      document.getElementById("badge_citations").textContent = data.citedby ?? "N/A";
+      document.getElementById("badge_hindex").textContent = data.hindex ?? "N/A";
+      document.getElementById("badge_i10index").textContent = data.i10index ?? "N/A";
     })
     .catch(error => {
       console.error("Failed to load Google Scholar stats:", error);
       document.getElementById("total_cit").textContent = "N/A";
-      document.getElementById("h_index").textContent = "N/A";
-      document.getElementById("i10_index").textContent = "N/A";
+      document.getElementById("badge_citations").textContent = "N/A";
+      document.getElementById("badge_hindex").textContent = "N/A";
+      document.getElementById("badge_i10index").textContent = "N/A";
     });
 })();
 </script>
