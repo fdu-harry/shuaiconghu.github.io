@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Shuaicong Hu (胡帅聪)"
-  avatar           : "images/shuaiconghu_paris.jpg"
+  avatar           : "images/shuaiconghu_paris_512x512.jpg"
   bio              : "Fudan University"
   location         : "Shanghai, China"
   employer         :
