@@ -3,7 +3,7 @@ name: Get Citation Data
 on:
   workflow_dispatch:
   schedule:
-    # 每天北京时间 16:00 运行；UTC 时间 08:00
+    # 每天北京时间 16:00，UTC 08:00
     - cron: "0 8 * * *"
 
 permissions:
@@ -12,6 +12,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
