@@ -37,21 +37,20 @@ def fetch_google_scholar_stats(scholar_id: str):
         )
     }
 
+    print(f"Requesting: {url}", flush=True)
     response = requests.get(url, headers=headers, timeout=30)
     response.raise_for_status()
 
     html = response.text
 
     if "recaptcha" in html.lower() or "unusual traffic" in html.lower():
-        raise RuntimeError("Google Scholar returned a captcha / unusual traffic page.")
+        raise RuntimeError("Google Scholar returned captcha / unusual traffic page.")
 
     soup = BeautifulSoup(html, "html.parser")
 
     name_tag = soup.select_one("#gsc_prf_in")
     name = name_tag.get_text(strip=True) if name_tag else ""
 
-    # Google Scholar metrics table:
-    # rows are usually: Citations, h-index, i10-index
     rows = soup.select("table#gsc_rsb_st tbody tr")
 
     stats = {}
@@ -69,6 +68,9 @@ def fetch_google_scholar_stats(scholar_id: str):
             elif "i10-index" in key:
                 stats["i10index"] = value
 
+    if not stats:
+        raise RuntimeError("Failed to parse Google Scholar statistics table.")
+
     return {
         "name": name,
         "scholar_id": scholar_id,
@@ -83,7 +85,7 @@ def main():
     output_dir = Path("results")
     output_dir.mkdir(exist_ok=True)
 
-    print(f"Fetching Google Scholar stats for: {SCHOLAR_ID}")
+    print(f"Fetching Google Scholar stats for: {SCHOLAR_ID}", flush=True)
 
     data = fetch_google_scholar_stats(SCHOLAR_ID)
 
@@ -104,8 +106,8 @@ def main():
         make_shieldsio_json("i10-index", data["i10index"], "blue")
     )
 
-    print("Google Scholar data updated successfully.")
-    print(json.dumps(data, ensure_ascii=False, indent=2))
+    print("Google Scholar data updated successfully.", flush=True)
+    print(json.dumps(data, ensure_ascii=False, indent=2), flush=True)
 
 
 if __name__ == "__main__":
