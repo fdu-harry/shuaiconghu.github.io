@@ -147,6 +147,21 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 <span class='anchor' id='representative-publications'></span>
 # ⭐ Representative Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_fig.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/articles/s41467-025-62864-x)
+
+**Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ)
+- Built a transparent and interpretable human-AI collaborative sleep apnea assessment system
+- Proposed transparent scale diffusion mechanisms and risk assessment indicators, validated on multi-center, multi-ethnic overnight recordings involving **over 15,000 subjects**
+- Received positive transparent peer-review feedback, including a signed assessment from Prof. Thomas Penzel, who described the work as having potential for future high impact
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICML_500x276.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -162,20 +177,6 @@ Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_fig.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/articles/s41467-025-62864-x)
-
-**Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ)
-- Built a transparent and interpretable human-AI collaborative sleep apnea assessment system
-- Proposed transparent scale diffusion mechanisms and risk assessment indicators to enhance AI interpretability
-- Validated on large-scale multi-center, multi-ethnic overnight recordings involving **over 15,000 subjects**
-- Received positive transparent peer-review feedback, including a signed assessment from Prof. Thomas Penzel, President of the World Sleep Society and President of the European Sleep Research Society, who described the work as having potential for future high impact in the field
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/INFFUS_500x300.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
