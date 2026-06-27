@@ -45,7 +45,7 @@ html {
 .initial-content,
 .page,
 .page__content {
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 /* Invisible anchors for navigation */
