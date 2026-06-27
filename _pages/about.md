@@ -95,7 +95,7 @@ h1[id] {
 .pub-table {
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
   margin: 0;
   border-bottom: 1px solid #ddd;
 }
@@ -107,13 +107,15 @@ h1[id] {
 }
 
 .pub-journal {
-  width: 155px;
-  padding-right: 12px;
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 22px;
   text-align: left;
   vertical-align: top !important;
 }
 
 .pub-title {
+  width: auto;
   vertical-align: top !important;
   line-height: 1.45;
   padding-left: 0;
@@ -121,7 +123,7 @@ h1[id] {
 
 .pub-journal .badge {
   display: inline-block;
-  margin-top: 0px;
+  margin-top: 0;
   line-height: 1.2;
   vertical-align: top;
   white-space: nowrap;
