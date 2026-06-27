@@ -1,21 +1,21 @@
 main:
   - title: "About Me"
-    url: /#about-me
+    url: "/#about-me"
 
   - title: "Research Focus"
-    url: /#research-impact
+    url: "/#research-impact"
 
   - title: "News"
-    url: /#news
+    url: "/#news"
 
   - title: "Publications"
-    url: /#representative-publications
+    url: "/#representative-publications"
 
   - title: "Honors and Awards"
-    url: /#honors-and-awards
+    url: "/#honors-and-awards"
 
   - title: "Education"
-    url: /#educations
+    url: "/#educations"
 
   - title: "Research Experience"
-    url: /#research-experience
+    url: "/#research-experience"
