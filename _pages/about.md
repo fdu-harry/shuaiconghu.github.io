@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
+<h1 id="about-me" style="display:none;">About Me</h1>
 
 Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on **medical foundation models**, **heterogeneous multi-agent systems**, **multimodal physiological intelligence**, **interpretable clinical AI**, and **deployable healthcare systems** across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.
 
@@ -98,8 +98,7 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 </script>
 
 
-<span class='anchor' id='research-impact'></span>
-# 🌟 Research Focus and Impact
+<h1 id="research-impact">🌟 Research Focus and Impact</h1>
 
 <div class="impact-list" markdown="1">
 
