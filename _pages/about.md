@@ -37,7 +37,6 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 
 <style>
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: 70px;
 }
 
