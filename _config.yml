@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Shuaicong Hu | Medical AI & Foundation Models"
 description              : "Shuaicong Hu is an applied AI researcher focused on medical foundation models, heterogeneous multi-agent systems, multimodal physiological intelligence, interpretable clinical AI, and deployable healthcare intelligence across sleep medicine, ECG, EEG, PPG, and clinical risk modeling."
-repository               : "fdu-harry.github.io/shuaiconghu.github.io"
+repository               : "fdu-harry/shuaiconghu.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
