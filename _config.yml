@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Shuaicong Hu (胡帅聪)"
+  name             : "Shuaicong Hu<br><span style='font-size:0.9em'>(胡帅聪)</span>"
   avatar           : "images/shuaiconghu_paris_512x512.jpg"
   bio              : "Postdoctoral Fellow at The University of Hong Kong | Medical Foundation Models, Multimodal Physiological AI, and LLM Agents"
   location         : "Hong Kong, China"
