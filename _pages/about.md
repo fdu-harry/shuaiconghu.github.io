@@ -16,23 +16,22 @@ His work bridges large-scale physiological signal modeling, specialist-model orc
 
 <div class="scholar-panel">
   <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
-Google Scholar Profile:
-<strong>
-<span id='scholar_total_cit'>Loading</span>
-</strong>
-citations
-</a>
+    Google Scholar Profile:
+    <strong><span id="scholar_total_cit">Loading</span></strong>
+    citations
+  </a>
 
-<div class="scholar-badges">
-  <span class="scholar-badge scholar-citations">
-    Citations: <span id="scholar_badge_citations">Loading</span>
-  </span>
-  <span class="scholar-badge scholar-hindex">
-    h-index: <span id="scholar_badge_hindex">Loading</span>
-  </span>
-  <span class="scholar-badge scholar-i10">
-    i10-index: <span id="scholar_badge_i10index">Loading</span>
-  </span>
+  <div class="scholar-badges">
+    <span class="scholar-badge scholar-citations">
+      Citations: <span id="scholar_badge_citations">Loading</span>
+    </span>
+    <span class="scholar-badge scholar-hindex">
+      h-index: <span id="scholar_badge_hindex">Loading</span>
+    </span>
+    <span class="scholar-badge scholar-i10">
+      i10-index: <span id="scholar_badge_i10index">Loading</span>
+    </span>
+  </div>
 </div>
 
 <style>
@@ -71,7 +70,12 @@ citations
   const statsUrl = "{{ '/google-scholar-stats/gs_data.json' | relative_url }}?v=" + new Date().getTime();
 
   fetch(statsUrl)
-    .then(response => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to load gs_data.json: " + response.status);
+      }
+      return response.json();
+    })
     .then(data => {
       const citedby = data.citedby ?? "N/A";
       const hindex = data.hindex ?? "N/A";
@@ -84,6 +88,7 @@ citations
     })
     .catch(error => {
       console.error("Failed to load Google Scholar stats:", error);
+
       document.getElementById("scholar_total_cit").textContent = "N/A";
       document.getElementById("scholar_badge_citations").textContent = "N/A";
       document.getElementById("scholar_badge_hindex").textContent = "N/A";
@@ -92,27 +97,6 @@ citations
 })();
 </script>
 
-<script>
-(function() {
-  const statsUrl = "{{ '/google-scholar-stats/gs_data.json' | relative_url }}?v=" + new Date().getTime();
-
-  fetch(statsUrl)
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById("total_cit").textContent = data.citedby ?? "N/A";
-      document.getElementById("badge_citations").textContent = data.citedby ?? "N/A";
-      document.getElementById("badge_hindex").textContent = data.hindex ?? "N/A";
-      document.getElementById("badge_i10index").textContent = data.i10index ?? "N/A";
-    })
-    .catch(error => {
-      console.error("Failed to load Google Scholar stats:", error);
-      document.getElementById("total_cit").textContent = "N/A";
-      document.getElementById("badge_citations").textContent = "N/A";
-      document.getElementById("badge_hindex").textContent = "N/A";
-      document.getElementById("badge_i10index").textContent = "N/A";
-    });
-})();
-</script>
 
 <span class='anchor' id='research-impact'></span>
 # 🌟 Research Focus and Impact
