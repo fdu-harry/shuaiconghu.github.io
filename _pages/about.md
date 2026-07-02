@@ -354,7 +354,7 @@ h1[id] {
 
 **Shuaicong Hu**, Jian Liu, Yanan Wang, Cong Fu, Jiehu Zhu, Huan Yu, Cuiwei Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ)
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=worq2P0AAAAJ&sortby=pubdate&citation_for_view=worq2P0AAAAJ:WHdLCjDvYFkC)
 - Built a transparent and interpretable human-AI collaborative sleep apnea assessment system
 - Validated on multi-center, multi-ethnic overnight recordings involving **over 15,000 subjects**
 - Received signed transparent peer-review praise from Prof. Thomas Penzel, President of the World Sleep Society, highlighting its future high-impact potential
