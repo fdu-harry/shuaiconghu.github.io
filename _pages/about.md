@@ -19,10 +19,52 @@ redirect_from:
   <a href="#representative-publications">Papers</a>
   <a href="#publications">Publications</a>
   <a href="#honors-and-awards">Awards</a>
+  <a href="#educations">Education</a>
   <a href="#research-experience">Experience</a>
   <a href="#academic-service">Service</a>
   <a href="#technical-skills">Skills</a>
 </nav>
+
+
+<!-- Mobile-only author card. This replaces the theme sidebar on phones only,
+     so the intro text is never covered or clipped by the mobile sidebar. -->
+<div class="mobile-author-card" aria-label="Mobile author profile">
+  <div class="mobile-author-head">
+    <div class="mobile-author-photo-wrap">
+      <img class="mobile-author-photo" src="{{ site.author.avatar | relative_url }}" alt="Shuaicong Hu">
+    </div>
+    <div class="mobile-author-main">
+      <div class="mobile-author-name">Shuaicong Hu<br><span>(胡帅聪)</span></div>
+      <div class="mobile-author-title">Postdoctoral Fellow at The University of Hong Kong | Medical Foundation Models, Multimodal Physiological AI, and LLM Agents</div>
+    </div>
+  </div>
+
+  <div class="mobile-author-summary">
+    Shuaicong Hu is an applied AI researcher focused on medical foundation models, heterogeneous multi-agent systems, multimodal physiological intelligence, interpretable clinical AI, and deployable healthcare intelligence across sleep medicine, ECG, EEG, PPG, and clinical risk modeling.
+  </div>
+
+  <div class="mobile-author-meta">
+    <div class="mobile-meta-row mobile-meta-location">
+      <span class="mobile-meta-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></span>
+      <span>Hong Kong, China</span>
+    </div>
+    <div class="mobile-meta-row mobile-meta-affiliation">
+      <span class="mobile-meta-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></span>
+      <span>The University of Hong Kong</span>
+    </div>
+    <div class="mobile-contact-row" aria-label="Contact and academic profiles">
+      <a class="mobile-contact-chip mobile-email-chip" href="mailto:shuaiconghu@gmail.com">
+        <i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span>
+      </a>
+      <a class="mobile-contact-chip mobile-rg-chip" href="https://www.researchgate.net/profile/Shuaicong-Hu">
+        <i class="fab fa-researchgate" aria-hidden="true"></i><span>ResearchGate</span>
+      </a>
+      <a class="mobile-contact-chip mobile-scholar-chip" href="https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN">
+        <i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span>
+      </a>
+    </div>
+  </div>
+</div>
 
 <p class="home-intro home-intro-first">Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on <strong>medical foundation models</strong>, <strong>heterogeneous multi-agent systems</strong>, <strong>multimodal physiological intelligence</strong>, <strong>interpretable clinical AI</strong>, and <strong>deployable healthcare systems</strong> across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.</p>
 
@@ -1149,6 +1191,288 @@ h1[id] {
     transition: margin-top 0.12s ease-out;
   }
 }
+
+/* =========================================================
+   Final v8 mobile layout: static author card + normal intro flow
+   ========================================================= */
+.mobile-author-card {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  /* Use the custom mobile author card inside page content, and hide
+     the theme sidebar on phones to prevent clipping/overlap of intro text. */
+  .sidebar,
+  .sidebar.sticky {
+    display: none !important;
+  }
+
+  .mobile-author-card {
+    display: block !important;
+    width: calc(100% - 18px) !important;
+    max-width: 430px !important;
+    margin: 8px auto 14px auto !important;
+    padding: 11px 11px 10px 11px !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 14px !important;
+    background: #fff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.035) !important;
+    overflow: visible !important;
+  }
+
+  .mobile-author-head {
+    display: grid !important;
+    grid-template-columns: 82px minmax(0, 1fr) !important;
+    column-gap: 11px !important;
+    align-items: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding-bottom: 9px !important;
+    border-bottom: 1px solid #eeeeee !important;
+  }
+
+  .mobile-author-photo-wrap {
+    width: 82px !important;
+    height: 82px !important;
+    min-width: 82px !important;
+  }
+
+  .mobile-author-photo {
+    display: block !important;
+    width: 82px !important;
+    height: 82px !important;
+    max-width: 82px !important;
+    max-height: 82px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    aspect-ratio: 1 / 1 !important;
+    margin: 0 !important;
+  }
+
+  .mobile-author-main {
+    min-width: 0 !important;
+    text-align: left !important;
+  }
+
+  .mobile-author-name {
+    font-size: 1.06rem !important;
+    font-weight: 700 !important;
+    line-height: 1.18 !important;
+    color: #444 !important;
+    margin: 0 0 4px 0 !important;
+  }
+
+  .mobile-author-name span {
+    font-weight: 700 !important;
+  }
+
+  .mobile-author-title {
+    font-size: 0.74rem !important;
+    line-height: 1.34 !important;
+    color: #555 !important;
+    margin: 0 !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .mobile-author-summary {
+    display: block !important;
+    margin: 9px 0 9px 0 !important;
+    padding: 0 !important;
+    font-size: 0.88rem !important;
+    line-height: 1.48 !important;
+    color: #444 !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+  }
+
+  .mobile-author-card .mobile-author-meta {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .mobile-author-card .mobile-meta-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 4px 0 !important;
+    padding: 0 !important;
+    color: #444 !important;
+    font-size: 0.76rem !important;
+    line-height: 1.28 !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+  }
+
+  .mobile-author-card .mobile-meta-icon {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 1.15em !important;
+    width: 1.15em !important;
+    min-width: 1.15em !important;
+    margin-right: 6px !important;
+    color: #111 !important;
+    font-size: 0.95em !important;
+    line-height: 1 !important;
+  }
+
+  .mobile-author-card .mobile-contact-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 6px 0 0 0 !important;
+    padding: 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+
+  .mobile-author-card .mobile-contact-row::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .mobile-author-card .mobile-contact-chip {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 auto !important;
+    gap: 4px !important;
+    padding: 3px 7px !important;
+    border-radius: 999px !important;
+    background: #f6f8fa !important;
+    color: #444 !important;
+    font-size: 0.70rem !important;
+    line-height: 1.25 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+  }
+
+  .mobile-author-card .mobile-contact-chip:hover,
+  .mobile-author-card .mobile-contact-chip:active {
+    background: #eef2f6 !important;
+    color: #1f5f9f !important;
+    text-decoration: none !important;
+  }
+
+  .mobile-author-card .mobile-contact-chip i,
+  .mobile-author-card .mobile-contact-chip svg {
+    flex: 0 0 auto !important;
+    width: 0.95em !important;
+    height: 0.95em !important;
+    font-size: 0.95em !important;
+    margin: 0 !important;
+  }
+
+  /* Main intro must remain visible in normal document flow. */
+  .page__content {
+    margin-top: 0 !important;
+  }
+
+  .home-intro,
+  .home-intro-first,
+  .home-intro-second {
+    display: block !important;
+    clear: both !important;
+    position: static !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+    color: inherit !important;
+    z-index: auto !important;
+  }
+
+  .home-intro-first {
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.72rem !important;
+  }
+
+  .home-intro-second {
+    margin-top: 0 !important;
+    margin-bottom: 0.72rem !important;
+  }
+
+  .page__content.mobile-intro-overlap-fixed {
+    margin-top: 0 !important;
+    transition: none !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .mobile-author-card {
+    width: calc(100% - 18px) !important;
+    margin-top: 6px !important;
+    margin-bottom: 12px !important;
+    padding: 9px !important;
+    border-radius: 13px !important;
+  }
+
+  .mobile-author-head {
+    grid-template-columns: 72px minmax(0, 1fr) !important;
+    column-gap: 9px !important;
+  }
+
+  .mobile-author-photo-wrap,
+  .mobile-author-photo {
+    width: 72px !important;
+    height: 72px !important;
+    max-width: 72px !important;
+    max-height: 72px !important;
+    min-width: 72px !important;
+  }
+
+  .mobile-author-name {
+    font-size: 0.99rem !important;
+  }
+
+  .mobile-author-title {
+    font-size: 0.68rem !important;
+    line-height: 1.32 !important;
+  }
+
+  .mobile-author-summary {
+    font-size: 0.78rem !important;
+    line-height: 1.42 !important;
+  }
+
+  .mobile-author-card .mobile-meta-row {
+    font-size: 0.68rem !important;
+    line-height: 1.24 !important;
+  }
+
+  .mobile-author-card .mobile-contact-row {
+    gap: 5px !important;
+  }
+
+  .mobile-author-card .mobile-contact-chip {
+    font-size: 0.66rem !important;
+    padding: 3px 6px !important;
+  }
+
+  .mobile-author-card .mobile-meta-icon {
+    margin-right: 5px !important;
+  }
+}
+
 </style>
 
 <script>
@@ -1193,6 +1517,7 @@ h1[id] {
     ["#publications", "Full Publication List"],
     ["#patents", "Patents"],
     ["#honors-and-awards", "Honors and Awards"],
+    ["#educations", "Education"],
     ["#research-experience", "Research Experience"],
     ["#academic-service", "Academic Service"],
     ["#technical-skills", "Technical Skills"]
@@ -1323,40 +1648,37 @@ h1[id] {
 
 
   function fixIntroOverlap() {
+    /* Disabled in v8: the mobile author card is now inside the page content,
+       so no dynamic margin compensation is needed. Keeping this as a no-op
+       prevents old mobile browsers from adding excessive blank space. */
+    const pageContent = document.querySelector(".page__content");
+    if (pageContent) {
+      pageContent.style.marginTop = "";
+      pageContent.classList.remove("mobile-intro-overlap-fixed");
+    }
+  }
+
+  function normalizeStaticMobileAuthorCard() {
     if (!isMobile()) {
       return;
     }
 
-    const sidebar = document.querySelector(".sidebar");
-    const pageContent = document.querySelector(".page__content");
-    if (!sidebar || !pageContent) {
-      return;
-    }
-
-    const firstIntro = pageContent.querySelector(".home-intro-first") || pageContent.querySelector("p");
-    if (!firstIntro) {
-      return;
-    }
-
-    /* Reset before measurement so the calculated overlap is not cumulative. */
-    pageContent.style.marginTop = "";
-    pageContent.classList.remove("mobile-intro-overlap-fixed");
-
-    window.requestAnimationFrame(function() {
-      const sidebarRect = sidebar.getBoundingClientRect();
-      const introRect = firstIntro.getBoundingClientRect();
-      const overlap = Math.ceil(sidebarRect.bottom - introRect.top + 12);
-
-      if (sidebarRect.height > 0 && overlap > 0 && overlap < 420) {
-        pageContent.style.marginTop = overlap + "px";
-        pageContent.classList.add("mobile-intro-overlap-fixed");
+    const mobileImg = document.querySelector(".mobile-author-photo");
+    const sidebarImg = document.querySelector(".author__avatar img");
+    if (mobileImg && sidebarImg) {
+      const currentSrc = (mobileImg.getAttribute("src") || "").trim();
+      const looksEmpty = currentSrc === "" || currentSrc.endsWith("/") || currentSrc.includes("undefined") || currentSrc.includes("null");
+      if (looksEmpty || mobileImg.naturalWidth === 0) {
+        mobileImg.src = sidebarImg.src;
       }
-    });
+    }
   }
+
 
   function runMobileFixes() {
     rebuildMobileGreedyMenu();
     normalizeMobileAuthorCard();
+    normalizeStaticMobileAuthorCard();
     fixIntroOverlap();
   }
 
@@ -1839,6 +2161,15 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2021.10* Third Prize in the 18th China Graduate Student Mathematical Contest in Modeling "Huawei Cup"
 - *2021.05* Silver Award in the 7th China International "Internet+" Innovation and Entrepreneurship Competition
 
+
+
+<h1 id="educations">📖 Education</h1>
+
+- *2026.03 - Present*, **The University of Hong Kong**, Department of Electrical and Computer Engineering, Postdoctoral Fellow  
+  Research focus: medical foundation models, LLM-based clinical agents, multimodal physiological intelligence, and deployable healthcare AI.
+
+- *2022.09 - 2025.12*, **Fudan University**, Electronic Information, Ph.D. in Engineering, exceptional early graduation  
+  Research focus: transparent AI-enabled sleep apnea monitoring, interpretable physiological AI, multimodal sleep analysis, and human-AI collaborative diagnosis. Published 15 SCI papers during doctoral studies, including two first-author papers with IF>15, multiple high-impact journal papers, and two IEEE Transactions papers.
 
 <h1 id="research-experience">💬 Research and Project Experience</h1>
 
