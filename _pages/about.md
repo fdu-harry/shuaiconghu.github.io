@@ -1231,6 +1231,83 @@ h1[id] {
   }
 }
 
+/* =========================================================
+   Strong mobile intro visibility fix
+   =========================================================
+   This is intentionally placed at the very end of the style block.
+   It solves the remaining mobile issue where the Minimal Mistakes
+   author sidebar visually overlaps the first intro paragraph on some
+   mobile browsers after icon/font/JS rendering.
+   ========================================================= */
+@media screen and (max-width: 900px) {
+
+  #main {
+    position: relative !important;
+    overflow: visible !important;
+  }
+
+  #main > .sidebar,
+  #main > aside.sidebar,
+  #main > .sidebar.sticky {
+    display: flow-root !important;
+    position: relative !important;
+    float: none !important;
+    clear: both !important;
+    overflow: visible !important;
+    height: auto !important;
+    margin-bottom: 18px !important;
+    z-index: 2 !important;
+  }
+
+  #main > .page,
+  #main > article.page,
+  #main > .archive {
+    display: block !important;
+    position: relative !important;
+    float: none !important;
+    clear: both !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    transform: none !important;
+    z-index: 1 !important;
+    overflow: visible !important;
+  }
+
+  .page__inner-wrap,
+  .page__content {
+    display: flow-root !important;
+    position: relative !important;
+    clear: both !important;
+    overflow: visible !important;
+    padding-top: 0 !important;
+  }
+
+  .intro-block {
+    display: flow-root !important;
+    position: relative !important;
+    clear: both !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important;
+    padding-top: 0 !important;
+    z-index: 1 !important;
+    overflow: visible !important;
+  }
+
+  .intro-block p,
+  .page__content > p:first-of-type {
+    display: block !important;
+    clear: both !important;
+    margin-top: 0 !important;
+  }
+}
+
+
 </style>
 
 <script>
@@ -1403,9 +1480,64 @@ h1[id] {
     urlsWrapper.appendChild(meta);
   }
 
+  function fixMobileIntroOverlap() {
+    const page = document.querySelector("#main > .page, #main > article.page, #main > .archive");
+
+    if (!isMobile()) {
+      if (page) {
+        page.style.removeProperty("margin-top");
+      }
+      return;
+    }
+
+    const sidebar = document.querySelector("#main > .sidebar, #main > aside.sidebar, #main > .sidebar.sticky");
+
+    if (!sidebar || !page) {
+      return;
+    }
+
+    /* Reset first, then measure the real rendered layout. Because an earlier
+       mobile CSS rule uses margin-top: 0 !important, we also set this inline
+       value as !important so the browser can actually apply the correction. */
+    page.style.setProperty("margin-top", "0px", "important");
+
+    const desiredGap = 18;
+    const sidebarRect = sidebar.getBoundingClientRect();
+    const pageRect = page.getBoundingClientRect();
+
+    const sidebarBottom = sidebarRect.bottom + window.scrollY;
+    const pageTop = pageRect.top + window.scrollY;
+    const overlap = Math.ceil(sidebarBottom + desiredGap - pageTop);
+
+    if (overlap > 0) {
+      page.style.setProperty("margin-top", overlap + "px", "important");
+    } else {
+      page.style.setProperty("margin-top", "0px", "important");
+    }
+  }
+
+  function scheduleMobileIntroOverlapFix() {
+    fixMobileIntroOverlap();
+
+    if (window.requestAnimationFrame) {
+      requestAnimationFrame(fixMobileIntroOverlap);
+      requestAnimationFrame(function() {
+        requestAnimationFrame(fixMobileIntroOverlap);
+      });
+    }
+
+    /* Re-check after theme JS, icon fonts, images, and the injected mobile
+       contact chips finish rendering on mobile browsers. */
+    setTimeout(fixMobileIntroOverlap, 120);
+    setTimeout(fixMobileIntroOverlap, 350);
+    setTimeout(fixMobileIntroOverlap, 800);
+    setTimeout(fixMobileIntroOverlap, 1400);
+  }
+
   function runMobileFixes() {
     rebuildMobileGreedyMenu();
     normalizeMobileAuthorCard();
+    scheduleMobileIntroOverlapFix();
   }
 
   if (document.readyState === "loading") {
@@ -1414,7 +1546,23 @@ h1[id] {
     runMobileFixes();
   }
 
+  window.addEventListener("load", scheduleMobileIntroOverlapFix);
   window.addEventListener("resize", runMobileFixes);
+  window.addEventListener("orientationchange", function() {
+    setTimeout(runMobileFixes, 200);
+  });
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(scheduleMobileIntroOverlapFix).catch(function() {});
+  }
+
+  const sidebarForObserver = document.querySelector("#main > .sidebar, #main > aside.sidebar, #main > .sidebar.sticky");
+  if (window.ResizeObserver && sidebarForObserver) {
+    const ro = new ResizeObserver(function() {
+      scheduleMobileIntroOverlapFix();
+    });
+    ro.observe(sidebarForObserver);
+  }
 })();
 </script>
 
