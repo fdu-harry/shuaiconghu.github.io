@@ -1165,7 +1165,7 @@ h1[id] {
     ["#publications", "Full Publication List"],
     ["#patents", "Patents"],
     ["#honors-and-awards", "Honors and Awards"],
-    ["#s", ""],
+    ["#educations", "Education"],
     ["#research-experience", "Research Experience"],
     ["#academic-service", "Academic Service"],
     ["#technical-skills", "Technical Skills"]
@@ -1782,6 +1782,9 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 
 - *2022.09 - 2025.12*, **Fudan University**, Electronic Information, Ph.D. in Engineering, exceptional early graduation  
   Research focus: transparent AI-enabled sleep apnea monitoring, interpretable physiological AI, multimodal sleep analysis, and human-AI collaborative diagnosis. Published 15 SCI papers during doctoral studies, including two first-author papers with IF>15, multiple high-impact journal papers, and two IEEE Transactions papers.
+
+- *2019.09 - 2022.06*, **University of Shanghai for Science and Technology**, Electronic Information, M.Eng.  
+  Research focus: ECG AI, deep learning for physiological time-series analysis, heartbeat classification, and single-lead ECG-based sleep apnea detection.
 
 <h1 id="research-experience">💬 Research and Project Experience</h1>
 
