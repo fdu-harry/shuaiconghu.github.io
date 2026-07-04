@@ -1252,7 +1252,7 @@ h1[id] {
 
 @media screen and (max-width: 900px) {
   :root {
-    --mobile-intro-spacer-height: 140px;
+    --mobile-intro-spacer-height: 130px;
   }
 
   .mobile-intro-spacer {
