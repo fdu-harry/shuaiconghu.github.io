@@ -1247,7 +1247,7 @@ h1[id] {
    ========================================================= */
 @media screen and (max-width: 900px) {
   :root {
-    --mobile-author-card-manual-gap: 340px;
+    --mobile-author-card-manual-gap: 140px;
   }
 
   #main > .page,
