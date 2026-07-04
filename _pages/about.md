@@ -25,9 +25,13 @@ redirect_from:
   <a href="#technical-skills">Skills</a>
 </nav>
 
+<div class="intro-block" markdown="1">
+
 Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on **medical foundation models**, **heterogeneous multi-agent systems**, **multimodal physiological intelligence**, **interpretable clinical AI**, and **deployable healthcare systems** across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.
 
 His work bridges large-scale physiological signal modeling, specialist-model orchestration, interpretable AI, uncertainty-aware clinical prediction, and real-world healthcare validation. To date, he has published **31 SCI papers**, including **12 sole first-author, co-first-author, or student first-author papers**, with selected work in **Nature Communications**, **ICML**, **Information Fusion**, **Neural Networks**, **Expert Systems With Applications**, **IEEE Journal of Biomedical and Health Informatics**, **IEEE Transactions on Neural Systems and Rehabilitation Engineering**, and **IEEE Transactions on Instrumentation and Measurement**.
+
+</div>
 
 <div class="scholar-panel">
   <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
@@ -1118,6 +1122,112 @@ h1[id] {
 
   .mobile-meta-icon {
     margin-right: 5px !important;
+  }
+}
+
+
+/* =========================================================
+   Hard mobile flow fix
+   =========================================================
+   On Minimal Mistakes, author_profile is rendered as a sidebar before
+   the page body. Some mobile browsers can still let the first paragraph
+   wrap under/around that sidebar even after float:none overrides. The
+   following rules make #main a vertical flex container only on mobile,
+   forcing the author card and the page body into two real rows.
+   ========================================================= */
+@media screen and (max-width: 900px) {
+  #main {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    flex-wrap: nowrap !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-x: hidden !important;
+  }
+
+  #main > .sidebar,
+  #main > .sidebar.sticky {
+    order: 1 !important;
+    flex: 0 0 auto !important;
+    display: block !important;
+    float: none !important;
+    clear: both !important;
+    position: static !important;
+    transform: none !important;
+    z-index: 2 !important;
+  }
+
+  #main > .page,
+  #main > .archive,
+  #main > article.page {
+    order: 2 !important;
+    flex: 0 0 auto !important;
+    display: block !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    z-index: 1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    overflow: visible !important;
+  }
+
+  .page__inner-wrap,
+  .page__content {
+    display: block !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .intro-block {
+    display: block !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    z-index: 3 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-top: 0.6rem !important;
+    margin-bottom: 0.8rem !important;
+    padding-top: 0 !important;
+    overflow: visible !important;
+  }
+
+  .intro-block::before,
+  .page__content::before,
+  .page__inner-wrap::before {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+  }
+
+  .intro-block p:first-child {
+    margin-top: 0 !important;
   }
 }
 
