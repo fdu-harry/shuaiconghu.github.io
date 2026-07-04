@@ -48,6 +48,13 @@ html {
   padding-top: 50px;
 }
 
+/* Keep width calculation stable on all devices */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Invisible anchors for navigation */
 .page-anchor {
   display: block;
@@ -60,6 +67,10 @@ html {
 /* Prevent section titles from being hidden behind the fixed navigation bar */
 h1[id] {
   scroll-margin-top: 90px;
+}
+
+.scholar-panel {
+  max-width: 100%;
 }
 
 .scholar-badges {
@@ -89,6 +100,14 @@ h1[id] {
 
 .scholar-i10 {
   background-color: #1976d2;
+}
+
+/* Make all content images safe, without changing desktop proportions */
+.page__content img,
+.paper-box img,
+.author__avatar img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Full Publication List alignment */
@@ -131,17 +150,39 @@ h1[id] {
   top: 1px;
 }
 
-
 /* ================= Mobile responsive fixes ================= */
 /* Only applies to phones / narrow screens; desktop layout is unchanged */
-@media (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
-  html {
-    scroll-padding-top: 70px;
+  html,
+  body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
-  body {
-    overflow-x: hidden;
+  html {
+    scroll-padding-top: 72px;
+  }
+
+  /* Avoid fixed-width theme containers causing horizontal overflow */
+  #main,
+  .initial-content,
+  .page,
+  .page__content,
+  .page__inner-wrap,
+  .archive,
+  .wrapper,
+  .container,
+  .masthead__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow-x: hidden !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
   }
 
   /* Reduce excessive top padding on mobile */
@@ -149,100 +190,174 @@ h1[id] {
   .initial-content,
   .page,
   .page__content {
-    padding-top: 20px !important;
-    max-width: 100% !important;
-    overflow-x: hidden;
+    padding-top: 18px !important;
   }
 
-  /* Main content full width */
-  .archive,
-  .page,
-  .page__content,
-  .wrapper,
-  .container {
+  .page__content {
+    font-size: 0.95rem !important;
+    line-height: 1.65 !important;
+  }
+
+  /* Sidebar / author profile should stack above content */
+  .sidebar {
+    float: none !important;
+    clear: both !important;
+    position: static !important;
     width: 100% !important;
     max-width: 100% !important;
-    box-sizing: border-box;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    margin: 0 auto 18px auto !important;
+    text-align: center !important;
   }
 
-  /* Sidebar / author profile should stack naturally */
-  .sidebar,
   .author__avatar,
   .author__content,
-  .author__urls-wrapper {
+  .author__urls-wrapper,
+  .author__urls {
+    width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
+    text-align: center !important;
   }
 
   .author__avatar img {
-    max-width: 150px !important;
-    width: 150px !important;
+    width: 140px !important;
+    max-width: 140px !important;
     height: auto !important;
     display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 0 auto 10px auto !important;
+    border-radius: 50% !important;
   }
 
-  /* Prevent long words, links, titles from breaking layout */
-  p,
-  li,
-  td,
-  .pub-title,
-  .paper-box-text {
-    word-break: normal;
-    overflow-wrap: anywhere;
+  .author__urls {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    padding-left: 0 !important;
   }
 
-  /* Top navigation: allow horizontal scrolling instead of squeezing */
+  .author__urls li {
+    display: inline-flex !important;
+    max-width: 100% !important;
+  }
+
+  /* Top navigation: allow horizontal scrolling instead of squeezing or wrapping badly */
+  .masthead,
   .masthead__menu,
   .greedy-nav,
   .visible-links {
+    max-width: 100% !important;
+  }
+
+  .masthead__menu,
+  .greedy-nav {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .visible-links {
+    display: flex !important;
+    flex-wrap: nowrap !important;
     overflow-x: auto !important;
     white-space: nowrap !important;
   }
 
   .visible-links li {
     display: inline-block !important;
+    flex: 0 0 auto !important;
+  }
+
+  /* Prevent long words, DOI links, titles and names from breaking the page width */
+  p,
+  li,
+  td,
+  a,
+  strong,
+  .pub-title,
+  .paper-box-text,
+  .page__content,
+  .impact-list {
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  /* Keep list indentation compact on small screens */
+  .page__content ul,
+  .page__content ol {
+    padding-left: 1.15rem !important;
   }
 
   /* Representative publication cards: image on top, text below */
   .paper-box {
     display: block !important;
     width: 100% !important;
-    margin-bottom: 18px !important;
-    overflow: hidden !important;
-  }
-
-  .paper-box-image {
-    display: block !important;
-    width: 100% !important;
     max-width: 100% !important;
-    margin-bottom: 10px !important;
+    min-width: 0 !important;
+    margin: 0 0 20px 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
   }
 
-  .paper-box-image img,
-  .paper-box img,
-  img {
-    display: block !important;
-    max-width: 100% !important;
-    height: auto !important;
-  }
-
+  .paper-box-image,
   .paper-box-text {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
+    float: none !important;
+    clear: both !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
-  /* Scholar badges wrap neatly */
+  .paper-box-image {
+    margin-bottom: 10px !important;
+  }
+
+  .paper-box-image > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .paper-box-image img,
+  .paper-box img,
+  .page__content img,
+  img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Scholar panel and badges wrap neatly */
+  .scholar-panel,
+  .scholar-panel a {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+  }
+
   .scholar-badges {
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 5px !important;
+    margin-top: 8px !important;
   }
 
   .scholar-badge {
     font-size: 12px !important;
     padding: 3px 7px !important;
+    max-width: 100% !important;
   }
 
   /* Full publication list: journal badge above title on mobile */
@@ -253,36 +368,81 @@ h1[id] {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
     box-sizing: border-box !important;
   }
 
   .pub-table {
-    margin-bottom: 8px !important;
+    margin-bottom: 10px !important;
     border-bottom: 1px solid #ddd !important;
+  }
+
+  .pub-table td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
   }
 
   .pub-journal {
     padding-right: 0 !important;
-    padding-bottom: 4px !important;
+    padding-bottom: 3px !important;
     white-space: normal !important;
   }
 
   .pub-title {
     padding-left: 0 !important;
-    line-height: 1.45 !important;
+    line-height: 1.5 !important;
   }
 
-  .pub-journal .badge {
+  .pub-journal .badge,
+  .badge {
     display: inline-block !important;
-    white-space: nowrap !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    line-height: 1.25 !important;
     margin-bottom: 3px !important;
     top: 0 !important;
   }
 
   /* Section titles slightly smaller on mobile */
   h1 {
-    font-size: 1.35em !important;
-    line-height: 1.3 !important;
+    font-size: 1.32em !important;
+    line-height: 1.32 !important;
+    margin-top: 1.15em !important;
+  }
+
+  h2,
+  h3 {
+    line-height: 1.35 !important;
+  }
+}
+
+/* Extra-small phones */
+@media screen and (max-width: 420px) {
+  #main,
+  .initial-content,
+  .page,
+  .page__content,
+  .page__inner-wrap,
+  .archive,
+  .wrapper,
+  .container,
+  .masthead__inner-wrap {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page__content {
+    font-size: 0.92rem !important;
+  }
+
+  .author__avatar img {
+    width: 120px !important;
+    max-width: 120px !important;
+  }
+
+  .scholar-badge {
+    font-size: 11.5px !important;
   }
 }
 </style>
@@ -347,7 +507,7 @@ h1[id] {
 
 <h1 id="representative-publications">⭐ Representative Publications</h1>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src='images/NC_fig.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src="{{ '/images/NC_fig.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/articles/s41467-025-62864-x)
@@ -362,7 +522,7 @@ h1[id] {
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICML_500x276.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src="{{ '/images/ICML_500x276.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Why specialist models still matter: a heterogeneous multi-agent paradigm for medical artificial intelligence](https://arxiv.org/pdf/2605.29744)
@@ -377,7 +537,7 @@ Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/INFFUS_500x300.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src="{{ '/images/INFFUS_500x300.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/science/article/abs/pii/S1566253525003483)
@@ -391,7 +551,7 @@ Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2025</div><img src='images/ESWA_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2025</div><img src="{{ '/images/ESWA_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion](https://www.sciencedirect.com/science/article/pii/S0957417425006177)
@@ -404,7 +564,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src='images/NN_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src="{{ '/images/NN_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844)
@@ -417,7 +577,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src='images/JBHI_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src="{{ '/images/JBHI_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/document/10204654)
@@ -431,7 +591,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIM 2023</div><img src='images/TIM_500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIM 2023</div><img src="{{ '/images/TIM_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Personalized transfer learning for single-lead ecg-based sleep apnea detection: exploring the label mapping length and transfer strategy using hybrid transformer model](https://ieeexplore.ieee.org/abstract/document/10243153)
