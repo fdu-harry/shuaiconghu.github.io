@@ -1239,7 +1239,7 @@ h1[id] {
    =========================================================
    This is a real block inserted before the first intro paragraph.
    It controls the visible blank space directly, so changing
-   --mobile-intro-spacer-height will always change the mobile gap.
+    will always change the mobile gap.
 
    How to tune:
    - If the first paragraph is still covered, increase 260px.
@@ -1252,7 +1252,7 @@ h1[id] {
 
 @media screen and (max-width: 900px) {
   :root {
-    --mobile-intro-spacer-height: 260px;
+    --mobile-intro-spacer-height: 100px;
   }
 
   .mobile-intro-spacer {
