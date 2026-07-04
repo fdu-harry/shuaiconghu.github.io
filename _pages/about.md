@@ -900,6 +900,227 @@ h1[id] {
     font-size: 11px !important;
   }
 }
+
+/* =========================================================
+   Final mobile author-card and hamburger-menu overrides
+   ========================================================= */
+@media screen and (max-width: 900px) {
+
+  /* Use the theme hamburger menu as the single jump menu.
+     The extra chip jump bar is intentionally hidden to avoid duplicate navigation. */
+  .mobile-jump-nav {
+    display: none !important;
+  }
+
+  /* Make the author card height fully participate in normal page flow. */
+  .sidebar,
+  .sidebar.sticky {
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .sidebar > div,
+  .sidebar .author__profile {
+    grid-template-rows: auto auto !important;
+    align-items: start !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .author__avatar {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    align-self: start !important;
+  }
+
+  .author__content {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    display: block !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .author__name {
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  /* Keep the short author bio under the name readable and wrapped. */
+  .author__bio,
+  .author__content p {
+    display: block !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .author__bio p {
+    margin: 0 !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .author__urls-wrapper {
+    grid-column: 1 / -1 !important;
+    grid-row: 2 !important;
+    margin-top: 9px !important;
+    padding-top: 8px !important;
+    border-top: 1px solid #eeeeee !important;
+    overflow: visible !important;
+  }
+
+  /* Hide the theme-generated list only on mobile, and replace it with
+     a controlled layout that preserves icons + text. */
+  .author__urls {
+    display: none !important;
+  }
+
+  .mobile-author-meta {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+
+  .mobile-meta-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 4px 0 !important;
+    padding: 0 !important;
+    color: #444 !important;
+    font-size: 0.76rem !important;
+    line-height: 1.28 !important;
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+  }
+
+  .mobile-meta-icon {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 1.15em !important;
+    width: 1.15em !important;
+    min-width: 1.15em !important;
+    margin-right: 6px !important;
+    color: #111 !important;
+    font-size: 0.95em !important;
+    line-height: 1 !important;
+  }
+
+  .mobile-contact-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 6px 0 0 0 !important;
+    padding: 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+
+  .mobile-contact-row::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .mobile-contact-chip {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 auto !important;
+    gap: 4px !important;
+    padding: 3px 7px !important;
+    border-radius: 999px !important;
+    background: #f6f8fa !important;
+    color: #444 !important;
+    font-size: 0.70rem !important;
+    line-height: 1.25 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+  }
+
+  .mobile-contact-chip:hover,
+  .mobile-contact-chip:active {
+    background: #eef2f6 !important;
+    color: #1f5f9f !important;
+    text-decoration: none !important;
+  }
+
+  .mobile-contact-chip i,
+  .mobile-contact-chip svg {
+    flex: 0 0 auto !important;
+    width: 0.95em !important;
+    height: 0.95em !important;
+    font-size: 0.95em !important;
+    margin: 0 !important;
+  }
+
+  /* Make sure the first body paragraph starts after the author card rather than underneath it. */
+  .page,
+  .page__inner-wrap,
+  .page__content {
+    clear: both !important;
+  }
+
+  .page__content > p:first-of-type {
+    clear: both !important;
+  }
+
+  /* Compact, non-duplicated hamburger dropdown. */
+  .greedy-nav .hidden-links {
+    width: min(240px, calc(100vw - 24px)) !important;
+    max-height: 52vh !important;
+    overflow-y: auto !important;
+  }
+
+  .greedy-nav .hidden-links li {
+    display: block !important;
+  }
+
+  .greedy-nav .hidden-links a {
+    padding: 9px 13px !important;
+    font-size: 0.82rem !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .mobile-meta-row {
+    font-size: 0.68rem !important;
+    line-height: 1.24 !important;
+  }
+
+  .mobile-contact-row {
+    gap: 5px !important;
+  }
+
+  .mobile-contact-chip {
+    font-size: 0.66rem !important;
+    padding: 3px 6px !important;
+  }
+
+  .mobile-meta-icon {
+    margin-right: 5px !important;
+  }
+}
+
 </style>
 
 <script>
@@ -934,10 +1155,10 @@ h1[id] {
 })();
 </script>
 
+
 <script>
 (function() {
   const mobileMenuItems = [
-    ["#about-me", "About"],
     ["#research-impact", "Research Focus"],
     ["#news", "News"],
     ["#representative-publications", "Representative Publications"],
@@ -950,8 +1171,12 @@ h1[id] {
     ["#technical-skills", "Technical Skills"]
   ];
 
+  function isMobile() {
+    return window.matchMedia && window.matchMedia("(max-width: 900px)").matches;
+  }
+
   function rebuildMobileGreedyMenu() {
-    if (!window.matchMedia || !window.matchMedia("(max-width: 900px)").matches) {
+    if (!isMobile()) {
       return;
     }
 
@@ -967,7 +1192,9 @@ h1[id] {
       nav.appendChild(hiddenLinks);
     }
 
-    hiddenLinks.querySelectorAll("[data-mobile-section-link='true']").forEach(item => item.remove());
+    /* Remove the theme-overflow items and our older injected items on mobile.
+       This prevents duplicate entries such as About / Research Focus / News appearing twice. */
+    hiddenLinks.innerHTML = "";
 
     mobileMenuItems.forEach(([href, label]) => {
       const li = document.createElement("li");
@@ -985,15 +1212,102 @@ h1[id] {
     });
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", rebuildMobileGreedyMenu);
-  } else {
-    rebuildMobileGreedyMenu();
+  function findLink(items, fallbackIndex, matcher) {
+    const links = items
+      .map(item => item.querySelector("a"))
+      .filter(Boolean);
+
+    const matched = links.find(link => {
+      const href = (link.getAttribute("href") || "").toLowerCase();
+      const text = (link.textContent || "").toLowerCase();
+      const html = (link.innerHTML || "").toLowerCase();
+      return matcher(href, text, html);
+    });
+
+    if (matched) return matched;
+
+    const fallbackItem = items[fallbackIndex];
+    return fallbackItem ? fallbackItem.querySelector("a") : null;
   }
 
-  window.addEventListener("resize", rebuildMobileGreedyMenu);
+  function normalizeMobileAuthorCard() {
+    if (!isMobile()) {
+      return;
+    }
+
+    const sidebar = document.querySelector(".sidebar");
+    if (!sidebar) {
+      return;
+    }
+
+    const urlsWrapper = sidebar.querySelector(".author__urls-wrapper");
+    const originalList = sidebar.querySelector(".author__urls");
+    if (!urlsWrapper || !originalList) {
+      return;
+    }
+
+    const items = Array.from(originalList.querySelectorAll("li"));
+
+    const emailLink = findLink(items, 2, function(href, text, html) {
+      return href.startsWith("mailto:") || text.includes("email") || html.includes("fa-envelope");
+    });
+
+    const researchGateLink = findLink(items, 3, function(href, text, html) {
+      return href.includes("researchgate") || text.includes("researchgate") || html.includes("researchgate");
+    });
+
+    const scholarLink = findLink(items, 4, function(href, text, html) {
+      return href.includes("scholar.google") || text.includes("google scholar") || html.includes("graduation-cap");
+    });
+
+    const oldMeta = urlsWrapper.querySelector(".mobile-author-meta");
+    if (oldMeta) {
+      oldMeta.remove();
+    }
+
+    const meta = document.createElement("div");
+    meta.className = "mobile-author-meta";
+
+    meta.innerHTML = `
+      <div class="mobile-meta-row mobile-meta-location">
+        <span class="mobile-meta-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></span>
+        <span>Hong Kong, China</span>
+      </div>
+      <div class="mobile-meta-row mobile-meta-affiliation">
+        <span class="mobile-meta-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></span>
+        <span>The University of Hong Kong</span>
+      </div>
+      <div class="mobile-contact-row" aria-label="Contact and academic profiles">
+        <a class="mobile-contact-chip mobile-email-chip" href="${emailLink ? emailLink.href : '#'}">
+          <i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span>
+        </a>
+        <a class="mobile-contact-chip mobile-rg-chip" href="${researchGateLink ? researchGateLink.href : '#'}">
+          <i class="fab fa-researchgate" aria-hidden="true"></i><span>ResearchGate</span>
+        </a>
+        <a class="mobile-contact-chip mobile-scholar-chip" href="${scholarLink ? scholarLink.href : 'https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'}">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span>
+        </a>
+      </div>
+    `;
+
+    urlsWrapper.appendChild(meta);
+  }
+
+  function runMobileFixes() {
+    rebuildMobileGreedyMenu();
+    normalizeMobileAuthorCard();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", runMobileFixes);
+  } else {
+    runMobileFixes();
+  }
+
+  window.addEventListener("resize", runMobileFixes);
 })();
 </script>
+
 
 
 <h1 id="research-impact">🌟 Research Focus and Impact</h1>
