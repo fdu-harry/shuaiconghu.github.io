@@ -40,19 +40,27 @@ html {
   scroll-padding-top: 70px;
 }
 
-/* Reserve space for the fixed top navigation bar */
+/* =========================================================
+   Global stability fixes
+   ========================================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Reserve space for the fixed top navigation bar on desktop */
 #main,
 .initial-content,
 .page,
 .page__content {
   padding-top: 50px;
-}
-
-/* Keep width calculation stable on all devices */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 
 /* Invisible anchors for navigation */
@@ -67,6 +75,20 @@ html {
 /* Prevent section titles from being hidden behind the fixed navigation bar */
 h1[id] {
   scroll-margin-top: 90px;
+}
+
+/* Make content images responsive without touching author avatar proportions */
+.page__content img,
+.paper-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Keep the author avatar square before circular cropping, avoiding distortion */
+.author__avatar img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .scholar-panel {
@@ -100,14 +122,6 @@ h1[id] {
 
 .scholar-i10 {
   background-color: #1976d2;
-}
-
-/* Make all content images safe, without changing desktop proportions */
-.page__content img,
-.paper-box img,
-.author__avatar img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* Full Publication List alignment */
@@ -150,8 +164,10 @@ h1[id] {
   top: 1px;
 }
 
-/* ================= Mobile responsive fixes ================= */
-/* Only applies to phones / narrow screens; desktop layout is unchanged */
+/* =========================================================
+   Mobile responsive fixes
+   Desktop layout remains unchanged.
+   ========================================================= */
 @media screen and (max-width: 900px) {
 
   html,
@@ -159,8 +175,8 @@ h1[id] {
     width: 100% !important;
     max-width: 100% !important;
     overflow-x: hidden !important;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
   }
 
   html {
@@ -176,13 +192,31 @@ h1[id] {
   .archive,
   .wrapper,
   .container,
-  .masthead__inner-wrap {
+  .masthead__inner-wrap,
+  .layout--single .page,
+  .layout--single .archive {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
     overflow-x: hidden !important;
+  }
+
+  #main,
+  .initial-content,
+  .page,
+  .page__content,
+  .page__inner-wrap,
+  .archive,
+  .wrapper,
+  .container,
+  .layout--single .page,
+  .layout--single .archive {
     padding-left: 14px !important;
     padding-right: 14px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+    clear: both !important;
   }
 
   /* Reduce excessive top padding on mobile */
@@ -190,7 +224,7 @@ h1[id] {
   .initial-content,
   .page,
   .page__content {
-    padding-top: 18px !important;
+    padding-top: 14px !important;
   }
 
   .page__content {
@@ -198,49 +232,154 @@ h1[id] {
     line-height: 1.65 !important;
   }
 
-  /* Sidebar / author profile should stack above content */
+  /* ---------------------------------------------------------
+     Author profile mobile card.
+     This fixes the opening-section overlap / messy author box.
+     --------------------------------------------------------- */
   .sidebar {
     float: none !important;
     clear: both !important;
     position: static !important;
     width: 100% !important;
     max-width: 100% !important;
-    padding-left: 14px !important;
-    padding-right: 14px !important;
+    min-width: 0 !important;
+    padding: 0 14px !important;
     margin: 0 auto 18px auto !important;
     text-align: center !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 
   .author__avatar,
   .author__content,
   .author__urls-wrapper,
   .author__urls {
+    float: none !important;
+    clear: both !important;
+    position: static !important;
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
     text-align: center !important;
+    transform: none !important;
+  }
+
+  .author__avatar {
+    display: block !important;
+    margin: 0 auto 10px auto !important;
   }
 
   .author__avatar img {
-    width: 140px !important;
-    max-width: 140px !important;
-    height: auto !important;
     display: block !important;
+    width: 132px !important;
+    height: 132px !important;
+    max-width: 132px !important;
+    max-height: 132px !important;
     margin: 0 auto 10px auto !important;
     border-radius: 50% !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+  }
+
+  .author__content {
+    display: block !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  .author__name {
+    display: block !important;
+    margin: 0 auto 4px auto !important;
+    max-width: 360px !important;
+    font-size: 1.2rem !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  .author__bio,
+  .author__content p {
+    display: block !important;
+    margin: 4px auto 8px auto !important;
+    max-width: 360px !important;
+    font-size: 0.88rem !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+    word-break: normal !important;
+  }
+
+  /* Minimal Mistakes uses a dropdown for author links on mobile.
+     Force it into a normal static list so it no longer overlays the content. */
+  .author__urls-wrapper {
+    display: block !important;
+    margin: 8px auto 0 auto !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  .author__urls-wrapper button,
+  .author__urls-wrapper .btn {
+    display: none !important;
   }
 
   .author__urls {
     display: flex !important;
-    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    align-items: center !important;
     justify-content: center !important;
-    gap: 6px !important;
-    padding-left: 0 !important;
+    gap: 3px !important;
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 6px auto 0 auto !important;
+    padding: 0 !important;
+    list-style: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+
+  .author__urls::before,
+  .author__urls::after {
+    display: none !important;
   }
 
   .author__urls li {
+    display: block !important;
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    white-space: normal !important;
+  }
+
+  .author__urls a,
+  .author__urls span,
+  .author__urls li span {
     display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     max-width: 100% !important;
+    font-size: 0.82rem !important;
+    line-height: 1.35 !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  .author__urls i,
+  .author__urls svg {
+    flex: 0 0 auto !important;
+    margin-right: 4px !important;
   }
 
   /* Top navigation: allow horizontal scrolling instead of squeezing or wrapping badly */
@@ -301,6 +440,8 @@ h1[id] {
     margin: 0 0 20px 0 !important;
     padding: 0 !important;
     overflow: visible !important;
+    content-visibility: auto;
+    contain-intrinsic-size: 360px 520px;
   }
 
   .paper-box-image,
@@ -327,8 +468,7 @@ h1[id] {
 
   .paper-box-image img,
   .paper-box img,
-  .page__content img,
-  img {
+  .page__content .paper-box img {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -427,7 +567,8 @@ h1[id] {
   .archive,
   .wrapper,
   .container,
-  .masthead__inner-wrap {
+  .layout--single .page,
+  .layout--single .archive {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
@@ -437,8 +578,30 @@ h1[id] {
   }
 
   .author__avatar img {
-    width: 120px !important;
-    max-width: 120px !important;
+    width: 118px !important;
+    height: 118px !important;
+    max-width: 118px !important;
+    max-height: 118px !important;
+  }
+
+  .author__name {
+    font-size: 1.1rem !important;
+  }
+
+  .author__bio,
+  .author__content p {
+    max-width: 320px !important;
+    font-size: 0.84rem !important;
+  }
+
+  .author__urls {
+    max-width: 320px !important;
+  }
+
+  .author__urls a,
+  .author__urls span,
+  .author__urls li span {
+    font-size: 0.78rem !important;
   }
 
   .scholar-badge {
@@ -507,7 +670,7 @@ h1[id] {
 
 <h1 id="representative-publications">⭐ Representative Publications</h1>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src="{{ '/images/NC_fig.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications 2025</div><img src="{{ '/images/NC_fig.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Transparent artificial intelligence–enabled interpretable and interactive sleep apnea assessment across flexible monitoring scenarios](https://www.nature.com/articles/s41467-025-62864-x)
@@ -522,7 +685,7 @@ h1[id] {
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src="{{ '/images/ICML_500x276.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src="{{ '/images/ICML_500x276.jpg' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Why specialist models still matter: a heterogeneous multi-agent paradigm for medical artificial intelligence](https://arxiv.org/pdf/2605.29744)
@@ -537,7 +700,7 @@ Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src="{{ '/images/INFFUS_500x300.jpg' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src="{{ '/images/INFFUS_500x300.jpg' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [XSleepFusion: A dual-stage information bottleneck fusion framework for interpretable multimodal sleep analysis](https://www.sciencedirect.com/science/article/abs/pii/S1566253525003483)
@@ -551,7 +714,7 @@ Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2025</div><img src="{{ '/images/ESWA_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2025</div><img src="{{ '/images/ESWA_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion](https://www.sciencedirect.com/science/article/pii/S0957417425006177)
@@ -564,7 +727,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src="{{ '/images/NN_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src="{{ '/images/NN_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844)
@@ -577,7 +740,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src="{{ '/images/JBHI_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src="{{ '/images/JBHI_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/document/10204654)
@@ -591,7 +754,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIM 2023</div><img src="{{ '/images/TIM_500x300.png' | relative_url }}" alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TIM 2023</div><img src="{{ '/images/TIM_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Personalized transfer learning for single-lead ecg-based sleep apnea detection: exploring the label mapping length and transfer strategy using hybrid transformer model](https://ieeexplore.ieee.org/abstract/document/10243153)
