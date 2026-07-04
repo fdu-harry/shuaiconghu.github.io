@@ -25,9 +25,9 @@ redirect_from:
   <a href="#technical-skills">Skills</a>
 </nav>
 
-<p class="home-intro home-intro-first">Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on <strong>medical foundation models</strong>, <strong>heterogeneous multi-agent systems</strong>, <strong>multimodal physiological intelligence</strong>, <strong>interpretable clinical AI</strong>, and <strong>deployable healthcare systems</strong> across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.</p>
+Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on **medical foundation models**, **heterogeneous multi-agent systems**, **multimodal physiological intelligence**, **interpretable clinical AI**, and **deployable healthcare systems** across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.
 
-<p class="home-intro home-intro-second">His work bridges large-scale physiological signal modeling, specialist-model orchestration, interpretable AI, uncertainty-aware clinical prediction, and real-world healthcare validation. To date, he has published <strong>31 SCI papers</strong>, including <strong>12 sole first-author, co-first-author, or student first-author papers</strong>, with selected work in <strong>Nature Communications</strong>, <strong>ICML</strong>, <strong>Information Fusion</strong>, <strong>Neural Networks</strong>, <strong>Expert Systems With Applications</strong>, <strong>IEEE Journal of Biomedical and Health Informatics</strong>, <strong>IEEE Transactions on Neural Systems and Rehabilitation Engineering</strong>, and <strong>IEEE Transactions on Instrumentation and Measurement</strong>.</p>
+His work bridges large-scale physiological signal modeling, specialist-model orchestration, interpretable AI, uncertainty-aware clinical prediction, and real-world healthcare validation. To date, he has published **31 SCI papers**, including **12 sole first-author, co-first-author, or student first-author papers**, with selected work in **Nature Communications**, **ICML**, **Information Fusion**, **Neural Networks**, **Expert Systems With Applications**, **IEEE Journal of Biomedical and Health Informatics**, **IEEE Transactions on Neural Systems and Rehabilitation Engineering**, and **IEEE Transactions on Instrumentation and Measurement**.
 
 <div class="scholar-panel">
   <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
@@ -1121,94 +1121,6 @@ h1[id] {
   }
 }
 
-
-/* =========================================================
-   Final stable mobile flow fix (v9)
-   ========================================================= */
-@media screen and (max-width: 900px) {
-  /* Make the Minimal Mistakes layout a real vertical flow on phones.
-     This prevents the author card from covering the first intro paragraph. */
-  #main {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  }
-
-  #main > .sidebar,
-  #main > .sidebar.sticky {
-    order: 1 !important;
-    position: static !important;
-    float: none !important;
-    clear: both !important;
-    flex: 0 0 auto !important;
-  }
-
-  #main > .page,
-  #main > article.page {
-    order: 2 !important;
-    position: static !important;
-    float: none !important;
-    clear: both !important;
-    flex: 0 0 auto !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  .page__content {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  .home-intro,
-  .home-intro-first,
-  .home-intro-second {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: static !important;
-    clear: both !important;
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
-    color: inherit !important;
-  }
-
-  .home-intro-first {
-    margin-top: 0.8rem !important;
-    margin-bottom: 0.72rem !important;
-  }
-
-  .home-intro-second {
-    margin-top: 0 !important;
-    margin-bottom: 0.72rem !important;
-  }
-
-  /* Restore the full author summary under the avatar/title area. */
-  .mobile-author-summary {
-    display: block !important;
-    margin: 0 0 8px 0 !important;
-    padding: 0 0 8px 0 !important;
-    border-bottom: 1px solid #eeeeee !important;
-    color: #444 !important;
-    font-size: 0.82rem !important;
-    line-height: 1.45 !important;
-    white-space: normal !important;
-    overflow: visible !important;
-    overflow-wrap: break-word !important;
-    word-break: normal !important;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .mobile-author-summary {
-    font-size: 0.76rem !important;
-    line-height: 1.42 !important;
-  }
-}
-
 </style>
 
 <script>
@@ -1353,15 +1265,6 @@ h1[id] {
       oldMeta.remove();
     }
 
-    const oldSummary = urlsWrapper.querySelector(".mobile-author-summary");
-    if (oldSummary) {
-      oldSummary.remove();
-    }
-
-    const summary = document.createElement("div");
-    summary.className = "mobile-author-summary";
-    summary.textContent = "Shuaicong Hu is an applied AI researcher focused on medical foundation models, heterogeneous multi-agent systems, multimodal physiological intelligence, interpretable clinical AI, and deployable healthcare intelligence across sleep medicine, ECG, EEG, PPG, and clinical risk modeling.";
-
     const meta = document.createElement("div");
     meta.className = "mobile-author-meta";
 
@@ -1387,7 +1290,6 @@ h1[id] {
       </div>
     `;
 
-    urlsWrapper.appendChild(summary);
     urlsWrapper.appendChild(meta);
   }
 
@@ -1863,6 +1765,8 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2025.10* National Scholarship for Doctoral Students, Fudan University; featured as a representative case by Fudan University official media
 - *2025.04* Outstanding Graduate of Fudan University
 - *2023.10* Huatai Securities Technology Named Scholarship for Doctoral Students at Fudan University
+- *2022.04* Outstanding Master's Graduate of Shanghai
+- *2022.04* Outstanding Master's Graduate of University of Shanghai for Science and Technology
 - *2024.08* Third Prize in China Graduate Student Artificial Intelligence Innovation Competition
 - *2024.07* Second Prize in National Biomedical Engineering Innovation Design Competition
 - *2023.07* Second Prize in National Biomedical Engineering Innovation Design Competition
@@ -1879,6 +1783,8 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2022.09 - 2025.12*, **Fudan University**, Electronic Information, Ph.D. in Engineering, exceptional early graduation  
   Research focus: transparent AI-enabled sleep apnea monitoring, interpretable physiological AI, multimodal sleep analysis, and human-AI collaborative diagnosis. Published 15 SCI papers during doctoral studies, including two first-author papers with IF>15, multiple high-impact journal papers, and two IEEE Transactions papers.
 
+- *2019.09 - 2022.06*, **University of Shanghai for Science and Technology**, Electronic Information, M.Eng.  
+  Research focus: ECG AI, deep learning for physiological time-series analysis, heartbeat classification, and single-lead ECG-based sleep apnea detection.
 
 <h1 id="research-experience">💬 Research and Project Experience</h1>
 
