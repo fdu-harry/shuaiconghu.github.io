@@ -25,6 +25,8 @@ redirect_from:
   <a href="#technical-skills">Skills</a>
 </nav>
 
+<div class="mobile-intro-spacer" aria-hidden="true"></div>
+
 <div class="intro-block" markdown="1">
 
 Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on **medical foundation models**, **heterogeneous multi-agent systems**, **multimodal physiological intelligence**, **interpretable clinical AI**, and **deployable healthcare systems** across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.
@@ -1233,30 +1235,43 @@ h1[id] {
 
 
 /* =========================================================
-   Manual mobile author-card spacing fix
+   Real mobile spacer before intro text
    =========================================================
-   Dynamic boundary detection is intentionally not used here.
-   This section uses ONE effective variable for all mobile widths,
-   so changing the value below will always change the visible gap.
+   This is a real block inserted before the first intro paragraph.
+   It controls the visible blank space directly, so changing
+   --mobile-intro-spacer-height will always change the mobile gap.
 
    How to tune:
-   - If the first paragraph is still covered, increase 340px.
-   - If the blank space is too large, decrease 340px.
-   - Do not edit an extra "-xs" variable; it is removed to avoid
-     media-query misses on high-DPR mobile browsers.
+   - If the first paragraph is still covered, increase 260px.
+   - If the blank space is too large, decrease 260px.
+   - Do not adjust #main > .page margin-top for this issue.
    ========================================================= */
+.mobile-intro-spacer {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   :root {
-    --mobile-author-card-manual-gap: 140px;
+    --mobile-intro-spacer-height: 260px;
   }
 
-  #main > .page,
-  #main > .archive,
-  #main > article.page {
-    margin-top: var(--mobile-author-card-manual-gap) !important;
+  .mobile-intro-spacer {
+    display: block !important;
+    width: 100% !important;
+    height: var(--mobile-intro-spacer-height) !important;
+    min-height: var(--mobile-intro-spacer-height) !important;
+    max-height: var(--mobile-intro-spacer-height) !important;
+    flex: 0 0 auto !important;
+    clear: both !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    overflow: hidden !important;
   }
 
   .intro-block {
+    display: block !important;
+    clear: both !important;
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
@@ -1268,6 +1283,7 @@ h1[id] {
     padding-top: 0 !important;
   }
 }
+
 
 </style>
 
