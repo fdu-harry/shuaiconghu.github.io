@@ -1268,7 +1268,7 @@ h1[id] {
 
 @media screen and (max-width: 420px) {
   :root {
-    --mobile-author-card-manual-gap-xs: 205px;
+    --mobile-author-card-manual-gap-xs: 150px;
   }
 
   #main > .page,
