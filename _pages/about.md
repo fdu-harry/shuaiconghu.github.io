@@ -1235,16 +1235,19 @@ h1[id] {
 /* =========================================================
    Manual mobile author-card spacing fix
    =========================================================
-   Dynamic boundary detection was intentionally removed.
-   If the first paragraph is still covered on a specific phone,
-   only adjust the two values below:
+   Dynamic boundary detection is intentionally not used here.
+   This section uses ONE effective variable for all mobile widths,
+   so changing the value below will always change the visible gap.
 
-   --mobile-author-card-manual-gap:     normal phones / tablets
-   --mobile-author-card-manual-gap-xs:  very small phones <= 420px
+   How to tune:
+   - If the first paragraph is still covered, increase 340px.
+   - If the blank space is too large, decrease 340px.
+   - Do not edit an extra "-xs" variable; it is removed to avoid
+     media-query misses on high-DPR mobile browsers.
    ========================================================= */
 @media screen and (max-width: 900px) {
   :root {
-    --mobile-author-card-manual-gap: 185px;
+    --mobile-author-card-manual-gap: 340px;
   }
 
   #main > .page,
@@ -1263,24 +1266,6 @@ h1[id] {
   .page__content > p:first-of-type {
     margin-top: 0 !important;
     padding-top: 0 !important;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  :root {
-    --mobile-author-card-manual-gap-xs: 50px;
-  }
-
-  #main > .page,
-  #main > .archive,
-  #main > article.page {
-    margin-top: var(--mobile-author-card-manual-gap-xs) !important;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  :root {
-    --mobile-author-card-manual-gap-xs: 225px;
   }
 }
 
