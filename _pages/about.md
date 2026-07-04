@@ -19,15 +19,14 @@ redirect_from:
   <a href="#representative-publications">Papers</a>
   <a href="#publications">Publications</a>
   <a href="#honors-and-awards">Awards</a>
-  <a href="#educations">Education</a>
   <a href="#research-experience">Experience</a>
   <a href="#academic-service">Service</a>
   <a href="#technical-skills">Skills</a>
 </nav>
 
-Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on **medical foundation models**, **heterogeneous multi-agent systems**, **multimodal physiological intelligence**, **interpretable clinical AI**, and **deployable healthcare systems** across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.
+<p class="home-intro home-intro-first">Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on <strong>medical foundation models</strong>, <strong>heterogeneous multi-agent systems</strong>, <strong>multimodal physiological intelligence</strong>, <strong>interpretable clinical AI</strong>, and <strong>deployable healthcare systems</strong> across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.</p>
 
-His work bridges large-scale physiological signal modeling, specialist-model orchestration, interpretable AI, uncertainty-aware clinical prediction, and real-world healthcare validation. To date, he has published **31 SCI papers**, including **12 sole first-author, co-first-author, or student first-author papers**, with selected work in **Nature Communications**, **ICML**, **Information Fusion**, **Neural Networks**, **Expert Systems With Applications**, **IEEE Journal of Biomedical and Health Informatics**, **IEEE Transactions on Neural Systems and Rehabilitation Engineering**, and **IEEE Transactions on Instrumentation and Measurement**.
+<p class="home-intro home-intro-second">His work bridges large-scale physiological signal modeling, specialist-model orchestration, interpretable AI, uncertainty-aware clinical prediction, and real-world healthcare validation. To date, he has published <strong>31 SCI papers</strong>, including <strong>12 sole first-author, co-first-author, or student first-author papers</strong>, with selected work in <strong>Nature Communications</strong>, <strong>ICML</strong>, <strong>Information Fusion</strong>, <strong>Neural Networks</strong>, <strong>Expert Systems With Applications</strong>, <strong>IEEE Journal of Biomedical and Health Informatics</strong>, <strong>IEEE Transactions on Neural Systems and Rehabilitation Engineering</strong>, and <strong>IEEE Transactions on Instrumentation and Measurement</strong>.</p>
 
 <div class="scholar-panel">
   <a href='https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN'>
@@ -1121,6 +1120,35 @@ h1[id] {
   }
 }
 
+
+
+/* =========================================================
+   Home intro visibility and removed-Education navigation cleanup
+   ========================================================= */
+.home-intro {
+  display: block;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .home-intro-first {
+    clear: both !important;
+    position: relative !important;
+    z-index: 1 !important;
+    margin-top: 0.9rem !important;
+  }
+
+  .home-intro-second {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  /* The margin below is normally zero. JavaScript only increases it when
+     the theme author card overlaps the first intro paragraph on mobile. */
+  .page__content.mobile-intro-overlap-fixed {
+    transition: margin-top 0.12s ease-out;
+  }
+}
 </style>
 
 <script>
@@ -1165,7 +1193,6 @@ h1[id] {
     ["#publications", "Full Publication List"],
     ["#patents", "Patents"],
     ["#honors-and-awards", "Honors and Awards"],
-    ["#educations", "Education"],
     ["#research-experience", "Research Experience"],
     ["#academic-service", "Academic Service"],
     ["#technical-skills", "Technical Skills"]
@@ -1293,9 +1320,44 @@ h1[id] {
     urlsWrapper.appendChild(meta);
   }
 
+
+
+  function fixIntroOverlap() {
+    if (!isMobile()) {
+      return;
+    }
+
+    const sidebar = document.querySelector(".sidebar");
+    const pageContent = document.querySelector(".page__content");
+    if (!sidebar || !pageContent) {
+      return;
+    }
+
+    const firstIntro = pageContent.querySelector(".home-intro-first") || pageContent.querySelector("p");
+    if (!firstIntro) {
+      return;
+    }
+
+    /* Reset before measurement so the calculated overlap is not cumulative. */
+    pageContent.style.marginTop = "";
+    pageContent.classList.remove("mobile-intro-overlap-fixed");
+
+    window.requestAnimationFrame(function() {
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const introRect = firstIntro.getBoundingClientRect();
+      const overlap = Math.ceil(sidebarRect.bottom - introRect.top + 12);
+
+      if (sidebarRect.height > 0 && overlap > 0 && overlap < 420) {
+        pageContent.style.marginTop = overlap + "px";
+        pageContent.classList.add("mobile-intro-overlap-fixed");
+      }
+    });
+  }
+
   function runMobileFixes() {
     rebuildMobileGreedyMenu();
     normalizeMobileAuthorCard();
+    fixIntroOverlap();
   }
 
   if (document.readyState === "loading") {
@@ -1305,6 +1367,9 @@ h1[id] {
   }
 
   window.addEventListener("resize", runMobileFixes);
+  window.addEventListener("load", runMobileFixes);
+  window.setTimeout(runMobileFixes, 120);
+  window.setTimeout(runMobileFixes, 520);
 })();
 </script>
 
@@ -1766,7 +1831,6 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2025.04* Outstanding Graduate of Fudan University
 - *2023.10* Huatai Securities Technology Named Scholarship for Doctoral Students at Fudan University
 - *2022.04* Outstanding Master's Graduate of Shanghai
-- *2022.04* Outstanding Master's Graduate of University of Shanghai for Science and Technology
 - *2024.08* Third Prize in China Graduate Student Artificial Intelligence Innovation Competition
 - *2024.07* Second Prize in National Biomedical Engineering Innovation Design Competition
 - *2023.07* Second Prize in National Biomedical Engineering Innovation Design Competition
@@ -1775,16 +1839,6 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 - *2021.10* Third Prize in the 18th China Graduate Student Mathematical Contest in Modeling "Huawei Cup"
 - *2021.05* Silver Award in the 7th China International "Internet+" Innovation and Entrepreneurship Competition
 
-<h1 id="educations">📖 Education</h1>
-
-- *2026.03 - Present*, **The University of Hong Kong**, Department of Electrical and Computer Engineering, Postdoctoral Fellow  
-  Research focus: medical foundation models, LLM-based clinical agents, multimodal physiological intelligence, and deployable healthcare AI.
-
-- *2022.09 - 2025.12*, **Fudan University**, Electronic Information, Ph.D. in Engineering, exceptional early graduation  
-  Research focus: transparent AI-enabled sleep apnea monitoring, interpretable physiological AI, multimodal sleep analysis, and human-AI collaborative diagnosis. Published 15 SCI papers during doctoral studies, including two first-author papers with IF>15, multiple high-impact journal papers, and two IEEE Transactions papers.
-
-- *2019.09 - 2022.06*, **University of Shanghai for Science and Technology**, Electronic Information, M.Eng.  
-  Research focus: ECG AI, deep learning for physiological time-series analysis, heartbeat classification, and single-lead ECG-based sleep apnea detection.
 
 <h1 id="research-experience">💬 Research and Project Experience</h1>
 
