@@ -11,6 +11,36 @@ redirect_from:
 <div id="top"></div>
 <div id="about-me" class="page-anchor"></div>
 
+<!-- Compact mobile-only profile card. Desktop still uses the original Minimal Mistakes author_profile sidebar. -->
+<div class="mobile-author-card">
+  <div class="mobile-author-head">
+    {% if site.author.avatar %}
+      <img class="mobile-author-avatar" src="{{ site.author.avatar | relative_url }}" alt="Shuaicong Hu" loading="eager" decoding="async" fetchpriority="high">
+    {% endif %}
+    <div class="mobile-author-meta">
+      <div class="mobile-author-name">Shuaicong Hu <span>(胡帅聪)</span></div>
+      <div class="mobile-author-title">Postdoctoral Fellow, The University of Hong Kong</div>
+      <div class="mobile-author-tagline">Medical Foundation Models · Multimodal Physiological AI · LLM Agents</div>
+    </div>
+  </div>
+
+  <div class="mobile-author-links">
+    <span>📍 Hong Kong, China</span>
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    {% endif %}
+    <a href="https://scholar.google.com/citations?user=worq2P0AAAAJ&hl=zh-CN">Google Scholar</a>
+    {% if site.author.links %}
+      {% for link in site.author.links %}
+        {% unless link.label contains 'Google Scholar' or link.label contains 'Email' %}
+          <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+
 Shuaicong Hu is a Postdoctoral Fellow in the Department of Electrical and Computer Engineering at The University of Hong Kong. He received his Ph.D. in Electronic Information from Fudan University (复旦大学, exceptional early graduation). His research focuses on **medical foundation models**, **heterogeneous multi-agent systems**, **multimodal physiological intelligence**, **interpretable clinical AI**, and **deployable healthcare systems** across sleep medicine, ECG, EEG, PPG, polysomnography, and clinical risk modeling.
 
 His work bridges large-scale physiological signal modeling, specialist-model orchestration, interpretable AI, uncertainty-aware clinical prediction, and real-world healthcare validation. To date, he has published **31 SCI papers**, including **12 sole first-author, co-first-author, or student first-author papers**, with selected work in **Nature Communications**, **ICML**, **Information Fusion**, **Neural Networks**, **Expert Systems With Applications**, **IEEE Journal of Biomedical and Health Informatics**, **IEEE Transactions on Neural Systems and Rehabilitation Engineering**, and **IEEE Transactions on Instrumentation and Measurement**.
@@ -63,6 +93,11 @@ body {
   padding-top: 50px;
 }
 
+/* Mobile-only compact profile card is hidden on desktop */
+.mobile-author-card {
+  display: none;
+}
+
 /* Invisible anchors for navigation */
 .page-anchor {
   display: block;
@@ -84,7 +119,7 @@ h1[id] {
   height: auto;
 }
 
-/* Keep the author avatar square before circular cropping, avoiding distortion */
+/* Keep the theme author avatar square before circular cropping, avoiding distortion */
 .author__avatar img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -165,7 +200,7 @@ h1[id] {
 }
 
 /* =========================================================
-   Mobile responsive fixes
+   Mobile responsive redesign
    Desktop layout remains unchanged.
    ========================================================= */
 @media screen and (max-width: 900px) {
@@ -180,10 +215,28 @@ h1[id] {
   }
 
   html {
-    scroll-padding-top: 72px;
+    scroll-padding-top: 64px;
   }
 
-  /* Avoid fixed-width theme containers causing horizontal overflow */
+  body {
+    font-size: 16px !important;
+  }
+
+  /* The original Minimal Mistakes sidebar is designed for desktop.
+     On phones it creates large blank areas and can overlap the first paragraph.
+     We hide it only on mobile and use the compact card above instead. */
+  .sidebar,
+  .sidebar.sticky {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Fully release the desktop left-column layout on mobile */
   #main,
   .initial-content,
   .page,
@@ -195,191 +248,131 @@ h1[id] {
   .masthead__inner-wrap,
   .layout--single .page,
   .layout--single .archive {
+    float: none !important;
+    clear: both !important;
+    display: block !important;
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
     overflow-x: hidden !important;
   }
 
   #main,
   .initial-content,
   .page,
-  .page__content,
-  .page__inner-wrap,
-  .archive,
-  .wrapper,
-  .container,
-  .layout--single .page,
-  .layout--single .archive {
-    padding-left: 14px !important;
-    padding-right: 14px !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    float: none !important;
-    clear: both !important;
+  .page__content {
+    padding-top: 6px !important;
   }
 
-  /* Reduce excessive top padding on mobile */
-  #main,
-  .initial-content,
-  .page,
-  .page__content {
-    padding-top: 14px !important;
+  .page__inner-wrap {
+    padding-top: 0 !important;
   }
 
   .page__content {
-    font-size: 0.95rem !important;
-    line-height: 1.65 !important;
+    font-size: 0.92rem !important;
+    line-height: 1.55 !important;
   }
 
-  /* ---------------------------------------------------------
-     Author profile mobile card.
-     This fixes the opening-section overlap / messy author box.
-     --------------------------------------------------------- */
-  .sidebar {
-    float: none !important;
-    clear: both !important;
-    position: static !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    padding: 0 14px !important;
-    margin: 0 auto 18px auto !important;
-    text-align: center !important;
-    opacity: 1 !important;
-    transform: none !important;
+  .page__content p {
+    margin-top: 0 !important;
+    margin-bottom: 0.72rem !important;
   }
 
-  .author__avatar,
-  .author__content,
-  .author__urls-wrapper,
-  .author__urls {
-    float: none !important;
-    clear: both !important;
-    position: static !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    text-align: center !important;
-    transform: none !important;
-  }
-
-  .author__avatar {
+  /* Compact mobile profile card */
+  .mobile-author-card {
     display: block !important;
-    margin: 0 auto 10px auto !important;
+    width: 100% !important;
+    max-width: 430px !important;
+    margin: 4px auto 12px auto !important;
+    padding: 10px 11px !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 14px !important;
+    background: #fff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.035) !important;
   }
 
-  .author__avatar img {
+  .mobile-author-head {
+    display: grid !important;
+    grid-template-columns: 82px minmax(0, 1fr) !important;
+    align-items: center !important;
+    column-gap: 11px !important;
+  }
+
+  .mobile-author-avatar {
     display: block !important;
-    width: 132px !important;
-    height: 132px !important;
-    max-width: 132px !important;
-    max-height: 132px !important;
-    margin: 0 auto 10px auto !important;
+    width: 82px !important;
+    height: 82px !important;
+    max-width: 82px !important;
+    max-height: 82px !important;
     border-radius: 50% !important;
     aspect-ratio: 1 / 1 !important;
     object-fit: cover !important;
-  }
-
-  .author__content {
-    display: block !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-  }
-
-  .author__name {
-    display: block !important;
-    margin: 0 auto 4px auto !important;
-    max-width: 360px !important;
-    font-size: 1.2rem !important;
-    line-height: 1.25 !important;
-    text-align: center !important;
-    white-space: normal !important;
-    overflow-wrap: normal !important;
-    word-break: normal !important;
-  }
-
-  .author__bio,
-  .author__content p {
-    display: block !important;
-    margin: 4px auto 8px auto !important;
-    max-width: 360px !important;
-    font-size: 0.88rem !important;
-    line-height: 1.45 !important;
-    text-align: center !important;
-    white-space: normal !important;
-    overflow-wrap: normal !important;
-    word-break: normal !important;
-  }
-
-  /* Minimal Mistakes uses a dropdown for author links on mobile.
-     Force it into a normal static list so it no longer overlays the content. */
-  .author__urls-wrapper {
-    display: block !important;
-    margin: 8px auto 0 auto !important;
-    padding: 0 !important;
-    border: 0 !important;
-    box-shadow: none !important;
-    background: transparent !important;
-  }
-
-  .author__urls-wrapper button,
-  .author__urls-wrapper .btn {
-    display: none !important;
-  }
-
-  .author__urls {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 3px !important;
-    width: 100% !important;
-    max-width: 360px !important;
-    margin: 6px auto 0 auto !important;
-    padding: 0 !important;
-    list-style: none !important;
-    border: 0 !important;
-    box-shadow: none !important;
-    background: transparent !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: none !important;
-  }
-
-  .author__urls::before,
-  .author__urls::after {
-    display: none !important;
-  }
-
-  .author__urls li {
-    display: block !important;
-    width: 100% !important;
-    max-width: 360px !important;
     margin: 0 !important;
-    padding: 0 !important;
-    text-align: center !important;
-    white-space: normal !important;
   }
 
-  .author__urls a,
-  .author__urls span,
-  .author__urls li span {
+  .mobile-author-meta {
+    min-width: 0 !important;
+    text-align: left !important;
+  }
+
+  .mobile-author-name {
+    margin: 0 0 2px 0 !important;
+    font-size: 1.06rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    color: #333 !important;
+  }
+
+  .mobile-author-name span {
+    font-size: 0.92rem !important;
+    font-weight: 700 !important;
+  }
+
+  .mobile-author-title {
+    margin: 0 0 3px 0 !important;
+    font-size: 0.82rem !important;
+    line-height: 1.32 !important;
+    color: #444 !important;
+  }
+
+  .mobile-author-tagline {
+    margin: 0 !important;
+    font-size: 0.76rem !important;
+    line-height: 1.32 !important;
+    color: #666 !important;
+  }
+
+  .mobile-author-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 5px !important;
+    margin-top: 9px !important;
+    padding-top: 8px !important;
+    border-top: 1px solid #eeeeee !important;
+  }
+
+  .mobile-author-links span,
+  .mobile-author-links a {
     display: inline-flex !important;
     align-items: center !important;
-    justify-content: center !important;
+    min-width: 0 !important;
     max-width: 100% !important;
-    font-size: 0.82rem !important;
-    line-height: 1.35 !important;
-    white-space: normal !important;
+    padding: 3px 7px !important;
+    border-radius: 999px !important;
+    background: #f6f8fa !important;
+    color: #444 !important;
+    font-size: 0.72rem !important;
+    line-height: 1.25 !important;
+    text-decoration: none !important;
     overflow-wrap: anywhere !important;
-    word-break: normal !important;
   }
 
-  .author__urls i,
-  .author__urls svg {
-    flex: 0 0 auto !important;
-    margin-right: 4px !important;
+  .mobile-author-links a:hover {
+    text-decoration: underline !important;
   }
 
   /* Top navigation: allow horizontal scrolling instead of squeezing or wrapping badly */
@@ -428,7 +421,39 @@ h1[id] {
   /* Keep list indentation compact on small screens */
   .page__content ul,
   .page__content ol {
-    padding-left: 1.15rem !important;
+    padding-left: 1.05rem !important;
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .page__content li {
+    margin-bottom: 0.38rem !important;
+  }
+
+  /* Scholar panel and badges wrap neatly */
+  .scholar-panel,
+  .scholar-panel a {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .scholar-panel {
+    margin: 8px 0 14px 0 !important;
+  }
+
+  .scholar-badges {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 5px !important;
+    margin-top: 6px !important;
+  }
+
+  .scholar-badge {
+    font-size: 11.5px !important;
+    padding: 3px 7px !important;
+    max-width: 100% !important;
   }
 
   /* Representative publication cards: image on top, text below */
@@ -437,7 +462,7 @@ h1[id] {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
-    margin: 0 0 20px 0 !important;
+    margin: 0 0 16px 0 !important;
     padding: 0 !important;
     overflow: visible !important;
     content-visibility: auto;
@@ -458,7 +483,7 @@ h1[id] {
   }
 
   .paper-box-image {
-    margin-bottom: 10px !important;
+    margin-bottom: 8px !important;
   }
 
   .paper-box-image > div {
@@ -478,28 +503,6 @@ h1[id] {
     margin-right: auto !important;
   }
 
-  /* Scholar panel and badges wrap neatly */
-  .scholar-panel,
-  .scholar-panel a {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    overflow-wrap: anywhere !important;
-  }
-
-  .scholar-badges {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 5px !important;
-    margin-top: 8px !important;
-  }
-
-  .scholar-badge {
-    font-size: 12px !important;
-    padding: 3px 7px !important;
-    max-width: 100% !important;
-  }
-
   /* Full publication list: journal badge above title on mobile */
   .pub-table,
   .pub-table tbody,
@@ -513,24 +516,24 @@ h1[id] {
   }
 
   .pub-table {
-    margin-bottom: 10px !important;
+    margin-bottom: 8px !important;
     border-bottom: 1px solid #ddd !important;
   }
 
   .pub-table td {
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
   }
 
   .pub-journal {
     padding-right: 0 !important;
-    padding-bottom: 3px !important;
+    padding-bottom: 2px !important;
     white-space: normal !important;
   }
 
   .pub-title {
     padding-left: 0 !important;
-    line-height: 1.5 !important;
+    line-height: 1.42 !important;
   }
 
   .pub-journal .badge,
@@ -544,16 +547,17 @@ h1[id] {
     top: 0 !important;
   }
 
-  /* Section titles slightly smaller on mobile */
+  /* Section titles smaller and tighter on mobile */
   h1 {
-    font-size: 1.32em !important;
-    line-height: 1.32 !important;
-    margin-top: 1.15em !important;
+    font-size: 1.20em !important;
+    line-height: 1.28 !important;
+    margin-top: 1.0em !important;
+    margin-bottom: 0.45em !important;
   }
 
   h2,
   h3 {
-    line-height: 1.35 !important;
+    line-height: 1.32 !important;
   }
 }
 
@@ -569,43 +573,58 @@ h1[id] {
   .container,
   .layout--single .page,
   .layout--single .archive {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 9px !important;
+    padding-right: 9px !important;
   }
 
   .page__content {
-    font-size: 0.92rem !important;
+    font-size: 0.90rem !important;
+    line-height: 1.52 !important;
   }
 
-  .author__avatar img {
-    width: 118px !important;
-    height: 118px !important;
-    max-width: 118px !important;
-    max-height: 118px !important;
+  .mobile-author-card {
+    margin-top: 2px !important;
+    margin-bottom: 10px !important;
+    padding: 9px !important;
+    border-radius: 13px !important;
   }
 
-  .author__name {
-    font-size: 1.1rem !important;
+  .mobile-author-head {
+    grid-template-columns: 72px minmax(0, 1fr) !important;
+    column-gap: 9px !important;
   }
 
-  .author__bio,
-  .author__content p {
-    max-width: 320px !important;
-    font-size: 0.84rem !important;
+  .mobile-author-avatar {
+    width: 72px !important;
+    height: 72px !important;
+    max-width: 72px !important;
+    max-height: 72px !important;
   }
 
-  .author__urls {
-    max-width: 320px !important;
+  .mobile-author-name {
+    font-size: 0.99rem !important;
   }
 
-  .author__urls a,
-  .author__urls span,
-  .author__urls li span {
-    font-size: 0.78rem !important;
+  .mobile-author-name span {
+    font-size: 0.86rem !important;
+  }
+
+  .mobile-author-title {
+    font-size: 0.77rem !important;
+  }
+
+  .mobile-author-tagline {
+    font-size: 0.70rem !important;
+  }
+
+  .mobile-author-links span,
+  .mobile-author-links a {
+    font-size: 0.68rem !important;
+    padding: 3px 6px !important;
   }
 
   .scholar-badge {
-    font-size: 11.5px !important;
+    font-size: 11px !important;
   }
 }
 </style>
