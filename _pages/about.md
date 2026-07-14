@@ -1545,16 +1545,17 @@ Yanan Wang†, **Shuaicong Hu†**, Jian Liu, et al.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2025</div><img src="{{ '/images/ESWA_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src="{{ '/images/JBHI_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion](https://www.sciencedirect.com/science/article/pii/S0957417425006177)
+[Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/document/10204654)
 
-Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Xujian Feng, Cuiwei Yang
+**Shuaicong Hu**, Ya'nan Wang, Jian Liu, Aiguo Wang, Kunzheng Li, Wenxin Liu, Cuiwei Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:0EnyYjriUFMC)
-- Developed a lightweight evolutionary attention fusion network for real-time fine-grained quality assessment of physiological signals
-- Designed multi-scale feature extraction and attention fusion mechanisms for robust signal quality estimation
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC)
+- IEEE JBHI cover highlight article
+- Proposed an unsupervised data-driven semi-supervised personalized paradigm for sleep apnea
+- Explored transfer learning strategies for low-cost personalized sleep apnea diagnosis
 </div>
 </div>
 
@@ -1571,17 +1572,16 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE JBHI 2023</div><img src="{{ '/images/JBHI_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2025</div><img src="{{ '/images/ESWA_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Semi-supervised learning for low-cost personalized obstructive sleep apnea detection using unsupervised deep learning and single-lead electrocardiogram](https://ieeexplore.ieee.org/document/10204654)
+[LEAF-Net: A real-time fine-grained quality assessment system for physiological signals using lightweight evolutionary attention fusion](https://www.sciencedirect.com/science/article/pii/S0957417425006177)
 
-**Shuaicong Hu**, Ya'nan Wang, Jian Liu, Aiguo Wang, Kunzheng Li, Wenxin Liu, Cuiwei Yang
+Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang, Xujian Feng, Cuiwei Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:ZeXyd9-uunAC)
-- IEEE JBHI cover highlight article
-- Proposed an unsupervised data-driven semi-supervised personalized paradigm for sleep apnea
-- Explored transfer learning strategies for low-cost personalized sleep apnea diagnosis
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=worq2P0AAAAJ&citation_for_view=worq2P0AAAAJ:0EnyYjriUFMC)
+- Developed a lightweight evolutionary attention fusion network for real-time fine-grained quality assessment of physiological signals
+- Designed multi-scale feature extraction and attention fusion mechanisms for robust signal quality estimation
 </div>
 </div>
 
