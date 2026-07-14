@@ -1558,7 +1558,7 @@ Jian Liu†, **Shuaicong Hu†**, Yanan Wang, Qihan Hu, Daomiao Wang, Wei Xiang,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src="{{ '/images/NN_500x300.png' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neural Networks 2025</div><img src="{{ '/images/NN_500x300.jpg' | relative_url }}" alt="sym" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [IPCT-Net: Parallel information bottleneck modality fusion network for obstructive sleep apnea diagnosis](https://www.sciencedirect.com/science/article/abs/pii/S0893608024000844)
